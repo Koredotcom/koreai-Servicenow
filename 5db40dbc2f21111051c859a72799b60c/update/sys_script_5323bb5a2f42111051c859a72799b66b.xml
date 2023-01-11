@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sysapproval_approver</collection>
+        <condition>current.comments.changes()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist GetNotifApprvCmnts</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[var grUserId = current.getValue('approver');
+var refRecord = current.sysapproval.getRefRecord();
+var number = refRecord.getValue("number");
+var follsandapps = [];
+var count = 0;
+var grprofile = new GlideRecord("live_group_profile");
+grprofile.addQuery('document', current.getValue("sysapproval"));
+grprofile.query();
+if (grprofile.next()) {
+    var followerinfo = grprofile.getValue("sys_id");
+    var grmember = new GlideRecord("live_group_member");
+    grmember.addQuery('group', followerinfo);
+    grmember.query();
+    while (grmember.next()) {
+        var follower_name = grmember.getDisplayValue("member");
+        var grfollower = new GlideRecord("sys_user");
+        grfollower.addQuery('name', follower_name);
+        grfollower.query();
+        if (grfollower.next())
+            var followerId = grfollower.getValue("sys_id");
+        follsandapps.push(followerId);
+    }
+}
+var grp = new GlideRecord('sys_user_grmember');
+grp.addQuery('group.name', 'ENDSWITH', '$1000');
+grp.query();
+while (grp.next()) {
+    var user_sysId = grp.getValue('user');
+    follsandapps.push(user_sysId);
+}
+for (var i = 0; i < follsandapps.length; i++) {
+    if (grUserId === follsandapps[i]) {
+        count++;
+        if (count == 1)
+            follsandapps.splice(i, 1);
+    }
+}
+for (var k = 0; k < follsandapps.length; k++) {
+    (function executeRule(current, previous) {
+        var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+		var itsm_temp = new GlideRecord("x_831378_kore_ai_0_itsm_config");
+		itsm_temp.query();
+		while (itsm_temp.next()) {
+			var itsm_name = itsm_temp.name;
+			var itsm_enc = itsm_temp.getElement("encrypted_val");
+			var itsm_dec = itsm_enc.getDecryptedValue();
+			rm.setStringParameterNoEscape(itsm_name, itsm_dec);	
+		}
+        var actions = [];
+        actions.push({
+            "type": "postback",
+            "label": "View Details",
+            "value": "show approval request for " + number
+        });
+        actions.push({
+            "type": "postback",
+            "label": "Comment",
+            "value": "Comment"
+        });
+        var item = {
+            "_id": current.sys_id.getDisplayValue(),
+            "ticket": number,
+            "ticket_type": "sc_request",
+            "body": current.getDisplayValue("comments").match(/\n([^\n]+)\n/)[1],
+            "target_type": "USER",
+            "system": "servicenow",
+            "actions": actions,
+            "created": current.sys_created_on.dateNumericValue()
+        };
+ 
+        item.target_id = follsandapps[k];
+        item.title = current.getDisplayValue("approver") + " added a comment to your request for " + number;
+        rm.setRequestBody(JSON.stringify({
+            "notifications": [item]
+        }));
+        var response = rm.executeAsync();
+    })(current, previous);
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-22 19:30:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5323bb5a2f42111051c859a72799b66b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>IT Assist GetNotifApprvCmnts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_5323bb5a2f42111051c859a72799b66b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 22:22:26</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5323bb5a2f42111051c859a72799b66b"/>
+</record_update>

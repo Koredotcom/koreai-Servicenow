@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:36:30</sys_created_on>
+        <sys_id>0940f8372fe1111051c859a72799b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.831378.koreai-it-assist-workspace.*.x_831378_kore_ai_0.def_usr</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_security_acl display_value="x.831378.koreai-it-assist-workspace.*">53307837afe11110313f8689ec57fc3c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0940f8372fe1111051c859a72799b62e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:36:30</sys_updated_on>
+        <sys_user_role display_value="x_831378_kore_ai_0.def_user" name="x_831378_kore_ai_0.def_user">71b40dbc2f21111051c859a72799b662</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

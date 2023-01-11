@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_831378_kore_ai_0_itsm_config</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p> </p>
+<p> </p>]]></message>
+        <name>IT Assist Test Ping</name>
+        <order>40</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/){
+    var obj = new sn_ws.RESTMessageV2('ITAssistWorkbenchPing', 'ITAssistWorkbenchPing');
+	var itsm_temp = new GlideRecord("x_831378_kore_ai_0_itsm_config");
+	itsm_temp.query();
+	while (itsm_temp.next()) {
+		var itsm_name = itsm_temp.name;
+		var itsm_enc = itsm_temp.getElement("encrypted_val");
+		var itsm_dec = itsm_enc.getDecryptedValue();
+		obj.setStringParameterNoEscape(itsm_name, itsm_dec);
+	}
+    var actions = [];
+	actions.push({
+		"type": "postback",
+		"label": "View Details",
+		"value": "show approval request for 12345"
+	}, {
+		"type": "postback",
+		"label": "Approve",
+		"value": "Approve request for 12345"
+	}, {
+		"type": "postback",
+		"label": "Deny",
+		"value": "Reject request for 12345"
+	}, {
+		"type": "postback",
+		"label": "Comment",
+		"value": "Comment"
+	});
+	var item = {
+		//"_id": current.sys_id.getDisplayValue(),
+		"_id": "1234",
+		"title": "You've got a new leave pending request",
+		"body": "John.smith requested for 1 item",
+		"Item": "XYZ",
+		"Ticket Number": "123",
+		"Price": "$123",
+		"Stage": "REQUESTED",
+		"actions": actions,
+		"target_type": "EMAIL",
+		"target_id": "andrew.symonds@k-demo.com"
+	};
+	obj.setRequestBody(JSON.stringify({
+		"notifications": [item]
+	}));
+	var response = obj.executeAsync();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	print(response);
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 21:10:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>047b7a022fc2111051c859a72799b6a8</sys_id>
+        <sys_mod_count>53</sys_mod_count>
+        <sys_name>IT Assist Test Ping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_047b7a022fc2111051c859a72799b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 22:24:52</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=047b7a022fc2111051c859a72799b6a8"/>
+</record_update>

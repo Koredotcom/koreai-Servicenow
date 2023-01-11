@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist GetIncPropChnge</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+	var itsm_temp = new GlideRecord("x_831378_kore_ai_0_itsm_config");
+	itsm_temp.query();
+	while (itsm_temp.next()) {
+		var itsm_name = itsm_temp.name;
+		var itsm_enc = itsm_temp.getElement("encrypted_val");
+		var itsm_dec = itsm_enc.getDecryptedValue();
+		rm.setStringParameterNoEscape(itsm_name, itsm_dec);	
+	}
+    var field_changes = [];
+    var actions = [];
+    var bodydetails = "";
+    for (var x in current) {
+        if (current[x] != previous[x] && previous[x] != "" && x === "state")
+            field_changes.push(x);
+    }
+    var item = {
+        "_id": current.sys_id.getDisplayValue(),
+        "ticket": current.number.getDisplayValue(),
+        "ticket_type": "INCIDENT",
+        "title": "",
+        "target_id": current.getValue("caller_id"),
+		"target_type": "USER",
+        "system": "servicenow",
+        "actions": actions,
+        "created": current.sys_created_on.dateNumericValue()
+    };
+    var gr = new GlideRecord('sys_user');
+    gr.addQuery('user_name', current.getDisplayValue("sys_updated_by"));
+    gr.query();
+    if (gr.next())
+        var userName = gr.name;
+    if (field_changes.length >= 1)
+        bodydetails = "You have " + field_changes.length + " Incident changes for " +
+        current.getValue("number") + "\n\n";
+ 
+    for (var i = 0; i < field_changes.length; i++) {
+        bodydetails = bodydetails.concat(userName, " updated ", field_changes[i], " for ",
+		current.getDisplayValue("number"), " about ",
+		current.getDisplayValue("short_description").replace(/[.]/g, ''), " from ",
+		"\n", previous.getDisplayValue(field_changes[i]), " to ",
+		current.getDisplayValue(field_changes[i]), "\n\n");
+    }
+    item.body = bodydetails.trim("");
+    rm.setRequestBody(JSON.stringify({
+        "notifications": [item]
+    }));
+	
+	if (field_changes.length == 0) {
+        a == b;
+    } else
+        var response = rm.executeAsync();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-22 19:03:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43bcefde2f02111051c859a72799b624</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>IT Assist GetIncPropChnge</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_43bcefde2f02111051c859a72799b624</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 22:21:20</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=43bcefde2f02111051c859a72799b624"/>
+</record_update>

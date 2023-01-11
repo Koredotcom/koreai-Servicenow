@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sysapproval_approver</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist GetApprvNotif</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+	var itsm_temp = new GlideRecord("x_831378_kore_ai_0_itsm_config");
+	itsm_temp.query();
+	while (itsm_temp.next()) {
+		var itsm_name = itsm_temp.name;
+		var itsm_enc = itsm_temp.getElement("encrypted_val");
+		var itsm_dec = itsm_enc.getDecryptedValue();
+		rm.setStringParameterNoEscape(itsm_name, itsm_dec);	
+	}
+    var grUser = new GlideRecord('sys_user');
+    grUser.addQuery('sys_id', current.getValue('approver'));
+    grUser.query();
+	if (grUser.next())
+        var departmentid = grUser.getValue('department');
+    var userupdatedobj = {};
+    var usercreatedobj = {};
+    var bodydetails;
+ 
+    function grUsertype(type) {
+        var grDetails = new GlideRecord('sys_user');
+        grDetails.addQuery('user_name', current.getDisplayValue(type));
+        grDetails.query();
+        if (grDetails.next()) {
+            if (type === "sys_updated_by") {
+                userupdatedobj.username = grDetails.getDisplayValue('name');
+                userupdatedobj.userId = grDetails.getValue("sys_id");
+            } else if (type === "sys_created_by") {
+                usercreatedobj.username = grDetails.getDisplayValue('name');
+                usercreatedobj.userId = grDetails.getValue("sys_id");
+            }
+        }
+    }
+    var refRecord = current.sysapproval.getRefRecord();
+    var number = refRecord.getValue("number");
+    //var title = refRecord.getDisplayValue("short_description");
+    var actions = [];
+    var tableMap = {
+        sc_request: "REQUEST",
+        incident: "INCIDENT",
+        sc_req_item: "REQUEST_ITEM",
+        samp_sw_reclamation_candidate: "RECLAMATION_CANDIDATE"
+	};
+    var item;
+    var item_target_id;
+    if (current.source_table.getDisplayValue() === "samp_sw_reclamation_candidate" && current.operation() === "insert") {
+        actions.push({
+            "type": "postback",
+            "label": "View Details",
+            "value": "show approval request for " + number
+        });
+        var rccrecord = new GlideRecord('samp_sw_reclamation_candidate');
+        rccrecord.addQuery('number', number);
+        rccrecord.addQuery('sys_id', current.getValue('document_id'));
+        rccrecord.query();
+        if (rccrecord.next())
+            var software_install = rccrecord.getDisplayValue('software_install');
+        item = {
+            "_id": current.sys_id.getDisplayValue(),
+            "title": "Reclamation:" + software_install,
+            "ticket": number,
+            "ticket_type": tableMap[current.source_table] || "UNKNOWN",
+            "class": current.source_table.getDisplayValue(),
+            "body": software_install + " is about to be reclaimed. would you like to retain it?",
+            "actions": actions,
+            "target_type": "USER",
+            "system": "servicenow",
+            "created": current.sys_created_on.dateNumericValue()
+        };
+        item_target_id = getTarget_id(item.target_type);
+		item.target_id = item_target_id;
+    } else if (current.getDisplayValue("state") === "Approved" ||
+        current.getDisplayValue("state") === "Rejected") {
+        actions.push({
+            "type": "postback",
+            "label": "Comment",
+            "value": "Comment"
+        });
+        item = {
+            "_id": current.sys_id.getDisplayValue(),
+            "ticket": number,
+            "title": "",
+            "body": "",
+            "ticket_type": tableMap[current.source_table] || "UNKNOWN",
+            "class": current.source_table.getDisplayValue(),
+            "actions": actions,
+            "target_type": "USER",
+            "system": "servicenow",
+            "created": current.sys_created_on.dateNumericValue()
+        };
+        grUsertype("sys_updated_by");
+        grUsertype("sys_created_by");
+        if (current.getDisplayValue("comments").includes("Comments"))
+            item.body = userupdatedobj.username + " commented:\n" + current.getDisplayValue("comments").match(/\n([^\n]+)\n/)[1];
+        else
+            item.body = "No comment provided.Contact " + userupdatedobj.username + " about your request.";
+		item.title = userupdatedobj.username + " has " + current.getDisplayValue("state") + " your request";
+			if (userupdatedobj.userId !== usercreatedobj.userId)
+				item.target_id = usercreatedobj.userId;
+    } else if (current.getDisplayValue("state") === "Requested" &&
+        current.operation() == "insert" && !number.includes("RITM")) {
+        actions.push({
+            "type": "postback",
+            "label": "View Details",
+            "value": "show approval request for " + number
+        });
+        actions.push({
+            "type": "postback",
+            "label": "Approve",
+            "value": "Approve request for " + number
+        });
+        actions.push({
+            "type": "postback",
+            "label": "Deny",
+            "value": "Reject request for " + number
+        });
+        actions.push({
+            "type": "postback",
+            "label": "Comment",
+            "value": "Comment"
+        });
+        item = {
+            "_id": current.sys_id.getDisplayValue(),
+            "ticket": number,
+			"prices": "",
+            "ticket_type": tableMap[current.source_table] || "UNKNOWN",
+            "class": current.source_table.getDisplayValue(),
+            "actions": actions,
+            "target_type": "USER",
+            "system": "servicenow",
+            "created": current.sys_created_on.dateNumericValue()
+        };
+        item_target_id = getTarget_id(item.target_type);
+        item.target_id = item_target_id;
+        if (current.getValue("sysapproval") !== "" &&
+            current.getValue("document_id") !== "") {
+            var itemDetails = getcatitemId(current.getValue("sysapproval"));
+            item.title = "You've got a new request pending.";
+            grUsertype("sys_created_by");
+            if (itemDetails.length > 1)
+                bodydetails = usercreatedobj.username + " requested for " + itemDetails.length + " items" + "\n";
+            else
+                bodydetails = usercreatedobj.username + " requested for " + itemDetails.length + " item" + "\n";
+            for (var i = 0; i < itemDetails.length; i++) {
+                bodydetails = bodydetails.concat("Item:", itemDetails[i].Item, "\n",
+                    "Price:", itemDetails[i].Price, "\n",
+                    "Due_Date:", itemDetails[i].Due_Date, "\n",
+                    "Stage:", itemDetails[i].Stage, "\n\n");
+            }
+            item.body = bodydetails.trim("");
+        }
+	}
+ 
+    function getcatitemId(requestId) {
+        var grcatitem = new GlideRecord('sc_req_item');
+        grcatitem.addQuery('request', requestId);
+        grcatitem.query();
+        var itemobj = [];
+        while (grcatitem.next()) {
+            var obj = {};
+            obj.Item = grcatitem.getDisplayValue("short_description");
+            obj.Price = grcatitem.getDisplayValue("price");
+            obj.Due_Date = grcatitem.getValue("due_date");
+            obj.Stage = "Requested";
+            itemobj.push(obj);
+        }
+        return itemobj;
+    }
+ 
+    function getTarget_id(type) {
+        var target_id;
+        switch (type) {
+            case "USER":
+                target_id = current.getValue("approver");
+                break;
+            case 'DEPARTMENT':
+                target_id = departmentid;
+                break;
+            case 'BROADCAST':
+                target_id = "broadcast";
+				break;
+            default:
+                target_id = current.getValue("approver");
+        }
+        return target_id;
+    }
+    rm.setRequestBody(JSON.stringify({
+        "notifications": [item]
+    }));
+    var response = rm.executeAsync();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-22 18:32:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9aa5a3de2f02111051c859a72799b613</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>IT Assist GetApprvNotif</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_9aa5a3de2f02111051c859a72799b613</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 22:20:56</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9aa5a3de2f02111051c859a72799b613"/>
+</record_update>

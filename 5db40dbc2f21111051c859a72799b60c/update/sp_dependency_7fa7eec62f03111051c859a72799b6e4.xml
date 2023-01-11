@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency">
+    <sp_dependency action="INSERT_OR_UPDATE">
+        <module/>
+        <name>ITAssistKoreChatDepend</name>
+        <page_load>true</page_load>
+        <sp_portals/>
+        <sys_class_name>sp_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 12:23:21</sys_created_on>
+        <sys_id>7fa7eec62f03111051c859a72799b6e4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ITAssistKoreChatDepend</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sp_dependency_7fa7eec62f03111051c859a72799b6e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 19:35:06</sys_updated_on>
+    </sp_dependency>
+</record_update>

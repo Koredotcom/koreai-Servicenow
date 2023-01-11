@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="DELETE">
+        <display_name>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</display_name>
+        <source>url</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 13:11:33</sys_created_on>
+        <sys_id>60c276822f43111051c859a72799b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_ui_script/>
+        <sys_update_name>sp_js_include_60c276822f43111051c859a72799b6fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 13:11:33</sys_updated_on>
+        <url>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</url>
+    </sp_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sp_js_include_60c276822f43111051c859a72799b6fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</display_name><source>url</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-10 13:11:33</sys_created_on><sys_id>60c276822f43111051c859a72799b6fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</sys_name><sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_ui_script/><sys_update_name>sp_js_include_60c276822f43111051c859a72799b6fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-10 13:11:33</sys_updated_on><url>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</url></sp_js_include></record_update>]]></payload>
+        <payload_hash>2077201087</payload_hash>
+        <record_name>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 13:11:33</sys_created_on>
+        <sys_id>dac236822f43111051c859a72799b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18461aacb4b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 13:11:33</sys_updated_on>
+        <type>JS Include</type>
+        <update_guid>16c23682b64311102eac159edd1ba0fa</update_guid>
+        <update_guid_history>16c23682b64311102eac159edd1ba0fa:2077201087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859">f3837bca2f07111051c859a72799b6a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 17:54:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_js_include">sp_js_include</sys_db_object>
+        <sys_id>18f9abe3989d476095adffd12d458100</sys_id>
+        <sys_metadata>60c276822f43111051c859a72799b6fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://dev96632.service-now.com/sys_attachment.do?sys_id=d44236ca2f03111051c859a72799b6c7</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sp_js_include_60c276822f43111051c859a72799b6fa</sys_update_name>
+        <sys_update_version display_value="sp_js_include_60c276822f43111051c859a72799b6fa">dac236822f43111051c859a72799b6fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 17:54:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

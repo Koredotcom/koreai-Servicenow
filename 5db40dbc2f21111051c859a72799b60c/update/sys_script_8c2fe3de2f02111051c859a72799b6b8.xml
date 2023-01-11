@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>asset_reclamation_request</collection>
+        <condition>current.closed_by.changes()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist GetLicenseRem</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+	var itsm_temp = new GlideRecord("x_831378_kore_ai_0_itsm_config");
+	itsm_temp.query();
+	while (itsm_temp.next()) {
+		var itsm_name = itsm_temp.name;
+		var itsm_enc = itsm_temp.getElement("encrypted_val");
+		var itsm_dec = itsm_enc.getDecryptedValue();
+		rm.setStringParameterNoEscape(itsm_name, itsm_dec);	
+	}
+	function getTarget_id(type) {
+        var target_id;
+        switch (type) {
+            case "USER":
+                target_id = current.getValue("user");
+                break;
+            case 'DEPARTMENT':
+                target_id = departmentid;
+                break;
+            case 'BROADCAST':
+                target_id = "broadcast";
+                break;
+            default:
+                target_id = current.getValue("approver");
+        }
+        return target_id;
+    }
+	
+    var grUser = new GlideRecord('sys_user');
+    grUser.addQuery('sys_id', current.getValue("user"));
+    grUser.query();
+    if (grUser.next())
+        var departmentid = grUser.getValue('department');
+    var actions = [];
+    actions.push({});
+    actions[0].type = "postback";
+    actions[0].label = "show ticket number " + current.task_effective_number.getDisplayValue();
+    actions[0].value = "show approval request for " + current.task_effective_number.getDisplayValue();
+    var item = {
+        "_id": current.sys_id.getDisplayValue(),
+        "title": "Reclamation:" + current.software_install.getDisplayValue(),
+        "ticket": current.task_effective_number.getDisplayValue(),
+        "ticket_type": "REMOVAL_CANDIDATE",
+        "class": "samp_sw_reclamation_candidate",
+        "actions": actions,
+        "body": "Your license/subscription has been reclaimed by " + current.assigned_to.getDisplayValue(),
+        "target_type": "USER",
+        //      "user_id":current.getValue("user"),
+        "system": "servicenow",
+        "created": current.sys_created_on.dateNumericValue()
+	};
+    var item_target_id = getTarget_id(item.target_type);
+    item.target_id = item_target_id;
+    rm.setRequestBody(JSON.stringify({
+        "notifications": [item]
+    }));
+    var response = rm.executeAsync();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-22 19:14:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c2fe3de2f02111051c859a72799b6b8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>IT Assist GetLicenseRem</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_8c2fe3de2f02111051c859a72799b6b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 22:21:40</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c2fe3de2f02111051c859a72799b6b8"/>
+</record_update>

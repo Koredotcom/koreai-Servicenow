@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>false</active>
+        <application display_value="Kore.ai IT Assist">f577265c2f52111051c859a72799b6b4</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Form to configure the WebSDK data for the ITSM app.</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Configure WebSDK Info</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_831378_kore_ai_0_websdkconfig</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-28 20:46:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d97dbedc2f92111051c859a72799b653</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Configure WebSDK Info [Horiz.]</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_app_module_d97dbedc2f92111051c859a72799b653</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 19:14:54</sys_updated_on>
+        <timeline_page/>
+        <title>Configure WebSDK Info [Horiz.]</title>
+        <uncancelable>false</uncancelable>
+        <view_name>configurewebsdkinfo_list</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_app_module_d97dbedc2f92111051c859a72799b653</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>false</active><application display_value="Kore.ai IT Assist">f577265c2f52111051c859a72799b6b4</application><assessment/><device_type/><filter/><hint>Form to configure the WebSDK data for the ITSM app.</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Configure WebSDK Info</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_831378_kore_ai_0_websdkconfig</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-28 20:46:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d97dbedc2f92111051c859a72799b653</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Configure WebSDK Info [Horiz.]</sys_name><sys_overrides/><sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_app_module_d97dbedc2f92111051c859a72799b653</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-03 19:14:54</sys_updated_on><timeline_page/><title>Configure WebSDK Info [Horiz.]</title><uncancelable>false</uncancelable><view_name>configurewebsdkinfo_list</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1259784508</payload_hash>
+        <record_name>Configure WebSDK Info [Horiz.]</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 19:14:54</sys_created_on>
+        <sys_id>5a89d4062f92111051c859a72799b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1839f45ca480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 19:14:54</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9289d40691921110eee2226efc4ce79c</update_guid>
+        <update_guid_history>9289d40691921110eee2226efc4ce79c:-1259784508,229efe108bd211100e760541bcaa96ed:-1405530977,d97e7a9045d211100e3b7dcec617cbf2:149275752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Configure WebSDK Info [Horiz.]">704735742f73111051c859a72799b615</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-13 18:26:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>cf6a07c3518740008d81be340ef64000</sys_id>
+        <sys_metadata>d97dbedc2f92111051c859a72799b653</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configure WebSDK Info [Horiz.]</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_app_module_d97dbedc2f92111051c859a72799b653</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d97dbedc2f92111051c859a72799b653">5a89d4062f92111051c859a72799b69c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-13 18:26:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

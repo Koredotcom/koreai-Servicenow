@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>wf_context</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist GetNotifReqWrflw</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    var request = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+	var itsm_temp = new GlideRecord("x_831378_kore_ai_0_itsm_config");
+	itsm_temp.query();
+	while (itsm_temp.next()) {
+		var itsm_name = itsm_temp.name;
+		var itsm_enc = itsm_temp.getElement("encrypted_val");
+		var itsm_dec = itsm_enc.getDecryptedValue();
+		request.setStringParameterNoEscape(itsm_name, itsm_dec);	
+	}
+    var stage_states = JSON.parse(current.getDisplayValue("stage_state"));
+    var item = {};
+    for (var i = 0; i < stage_states.length; i++) {
+        if (stage_states[i].selected == true) {
+            item['current_stage'] = stage_states[i + 1];
+            item['previous_stage'] = stage_states[i];
+        }
+    }
+    var body = "";
+    if (current.operation() == "update") {
+        if (item['current_stage']) {
+            body = "Your request was moved from " + item['previous_stage'].name + "" + " to stage " + item['current_stage'].name + " on " + current.sys_created_on;
+        } else {
+            body = "Your request has been approved successfully. Your request was moved from " + stage_states[0].name + " to stage " + stage_states[1].name + '.';
+            //      current.setAbortAction(true);
+            //      current.setWorkflow(false);
+        }
+    }
+    //  if(current.operation() == "insert"){
+    //      body = "your requested has been approved sucessfully and your current stages is Request Approved";
+    //      current.setWorkflow(false);
+    //  }
+    var tableMap = {
+        sc_request: "REQUEST",
+        incident: "INCIDENT",
+        sc_req_item: "REQUEST_ITEM"
+    };
+    var request_item_sys_id = current.getValue('id');
+    var actions = [];
+    var request_sys_id;
+    var gr = new GlideRecord(current.getDisplayValue("table"));
+    gr.addQuery('sys_id', request_item_sys_id);
+    gr.query();
+    var user_id;
+    if (gr.next()) {
+        var request_item_id = gr.getDisplayValue("number"); // request item id
+        request_sys_id = gr.getValue("request");
+        var request_number = "REQ8452";
+        var request_gr = new GlideRecord('sc_request');
+        request_gr.addQuery('sys_id', request_sys_id);
+        request_gr.query();
+        if (request_gr.next()) {
+            request_number = request_gr.getDisplayValue("number");
+        }
+        actions.push({});
+        actions[0].type = "postback";
+        actions[0].label = "Show ticket number " + request_number;
+        actions[0].value = actions[0].label;
+        user_id = gr.getValue("requested_for") || gr.getValue("opened_by"); // user id of the requested item
+        var cat_item_sys_id = gr.getValue('cat_item'); // catalog item of the requested item
+        var class_name = gr.getValue("sys_class_name");
+        var gr1 = new GlideRecord('sc_cat_item');
+        gr1.addQuery('sys_id', cat_item_sys_id);
+        gr1.query();
+        if (gr1.next()) {
+            var request_item = gr1.getDisplayValue('sys_name'); // requested item name(catalog item)
+            item['item_name'] = request_item;
+        }
+    }
+    //  var body = "" ;
+    var grUser = new GlideRecord('sys_user');
+    grUser.addQuery('sys_id', user_id);
+    grUser.query();
+    if (grUser.next())
+        var departmentid = grUser.getValue('department');
+    var nitem = {
+        "_id": current.sys_id.getDisplayValue(), //workflow sys_id
+        "title": request_item, // request item name
+        "ticket": request_number,
+        "ticket_type": tableMap[current.getDisplayValue("table")] || "UNKNOWN",
+        "class": current.getDisplayValue("table"),
+        "body": body,
+        "actions": actions,
+        "target_type": "USER",
+        "system": "servicenow",
+        "created": current.sys_created_on.dateNumericValue(),
+        "operation": current.operation(),
+    };
+    var item_target_id = getTarget_id(item.target_type);
+    nitem.target_id = item_target_id;
+    function getTarget_id(type) {
+        var target_id;
+        switch (type) {
+            case "USER":
+                target_id = user_id;
+                break;
+            case 'DEPARTMENT':
+                target_id = departmentid;
+                break;
+            case 'BROADCAST':
+                target_id = "broadcast";
+                break;
+            default:
+                target_id = user_id;
+        }
+        return target_id;
+    }
+ 
+    request.setRequestBody(JSON.stringify({
+        "notifications": [nitem]
+    }));
+    current.setWorkflow(false);
+    var response = request.executeAsync();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-22 19:54:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc7833122f82111051c859a72799b68f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>IT Assist GetNotifReqWrflw</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_dc7833122f82111051c859a72799b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 22:23:31</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc7833122f82111051c859a72799b68f"/>
+</record_update>

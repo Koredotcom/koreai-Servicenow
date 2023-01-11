@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="DELETE">
+        <name>Content-Type</name>
+        <rest_message display_value="ITAssistWorkbenchPing">0f38360e2f42111051c859a72799b660</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-18 20:15:31</sys_created_on>
+        <sys_id>43c0d5362f62111051c859a72799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_rest_message_headers_43c0d5362f62111051c859a72799b6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-18 20:15:31</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_rest_message_headers_43c0d5362f62111051c859a72799b6e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message display_value="ITAssistWorkbenchPing">0f38360e2f42111051c859a72799b660</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-18 20:15:31</sys_created_on><sys_id>43c0d5362f62111051c859a72799b6e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_rest_message_headers_43c0d5362f62111051c859a72799b6e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-18 20:15:31</sys_updated_on><value>application/json</value></sys_rest_message_headers></record_update>]]></payload>
+        <payload_hash>-899211144</payload_hash>
+        <record_name>Content-Type</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-18 20:15:31</sys_created_on>
+        <sys_id>244739b62fe2111051c859a72799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ecbcadda0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-18 20:15:31</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>6c47f5b6a4e21110362de74a7b7247ff</update_guid>
+        <update_guid_history>6c47f5b6a4e21110362de74a7b7247ff:-899211144</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-25 15:29:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_headers">sys_rest_message_headers</sys_db_object>
+        <sys_id>d3e24f4654b84f30b84aed3faf8bdd11</sys_id>
+        <sys_metadata>43c0d5362f62111051c859a72799b6e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="ITAssistWorkbenchPing">0f38360e2f42111051c859a72799b660</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_rest_message_headers_43c0d5362f62111051c859a72799b6e0</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_headers_43c0d5362f62111051c859a72799b6e0">244739b62fe2111051c859a72799b600</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-25 15:29:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

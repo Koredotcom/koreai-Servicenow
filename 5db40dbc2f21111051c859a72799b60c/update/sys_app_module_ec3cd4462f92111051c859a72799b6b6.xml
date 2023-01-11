@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Kore.ai IT Assist Menu">f577265c2f52111051c859a72799b6b4</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Form to revise the WebSDK POST information for the SNOW app.</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Configure WebSDK Info</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_831378_kore_ai_0_websdkconfig_verti</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 19:27:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec3cd4462f92111051c859a72799b6b6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Revise WebSDK Headers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_app_module_ec3cd4462f92111051c859a72799b6b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-01 18:46:35</sys_updated_on>
+        <timeline_page/>
+        <title>Revise WebSDK Headers</title>
+        <uncancelable>false</uncancelable>
+        <view_name>websdkconfig_verti_listo</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Kore.AI IT Assist Workspace Config">1730783728e111108cf69b4396e1923c</app_config>
+        <description/>
+        <fields>table</fields>
+        <icon/>
+        <name>Simple List</name>
+        <optional_parameters>listTitle,query,disableInlineEditing</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>simplelist</route_type>
+        <screen_type display_value="Simple List">9b3078377de11110fa1dd5f0fe0a5315</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:36:24</sys_created_on>
+        <sys_id>1b30783786e1111044b996ea0207e015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ux_app_route_1b30783786e1111044b996ea0207e015</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:36:24</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b30783786e1111044b996ea0207e015"/>
+</record_update>

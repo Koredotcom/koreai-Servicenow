@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="WebSDK Config" max_length="40" name="x_831378_kore_ai_0_websdkconfig_verti" sizeclass="8" type="collection">
+        <element display="true" label="Config Description" max_length="255" name="config_description" type="string_full_utf8"/>
+        <element label="Name of SDK Config" mandatory="true" max_length="60" name="name_of_sdk_config" type="string_full_utf8"/>
+        <element label="Protected Config Value" max_length="255" name="protected_config_value" type="password2"/>
+    </element>
+</database>
