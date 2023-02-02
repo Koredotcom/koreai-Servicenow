@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>it_assist_platform</name>
+        <rest_message_function display_value="ITAssistWorkbenchPing">9f1b36022fc2111051c859a72799b670</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-25 16:08:18</sys_created_on>
+        <sys_id>dfc181412f72111051c859a72799b6ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>it_assist_platform</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_dfc181412f72111051c859a72799b6ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-17 19:07:29</sys_updated_on>
+        <type>string</type>
+        <value>https://staging-bots.korebots.com/api/1.1/public/tables/</value>
+    </sys_rest_message_fn_parameters>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_rest_message_fn_parameters_dfc181412f72111051c859a72799b6ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>it_assist_platform</name>
+        <rest_message_function display_value="ITAssistWorkbenchPing">9f1b36022fc2111051c859a72799b670</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-25 16:08:18</sys_created_on>
+        <sys_id>dfc181412f72111051c859a72799b6ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>it_assist_platform</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_dfc181412f72111051c859a72799b6ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-17 19:07:29</sys_updated_on>
+        <type>string</type>
+        <value>https://staging-bots.korebots.com/api/1.1/public/tables/</value>
+    </sys_rest_message_fn_parameters>
+</record_update>]]></payload>
+        <payload_hash>-836942085</payload_hash>
+        <record_name>it_assist_platform</record_name>
+        <reverted_from/>
+        <source>0e48a5584730211001670592e36d4311</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 21:07:14</sys_created_on>
+        <sys_id>7768a1984730211001670592e36d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186048164cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 21:07:14</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>fb68a198223021106df221a1d6810838</update_guid>
+        <update_guid_history>fb68a198223021106df221a1d6810838:0,4f5092c445642110f73549e5367e68f3:365236785,2532bbedd7321110be0c23b66be14fec:1365150465,9fc18141d4721110f9b6a03362f484ae:-615414992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 18:09:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>18e649e3f0c24d30b174fe5e020ea619</sys_id>
+        <sys_metadata>dfc181412f72111051c859a72799b6ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>it_assist_platform</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="ITAssistWorkbenchPing">9f1b36022fc2111051c859a72799b670</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_dfc181412f72111051c859a72799b6ad</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_dfc181412f72111051c859a72799b6ad">7768a1984730211001670592e36d4345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 18:09:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
