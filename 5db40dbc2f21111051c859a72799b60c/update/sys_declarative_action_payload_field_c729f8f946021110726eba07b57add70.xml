@@ -2,7 +2,6 @@
     <sys_declarative_action_payload_field action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -31,6 +30,7 @@
         <element>sysId</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -55,14 +55,12 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_declarative_action_payload_field</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-09-20 16:39:07</sys_created_on>
         <sys_id>c729f8f946021110726eba07b57add70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>sysId</sys_name>
         <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
@@ -77,6 +75,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

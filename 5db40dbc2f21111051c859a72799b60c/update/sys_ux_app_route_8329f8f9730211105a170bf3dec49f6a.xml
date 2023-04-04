@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Kore.AI IT Assist to sdk Config">a629f8f92f02111051c859a72799b61d</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>Security and login</name>

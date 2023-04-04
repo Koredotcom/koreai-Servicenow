@@ -2,6 +2,7 @@
     <sys_ux_event action="INSERT_OR_UPDATE">
         <description/>
         <event_name>NAV_ITEM_SELECTED_RELAY_c9bb2397b720101016fddb91de11a9f2</event_name>
+        <explicit_api_name/>
         <interfaces/>
         <label>Nav Item Selected Relay (Portal Landing Page Default)</label>
         <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route Type"},{"name":"fields","fieldType":"string","interfaceApiName":"global.route","label":"Route Fields"},{"name":"params","fieldType":"string","interfaceApiName":"global.route","label":"Optionals Parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"If redirect is true, url will be redirected"}]</props>

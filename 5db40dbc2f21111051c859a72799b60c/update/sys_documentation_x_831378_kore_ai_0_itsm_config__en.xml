@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-10-20 20:19:40</sys_created_on>
-            <sys_id>b06bc0a32f26111051c859a72799b68d</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_name>IT Assist Config</sys_name>
             <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>

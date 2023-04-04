@@ -6,6 +6,7 @@
         <crypto_module display_value="instance_level_glide_encrypter">401fa53c5b6220106cdba88ddc81c754</crypto_module>
         <crypto_spec display_value="instance_level_glide_encrypter --- Symmetric Key Wrapping/Unwrapping">9e1f293c5b6220106cdba88ddc81c797</crypto_spec>
         <granular_operation/>
+        <identity_group_alias/>
         <impersonation>false</impersonation>
         <instance_recipient/>
         <owner>4f8a3dcddbde0818f492c597059619dc</owner>

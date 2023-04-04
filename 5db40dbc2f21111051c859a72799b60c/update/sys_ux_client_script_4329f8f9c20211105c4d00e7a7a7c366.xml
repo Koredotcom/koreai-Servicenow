@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Landing Page">c729f8f96c021110b36585571dfd786c</macroponent>
         <name>Launch reject alert</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
  * @param {params} params
@@ -32,6 +33,7 @@ function handler({api, event, helpers, imports}) {
         <sys_update_name>sys_ux_client_script_4329f8f9c20211105c4d00e7a7a7c366</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-09-20 16:39:03</sys_updated_on>
+        <target>macroponent</target>
         <type/>
     </sys_ux_client_script>
 </record_update>

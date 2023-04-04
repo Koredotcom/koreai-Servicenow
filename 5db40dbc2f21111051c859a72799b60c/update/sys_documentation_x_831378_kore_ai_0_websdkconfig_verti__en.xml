@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-10-03 18:45:43</sys_created_on>
-            <sys_id>bad2188e2f52111051c859a72799b662</sys_id>
             <sys_mod_count>6</sys_mod_count>
             <sys_name>WebSDK Config</sys_name>
             <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>

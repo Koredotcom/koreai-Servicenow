@@ -54,8 +54,11 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -73,6 +76,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Attachment</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "sysId",
   "label" : "sysId",

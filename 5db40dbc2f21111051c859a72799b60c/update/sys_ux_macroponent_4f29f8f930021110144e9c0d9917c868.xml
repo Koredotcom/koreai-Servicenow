@@ -2945,8 +2945,11 @@
   },&#13;
   "readEvaluationMode" : "EAGER"&#13;
 } ]</data>
+        <description/>
         <dispatched_events>8329f8f9720211100e1d0a981b401662,0f29f8f996021110096916e2e73d7361</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -2966,6 +2969,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Article page</name>
+        <output_prop_mapping/>
         <props>[ {&#13;
   "name" : "table",&#13;
   "label" : "Table",&#13;

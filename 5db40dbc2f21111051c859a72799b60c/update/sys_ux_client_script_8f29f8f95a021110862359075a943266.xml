@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Order success">4329f8f9bb02111006060fe296b5eb68</macroponent>
         <name>View request redirection</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
  * @param {params} params
@@ -55,6 +56,7 @@ function handler({
         <sys_update_name>sys_ux_client_script_8f29f8f95a021110862359075a943266</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-09-20 16:39:05</sys_updated_on>
+        <target>macroponent</target>
         <type/>
     </sys_ux_client_script>
 </record_update>

@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Kore.AI IT Assist Workspace Config">1730783728e111108cf69b4396e1923c</app_config>
         <description/>
+        <extension_point/>
         <fields>table</fields>
         <icon/>
         <name>Simple List</name>
         <optional_parameters>listTitle,query,disableInlineEditing</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>simplelist</route_type>
         <screen_type display_value="Simple List">9b3078377de11110fa1dd5f0fe0a5315</screen_type>

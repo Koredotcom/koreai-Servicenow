@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Kore.AI IT Assist Workspace Config">1730783728e111108cf69b4396e1923c</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon>graduation-cap-outline</icon>
         <name>Agent assist</name>

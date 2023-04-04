@@ -9,7 +9,6 @@
         <create_access>false</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
-        <extension_model/>
         <is_extendable>false</is_extendable>
         <label>IT Assist Config</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -19,9 +18,7 @@
         <read_access>false</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class/>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 20:19:39</sys_created_on>
         <sys_id>2d5accab2fe2111051c859a72799b60d</sys_id>

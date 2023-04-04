@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Article page">4f29f8f930021110144e9c0d9917c868</macroponent>
         <name>Show Submit Comment Alert</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[function handler({
     api
@@ -32,6 +33,7 @@
         <sys_update_name>sys_ux_client_script_4b29f8f9d802111074d5b46182bbf367</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-09-20 16:39:06</sys_updated_on>
+        <target>macroponent</target>
         <type/>
     </sys_ux_client_script>
 </record_update>

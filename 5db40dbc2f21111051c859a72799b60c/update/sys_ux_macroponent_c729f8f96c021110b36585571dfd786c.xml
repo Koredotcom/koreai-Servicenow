@@ -2675,8 +2675,11 @@
   },&#13;
   "readEvaluationMode" : "EAGER"&#13;
 } ]</data>
+        <description/>
         <dispatched_events>cb29f8f9160211101df19985c4844161,8b29f8f94b021110092e91863202ad61</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events>0729f8f9900211108cc2c1405f708b6b,4b29f8f9c102111076bf622fc9fd3b6b,4f29f8f96f0211107f0a59664af07c6b,4329f8f9280211102e10ef1433d0d76c,8329f8f97d0211100c29d634cede096c</handled_events>
         <interactions/>
         <interfaces/>
@@ -2992,6 +2995,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Landing Page</name>
+        <output_prop_mapping/>
         <props>[ {&#13;
   "name" : "refresh",&#13;
   "label" : "Refresh",&#13;

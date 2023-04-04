@@ -2,6 +2,7 @@
     <sys_ux_event action="INSERT_OR_UPDATE">
         <description/>
         <event_name>MY_TASKS</event_name>
+        <explicit_api_name/>
         <interfaces/>
         <label>My tasks</label>
         <props>[&#13;

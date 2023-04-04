@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Kore.AI IT Assist Workspace Config">1730783728e111108cf69b4396e1923c</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>All Dashboards</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>all-dashboards</route_type>
         <screen_type display_value="All Dashboards">df307837ece11110500bb68a5eb66f15</screen_type>

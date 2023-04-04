@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
     <sys_ux_screen_condition action="INSERT_OR_UPDATE">
         <active>true</active>
+        <conditions_params_mapping/>
+        <is_result_memoizable>false</is_result_memoizable>
         <screen display_value="Agent Assist">5b30783753e11110d27b8af4bd33f713</screen>
         <screen_condition/>
         <script><![CDATA[(function canShowAA(params) {

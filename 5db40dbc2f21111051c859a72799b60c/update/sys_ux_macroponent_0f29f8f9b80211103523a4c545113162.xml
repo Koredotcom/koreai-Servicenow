@@ -578,8 +578,11 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>4b29f8f916021110e63cb2c05ec3e262,c329f8f9540211104ae903577d51f562,8b29f8f9ce02111050e66b8d05d39f62,0729f8f914021110f3f168eed17e4362</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -597,6 +600,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Tasks</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "sysId",
   "label" : "sysId",

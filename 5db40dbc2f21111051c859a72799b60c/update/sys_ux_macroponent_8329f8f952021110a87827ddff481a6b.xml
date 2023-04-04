@@ -351,8 +351,11 @@
   },&#13;
   "readEvaluationMode" : "EAGER"&#13;
 } ]</data>
+        <description/>
         <dispatched_events>4729f8f92b021110fc2f6db544309f62</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -372,6 +375,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Settings Page</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "Settings",

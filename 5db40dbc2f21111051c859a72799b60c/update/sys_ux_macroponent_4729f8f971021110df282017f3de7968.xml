@@ -1016,8 +1016,11 @@
   },&#13;
   "readEvaluationMode" : "EAGER"&#13;
 } ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -1037,6 +1040,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Search Page</name>
+        <output_prop_mapping/>
         <props>[ {&#13;
   "name" : "paginationToken",&#13;
   "label" : "paginationToken",&#13;
