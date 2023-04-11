@@ -4,10 +4,10 @@
         <description/>
         <global>false</global>
         <ignore_in_now_experience>false</ignore_in_now_experience>
-        <name>x_831378_kore_ai_0.koresdkminjs</name>
+        <name>x_831378_kore_ai_0.koresdkminjs_deprecat</name>
         <script><![CDATA[var x_831378_kore_ai_0 = x_831378_kore_ai_0 || {};
 
-x_831378_kore_ai_0.koresdkminjs = (function() {
+x_831378_kore_ai_0.koresdkminjs_deprecated = (function() {
 	var koregr = new GlideRecord('sys_attachment');
 	koregr.query();
 	while(koregr.next())
@@ -24,23 +24,23 @@ x_831378_kore_ai_0.koresdkminjs = (function() {
 					return private_function();
 				},
 		*/
-		type:  "koresdkminjs"
+		type:  "koresdkminjs_deprecated"
 	};
 })();
 ]]></script>
-        <script_name>koresdkminjs</script_name>
+        <script_name>koresdkminjs_deprecated</script_name>
         <sys_class_name>sys_ui_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 18:27:52</sys_created_on>
         <sys_id>1b427e802fd3511051c859a72799b69b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_831378_kore_ai_0.koresdkminjs</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0.koresdkminjs_deprecat</sys_name>
         <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_ui_script_1b427e802fd3511051c859a72799b69b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-22 16:50:38</sys_updated_on>
+        <sys_updated_on>2023-04-11 15:44:31</sys_updated_on>
         <ui_type>10</ui_type>
         <use_scoped_format>false</use_scoped_format>
     </sys_ui_script>
