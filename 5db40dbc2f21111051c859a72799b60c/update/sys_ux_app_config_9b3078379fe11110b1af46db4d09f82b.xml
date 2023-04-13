@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
     <sys_ux_app_config action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <custom_icon/>
         <default_route_type/>
         <description>Workspace to better integrate the Kore.ai platform with the ServiceNow experience.</description>
@@ -13,14 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-02 00:36:24</sys_created_on>
         <sys_id>9b3078379fe11110b1af46db4d09f82b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Kore.AI IT Assist Workspace Config</sys_name>
         <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_ux_app_config_9b3078379fe11110b1af46db4d09f82b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-02 00:36:24</sys_updated_on>
+        <sys_updated_on>2023-04-13 18:35:46</sys_updated_on>
     </sys_ux_app_config>
     <sys_translated_text action="delete_multiple" query="documentkey=9b3078379fe11110b1af46db4d09f82b"/>
 </record_update>

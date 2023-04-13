@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	//tmp = c.data.tmp;
+	//window.tmp = c.data.tmp;
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>test variables</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	//data.tmp = "red";
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 15:53:21</sys_created_on>
+        <sys_id>8f371ae82fab911051c859a72799b66d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test variables</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sp_widget_8f371ae82fab911051c859a72799b66d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 16:08:03</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h1> Sample widget </h1>
+</div>]]></template>
+    </sp_widget>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sp_widget_8f371ae82fab911051c859a72799b66d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;
+    &lt;sp_widget action="INSERT_OR_UPDATE"&gt;
+        &lt;category&gt;custom&lt;/category&gt;
+        &lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	//tmp = c.data.tmp;
+	//window.tmp = c.data.tmp;
+	
+};]]&gt;&lt;/client_script&gt;
+        &lt;controller_as&gt;c&lt;/controller_as&gt;
+        &lt;css/&gt;
+        &lt;data_table&gt;sp_instance&lt;/data_table&gt;
+        &lt;demo_data/&gt;
+        &lt;description/&gt;
+        &lt;docs/&gt;
+        &lt;field_list/&gt;
+        &lt;has_preview&gt;true&lt;/has_preview&gt;
+        &lt;id/&gt;
+        &lt;internal&gt;false&lt;/internal&gt;
+        &lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;
+        &lt;name&gt;test variables&lt;/name&gt;
+        &lt;option_schema/&gt;
+        &lt;public&gt;false&lt;/public&gt;
+        &lt;roles/&gt;
+        &lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	//data.tmp = "red";
+	
+})();]]&gt;&lt;/script&gt;
+        &lt;servicenow&gt;false&lt;/servicenow&gt;
+        &lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-11-30 15:53:21&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;8f371ae82fab911051c859a72799b66d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;test variables&lt;/sys_name&gt;
+        &lt;sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="ITSM Assist in ServiceNow"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_widget_8f371ae82fab911051c859a72799b66d&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-11-30 16:08:03&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+  &lt;h1&gt; Sample widget &lt;/h1&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;
+    &lt;/sp_widget&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-531061964</payload_hash>
+        <record_name>test variables</record_name>
+        <reverted_from/>
+        <source>0e48a5584730211001670592e36d4311</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 21:07:11</sys_created_on>
+        <sys_id>9b6861984730211001670592e36d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186048159730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-30 21:07:11</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>d7686198f93021103ef4488c2b7fcc34</update_guid>
+        <update_guid_history>d7686198f93021103ef4488c2b7fcc34:0,3afa52ecedab91103db45916e4948efb:1829026670,f0dada2c4bab9110d0558871cf89af87:801812750,0e68562c1fab9110f76e972fd2f82390:572233748,179796e860ab9110edf983552d1ca7ec:-1222808518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test variables">c25209bb470621104c7a41fe436d43bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 18:38:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>074f0cbed860486cb3dd32d4f943e610</sys_id>
+        <sys_metadata>8f371ae82fab911051c859a72799b66d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test variables</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sp_widget_8f371ae82fab911051c859a72799b66d</sys_update_name>
+        <sys_update_version display_value="sp_widget_8f371ae82fab911051c859a72799b66d">9b6861984730211001670592e36d4334</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 18:38:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

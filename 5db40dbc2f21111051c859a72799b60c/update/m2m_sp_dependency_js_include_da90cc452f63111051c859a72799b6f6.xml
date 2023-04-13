@@ -2,7 +2,7 @@
     <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
         <order>100</order>
         <sp_dependency display_value="ITAssistKoreChatDepend">7fa7eec62f03111051c859a72799b6e4</sp_dependency>
-        <sp_js_include display_value="koreminjs_js">83a4a9462f5f511051c859a72799b6d1</sp_js_include>
+        <sp_js_include display_value="kore-ai-sdk.min.js">83a4a9462f5f511051c859a72799b6d1</sp_js_include>
         <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-01 18:10:31</sys_created_on>
