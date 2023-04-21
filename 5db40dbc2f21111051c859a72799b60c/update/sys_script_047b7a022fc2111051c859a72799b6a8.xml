@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -31,14 +31,19 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/){
     var obj = new sn_ws.RESTMessageV2('ITAssistWorkbenchPing', 'ITAssistWorkbenchPing');
+	var itsm_arr = [];
 	var itsm_temp = new GlideRecord("x_831378_kore_ai_0_itsm_config");
 	itsm_temp.query();
+	//itsm_temp.query(callBackHeaderFunc);
+	//function callBackHeaderFunc(itsm_temp) {
 	while (itsm_temp.next()) {
 		var itsm_name = itsm_temp.name;
 		var itsm_enc = itsm_temp.getElement("encrypted_val");
 		var itsm_dec = itsm_enc.getDecryptedValue();
+		itsm_arr.push([itsm_name, itsm_dec]);
 		obj.setStringParameterNoEscape(itsm_name, itsm_dec);
 	}
+	//}
     var actions = [];
 	actions.push({
 		"type": "postback",
@@ -61,14 +66,14 @@
 		//"_id": current.sys_id.getDisplayValue(),
 		"_id": "1234",
 		"title": "You've got a new leave pending request",
-		"body": "John.smith requested for 1 item",
+		"body": "Andrew requested for 1 item.",
 		"Item": "XYZ",
 		"Ticket Number": "123",
 		"Price": "$123",
 		"Stage": "REQUESTED",
 		"actions": actions,
 		"target_type": "EMAIL",
-		"target_id": "andrew.symonds@k-demo.com"
+		"target_id": "john.smith@k-demo.com"
 	};
 	obj.setRequestBody(JSON.stringify({
 		"notifications": [item]
@@ -84,7 +89,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>047b7a022fc2111051c859a72799b6a8</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name>IT Assist Test Ping</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
@@ -92,7 +97,7 @@
         <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_script_047b7a022fc2111051c859a72799b6a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-11 17:50:10</sys_updated_on>
+        <sys_updated_on>2023-04-20 18:38:54</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
