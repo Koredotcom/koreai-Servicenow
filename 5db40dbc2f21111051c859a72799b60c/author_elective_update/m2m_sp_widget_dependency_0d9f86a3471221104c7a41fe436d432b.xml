@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="ITAssistKoreChatDepend">7fa7eec62f03111051c859a72799b6e4</sp_dependency>
+        <sp_widget display_value="ITAssistKoreChatWidg">f2a4b5c22f9f511051c859a72799b61e</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 15:52:41</sys_created_on>
+        <sys_id>0d9f86a3471221104c7a41fe436d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITAssistKoreChatDepend.ITAssistKoreChatWidg</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_0d9f86a3471221104c7a41fe436d432b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 15:52:41</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>m2m_sp_widget_dependency_0d9f86a3471221104c7a41fe436d432b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="ITAssistKoreChatDepend">7fa7eec62f03111051c859a72799b6e4</sp_dependency><sp_widget display_value="ITAssistKoreChatWidg">f2a4b5c22f9f511051c859a72799b61e</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-25 15:52:41</sys_created_on><sys_id>0d9f86a3471221104c7a41fe436d432b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ITAssistKoreChatDepend.ITAssistKoreChatWidg</sys_name><sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>m2m_sp_widget_dependency_0d9f86a3471221104c7a41fe436d432b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-25 15:52:41</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>616961184</payload_hash>
+        <record_name>ITAssistKoreChatDepend.ITAssistKoreChatWidg</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 15:52:41</sys_created_on>
+        <sys_id>459f86a3471221104c7a41fe436d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b91df71d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 15:52:41</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>899f86a31b122110535d67c9c21df72d</update_guid>
+        <update_guid_history>899f86a31b122110535d67c9c21df72d:616961184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITAssistKoreChatDepend.ITAssistKoreChatWidg">a163873b475221104c7a41fe436d43b1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 14:17:35</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>2462b8d6e43344569784e4cc9f52d924</sys_id>
+        <sys_metadata>0d9f86a3471221104c7a41fe436d432b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITAssistKoreChatDepend.ITAssistKoreChatWidg</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_0d9f86a3471221104c7a41fe436d432b</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_0d9f86a3471221104c7a41fe436d432b">459f86a3471221104c7a41fe436d432e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 14:17:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
+    <m2m_sp_dependency_css_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_css_include display_value="StagingCSS">b680b19b471621104c7a41fe436d43f0</sp_css_include>
+        <sp_dependency display_value="ITAssistWebClientDepend">bafee91b471621104c7a41fe436d435b</sp_dependency>
+        <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 18:58:49</sys_created_on>
+        <sys_id>35903dd7471621104c7a41fe436d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StagingCSS.ITAssistWebClientDepend</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>m2m_sp_dependency_css_include_35903dd7471621104c7a41fe436d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:58:49</sys_updated_on>
+    </m2m_sp_dependency_css_include>
+</record_update>
