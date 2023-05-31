@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0b76734b470321104c7a41fe436d439c" label="WebSDK Config Horiz" max_length="40" name="x_831378_kore_ai_0_websdk_config_horiz" type="collection">
+        <element label="Kore Instance Bot ID" mandatory="true" max_length="255" name="bot_id" type="password2"/>
+        <element label="Kore Instance Bot Name" mandatory="true" max_length="255" name="bot_name" type="password2"/>
+        <element label="Client ID for client communication" mandatory="true" max_length="255" name="client_id" type="password2"/>
+        <element label="Client Secret for client communication" mandatory="true" max_length="255" name="client_secret" type="password2"/>
+        <element label="JWT URL" max_length="255" name="jwt_url" type="password2"/>
+        <element label="Kore API URL" max_length="255" name="kore_api_url" type="password2"/>
+        <element display="true" label="SNOW User Identity" max_length="255" name="snow_user_identity" type="password2"/>
+    </element>
+</database>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="IT Assist">f577265c2f52111051c859a72799b6b4</application>
+        <application display_value="IT Assist Application">f577265c2f52111051c859a72799b6b4</application>
         <assessment/>
         <device_type/>
         <filter/>
         <hint>Form to revise the ITSM config data for the app.</hint>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
         <mobile_title>ITSM Configs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_831378_kore_ai_0_itsm_config</name>
+        <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -24,19 +24,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a06bc0a32f26111051c859a72799b66e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Base config</sys_name>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Base Config</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_app_module_a06bc0a32f26111051c859a72799b66e</sys_update_name>
-        <sys_updated_by>vishnu</sys_updated_by>
-        <sys_updated_on>2023-05-25 17:09:49</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-31 19:00:21</sys_updated_on>
         <timeline_page/>
-        <title>Base config</title>
+        <title>Base Config</title>
         <uncancelable>false</uncancelable>
-        <view_name>itsmconfig_verti_listo</view_name>
-        <window_name/>
+        <view_name>baseconfig_horiz</view_name>
+        <window_name>baseconfig_horiz</window_name>
     </sys_app_module>
 </record_update>

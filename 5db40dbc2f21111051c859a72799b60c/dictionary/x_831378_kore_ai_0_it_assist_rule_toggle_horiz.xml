@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4436fb0b470321104c7a41fe436d4377" label="IT Assist Rule Toggle Horiz" max_length="40" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" type="collection">
+        <element default="true" label="Get Approval Notifications" max_length="40" name="it_assist_getapprvnotif" type="boolean"/>
+        <element default="true" label="Get Incident Property Change Notifications" max_length="40" name="it_assist_getincpropchnge" type="boolean"/>
+        <element default="true" label="Get License/Subscription Removal Notifications" max_length="40" name="it_assist_getlicenserem" type="boolean"/>
+        <element default="true" label="Get Notifications on Approval Comments" max_length="40" name="it_assist_getnotifapprvcmnts" type="boolean"/>
+        <element default="true" label="Get Notifications on Request Closure" max_length="40" name="it_assist_getnotifreqclos" type="boolean"/>
+        <element default="true" label="Get Notifications on Request Workflow Change" max_length="40" name="it_assist_getnotifreqwrflw" type="boolean"/>
+        <element default="true" label="Get Outage Notifications" max_length="40" name="it_assist_getotgenotif" type="boolean"/>
+        <element default="true" display="true" label="Get Watcher Notifications on Change in Request" max_length="40" name="it_assist_getwatchnotifchge" type="boolean"/>
+    </element>
+</database>

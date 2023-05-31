@@ -59,7 +59,7 @@
     </sys_attachment_doc>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</application>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
         <file_path/>
         <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
         <instance_name>dev96632</instance_name>
@@ -92,10 +92,10 @@
         <sys_metadata>1f28620a2f03111051c859a72799b68c</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>newer_kore-ai-sdk.min.css</sys_name>
-        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
         <sys_update_name>sp_css_include_1f28620a2f03111051c859a72799b68c</sys_update_name>
         <sys_update_version display_value="sp_css_include_1f28620a2f03111051c859a72799b68c">45afec7347c221104c7a41fe436d43d5</sys_update_version>

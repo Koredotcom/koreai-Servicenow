@@ -53,9 +53,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 20:19:38</sys_created_on>
         <sys_name>Name</sys_name>
-        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
-        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_dictionary_x_831378_kore_ai_0_itsm_config_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-02 19:08:01</sys_updated_on>

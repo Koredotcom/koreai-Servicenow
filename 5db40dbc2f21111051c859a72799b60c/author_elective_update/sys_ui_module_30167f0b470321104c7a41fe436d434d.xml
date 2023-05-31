@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>IT Assist Config Horizes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_831378_kore_ai_0.it_assist_config_horiz_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-31 16:50:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30167f0b470321104c7a41fe436d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Assist Config Horizes</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ui_module_30167f0b470321104c7a41fe436d434d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-31 16:50:37</sys_updated_on>
+        <table>x_831378_kore_ai_0_it_assist_config_horiz</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_ui_module_30167f0b470321104c7a41fe436d434d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>IT Assist Config Horizes</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_831378_kore_ai_0.it_assist_config_horiz_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-31 16:50:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>30167f0b470321104c7a41fe436d434d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IT Assist Config Horizes</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_ui_module_30167f0b470321104c7a41fe436d434d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-31 16:50:37</sys_updated_on><table>x_831378_kore_ai_0_it_assist_config_horiz</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>671753602</payload_hash>
+        <record_name>IT Assist Config Horizes</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-31 16:51:24</sys_created_on>
+        <sys_id>04467f0b470321104c7a41fe436d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18872b8a7f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-31 16:51:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f4167f0bdc03211001c229292fcf544f</update_guid>
+        <update_guid_history>f4167f0bdc03211001c229292fcf544f:-306833079,f4167f0bdc03211001c229292fcf544f:-306833079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-31 16:51:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>3b4e3f863e2348a08e57cb0c6a71e7b9</sys_id>
+        <sys_metadata>30167f0b470321104c7a41fe436d434d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Assist Config Horizes</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_module_30167f0b470321104c7a41fe436d434d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_30167f0b470321104c7a41fe436d434d">04467f0b470321104c7a41fe436d43a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-31 16:51:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

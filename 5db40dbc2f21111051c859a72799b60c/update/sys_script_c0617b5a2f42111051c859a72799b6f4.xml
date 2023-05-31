@@ -113,9 +113,9 @@ for (var i = 0; i < follsandapps.length; i++) {
         <sys_mod_count>10</sys_mod_count>
         <sys_name>IT Assist GetWatchNotifChge</sys_name>
         <sys_overrides/>
-        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
-        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_script_c0617b5a2f42111051c859a72799b6f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-11 22:24:19</sys_updated_on>
