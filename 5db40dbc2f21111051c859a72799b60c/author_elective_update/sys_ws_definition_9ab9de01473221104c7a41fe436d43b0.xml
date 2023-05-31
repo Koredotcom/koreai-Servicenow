@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="DELETE">
+        <active>true</active>
+        <base_uri>/api/x_831378_kore_ai_0/snowwebsdkinfograb</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>snowwebsdkinfograb</name>
+        <namespace>x_831378_kore_ai_0</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>snowwebsdkinfograb</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 18:44:05</sys_created_on>
+        <sys_id>9ab9de01473221104c7a41fe436d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>snowwebsdkinfograb</sys_name>
+        <sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ws_definition_9ab9de01473221104c7a41fe436d43b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 18:44:05</sys_updated_on>
+    </sys_ws_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_ws_definition_9ab9de01473221104c7a41fe436d43b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_831378_kore_ai_0/snowwebsdkinfograb</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>snowwebsdkinfograb</name><namespace>x_831378_kore_ai_0</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>snowwebsdkinfograb</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-12 18:44:05</sys_created_on><sys_id>9ab9de01473221104c7a41fe436d43b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>snowwebsdkinfograb</sys_name><sys_package display_value="ITSM Assist in ServiceNow" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="ITSM Assist in ServiceNow">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_ws_definition_9ab9de01473221104c7a41fe436d43b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-12 18:44:05</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+        <payload_hash>1188412417</payload_hash>
+        <record_name>snowwebsdkinfograb</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 18:44:05</sys_created_on>
+        <sys_id>a9d9de0d477221104c7a41fe436d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188114700c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 18:44:05</sys_updated_on>
+        <type>Scripted REST API</type>
+        <update_guid>add9de0d7872211000c9f38c1108d23a</update_guid>
+        <update_guid_history>add9de0d7872211000c9f38c1108d23a:1188412417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-12 18:53:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_definition">sys_ws_definition</sys_db_object>
+        <sys_id>4a85db77c9cf47c88baa1eb03656cc40</sys_id>
+        <sys_metadata>9ab9de01473221104c7a41fe436d43b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>snowwebsdkinfograb</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ws_definition_9ab9de01473221104c7a41fe436d43b0</sys_update_name>
+        <sys_update_version display_value="sys_ws_definition_9ab9de01473221104c7a41fe436d43b0">a9d9de0d477221104c7a41fe436d433b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 18:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

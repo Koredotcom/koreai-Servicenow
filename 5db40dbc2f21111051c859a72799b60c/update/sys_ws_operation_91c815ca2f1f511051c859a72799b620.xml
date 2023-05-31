@@ -6,8 +6,8 @@
         <default_operation_uri/>
         <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
         <http_method>GET</http_method>
-        <name>retreivesysid</name>
-        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+        <name>retreiveminjs</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
 
 	// code below provided by 3ric on ServiceNow dev forums
     var grSA = new GlideRecord('sys_attachment');
@@ -29,10 +29,10 @@
         response.setStatus(404);
     }
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_831378_kore_ai_0/itassistwebsdkcheck/itassist/sdkjs</operation_uri>
+        <operation_uri>/api/x_831378_kore_ai_0/snowwebsdklink/itassist/minjs</operation_uri>
         <produces>application/javascript</produces>
         <produces_customized>true</produces_customized>
-        <relative_path>/itassist/sdkjs</relative_path>
+        <relative_path>/itassist/minjs</relative_path>
         <request_example/>
         <requires_acl_authorization>false</requires_acl_authorization>
         <requires_authentication>false</requires_authentication>
@@ -42,15 +42,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-22 16:56:57</sys_created_on>
         <sys_id>91c815ca2f1f511051c859a72799b620</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>retreivesysid</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>retreiveminjs</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_ws_operation_91c815ca2f1f511051c859a72799b620</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-10 16:06:22</sys_updated_on>
-        <web_service_definition display_value="itassistwebsdkcheck">5b485d8a2f1f511051c859a72799b61e</web_service_definition>
+        <sys_updated_on>2023-05-12 19:04:38</sys_updated_on>
+        <web_service_definition display_value="snowwebsdklink">5b485d8a2f1f511051c859a72799b61e</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
 </record_update>
