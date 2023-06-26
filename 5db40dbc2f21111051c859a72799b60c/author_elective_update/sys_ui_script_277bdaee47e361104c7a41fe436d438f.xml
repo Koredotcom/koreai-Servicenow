@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_831378_kore_ai_0.testgrab_websdkhoriz</name>
+        <script><![CDATA[var x_831378_kore_ai_0 = x_831378_kore_ai_0 || {};
+
+x_831378_kore_ai_0.testgrab_websdkhoriz = (function() {
+	"use strict";
+	var newSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+	/* set your private variables and functions here. For example: 
+		var privateVar = 0; 
+		function private_function() {
+			return ++privateVar;
+		}
+	*/
+
+	/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+		x_831378_kore_ai_0.sharedVar = 0; 
+
+	Then access them in your scripts the same way. For example: 
+		function get_shared() {
+			return x_831378_kore_ai_0.sharedVar;
+		}
+	*/
+
+	return {
+		/* set your public API here. For example:
+				incrementAndReturnPrivateVar: function() {
+					return private_function();
+				},
+		*/
+		type:  "testgrab_websdkhoriz"
+	};
+})();
+]]></script>
+        <script_name>testgrab_websdkhoriz</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 17:31:51</sys_created_on>
+        <sys_id>277bdaee47e361104c7a41fe436d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0.testgrab_websdkhoriz</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ui_script_277bdaee47e361104c7a41fe436d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 17:31:51</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_ui_script_277bdaee47e361104c7a41fe436d438f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_831378_kore_ai_0.testgrab_websdkhoriz&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_831378_kore_ai_0 = x_831378_kore_ai_0 || {};
+
+x_831378_kore_ai_0.testgrab_websdkhoriz = (function() {
+	"use strict";
+	var newSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+	/* set your private variables and functions here. For example: 
+		var privateVar = 0; 
+		function private_function() {
+			return ++privateVar;
+		}
+	*/
+
+	/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+		x_831378_kore_ai_0.sharedVar = 0; 
+
+	Then access them in your scripts the same way. For example: 
+		function get_shared() {
+			return x_831378_kore_ai_0.sharedVar;
+		}
+	*/
+
+	return {
+		/* set your public API here. For example:
+				incrementAndReturnPrivateVar: function() {
+					return private_function();
+				},
+		*/
+		type:  "testgrab_websdkhoriz"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;testgrab_websdkhoriz&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-23 17:31:51&lt;/sys_created_on&gt;&lt;sys_id&gt;277bdaee47e361104c7a41fe436d438f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_831378_kore_ai_0.testgrab_websdkhoriz&lt;/sys_name&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_277bdaee47e361104c7a41fe436d438f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-23 17:31:51&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1966665410</payload_hash>
+        <record_name>x_831378_kore_ai_0.testgrab_websdkhoriz</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 17:31:51</sys_created_on>
+        <sys_id>381c5aaa47e361104c7a41fe436d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188e94ff4430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 17:31:51</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>7c1c5aaa4ae36110bf726668eac8ee89</update_guid>
+        <update_guid_history>7c1c5aaa4ae36110bf726668eac8ee89:-1966665410</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 18:15:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>49f76de932eb4d229b43070425b0de19</sys_id>
+        <sys_metadata>277bdaee47e361104c7a41fe436d438f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0.testgrab_websdkhoriz</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_script_277bdaee47e361104c7a41fe436d438f</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_277bdaee47e361104c7a41fe436d438f">381c5aaa47e361104c7a41fe436d438a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 18:15:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

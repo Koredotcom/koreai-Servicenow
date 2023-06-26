@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e0f5370b470321104c7a41fe436d43d2" label="IT Assist Config Horiz" max_length="40" name="x_831378_kore_ai_0_it_assist_config_horiz" type="collection">
-        <element label="Accept Filetype" mandatory="true" max_length="255" name="accept" type="password2"/>
+        <element label="Accept Filetype" max_length="255" name="accept" read_only="true" type="string_full_utf8"/>
         <element label="Authorization Key" mandatory="true" max_length="255" name="authorization" type="password2"/>
-        <element label="Datatable For API" mandatory="true" max_length="255" name="datatable" type="password2"/>
-        <element label="Endpoint For Notify Platform" mandatory="true" max_length="255" name="endpoint" type="password2"/>
-        <element label="Integration Service for API" mandatory="true" max_length="255" name="integration_service" type="password2"/>
-        <element label="Platform Table Endpoint" mandatory="true" max_length="255" name="platform" type="password2"/>
-        <element display="true" label="Service Host Table Endpoint" mandatory="true" max_length="255" name="serv_host" type="password2"/>
+        <element label="Datatable For API" mandatory="true" max_length="255" name="datatable" type="string_full_utf8"/>
+        <element label="Endpoint For Notify Platform" mandatory="true" max_length="255" name="endpoint" type="url"/>
+        <element label="firstEntry" max_length="40" name="firstentry" read_only="true" type="boolean"/>
+        <element label="Integration Service for API" mandatory="true" max_length="255" name="integration_service" type="string_full_utf8"/>
+        <element label="Platform Table Endpoint" mandatory="true" max_length="255" name="platform" type="url"/>
+        <element display="true" label="Service Host Table Endpoint" mandatory="true" max_length="255" name="serv_host" type="url"/>
     </element>
 </database>

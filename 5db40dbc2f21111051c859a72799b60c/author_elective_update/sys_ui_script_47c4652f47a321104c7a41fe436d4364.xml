@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_831378_kore_ai_0.dummyhoriztest</name>
+        <script><![CDATA[var x_831378_kore_ai_0 = x_831378_kore_ai_0 || {};
+x_831378_kore_ai_0.dummyhoriztest = (function() {
+	"use strict";
+	var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+	horizSDKTable.query(callbackFunc);
+	function callbackFunc(gr) {
+		while (horizSDKTable.next()) {
+			data["Bot ID"] = horizSDKTable.bot_id;
+			alert(horizSDKTable.bot_id);
+			data["Bot Name"] = horizSDKTable.bot_name;
+			data["Client ID"] = horizSDKTable.client_id;
+			data["Client Secret"] = horizSDKTable.getElement("client_secret").getDecryptedValue();
+			data["Kore API URL"] = horizSDKTable.kore_api_url;
+			data["JWT URL"] = horizSDKTable.jwt_url;
+		}
+	}
+
+	return {
+		type:  "dummyhoriztest"
+	};
+})();
+]]></script>
+        <script_name>dummyhoriztest</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 16:05:10</sys_created_on>
+        <sys_id>47c4652f47a321104c7a41fe436d4364</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0.dummyhoriztest</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ui_script_47c4652f47a321104c7a41fe436d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 16:05:46</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_ui_script_47c4652f47a321104c7a41fe436d4364</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_831378_kore_ai_0.dummyhoriztest&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_831378_kore_ai_0 = x_831378_kore_ai_0 || {};
+x_831378_kore_ai_0.dummyhoriztest = (function() {
+	"use strict";
+	var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+	horizSDKTable.query(callbackFunc);
+	function callbackFunc(gr) {
+		while (horizSDKTable.next()) {
+			data["Bot ID"] = horizSDKTable.bot_id;
+			alert(horizSDKTable.bot_id);
+			data["Bot Name"] = horizSDKTable.bot_name;
+			data["Client ID"] = horizSDKTable.client_id;
+			data["Client Secret"] = horizSDKTable.getElement("client_secret").getDecryptedValue();
+			data["Kore API URL"] = horizSDKTable.kore_api_url;
+			data["JWT URL"] = horizSDKTable.jwt_url;
+		}
+	}
+
+	return {
+		type:  "dummyhoriztest"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;dummyhoriztest&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-26 16:05:10&lt;/sys_created_on&gt;&lt;sys_id&gt;47c4652f47a321104c7a41fe436d4364&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_831378_kore_ai_0.dummyhoriztest&lt;/sys_name&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_47c4652f47a321104c7a41fe436d4364&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-26 16:05:46&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1662546888</payload_hash>
+        <record_name>x_831378_kore_ai_0.dummyhoriztest</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 16:05:46</sys_created_on>
+        <sys_id>d525692f47a321104c7a41fe436d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188f8743a2a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 16:05:46</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>5d25692fdba32110582c2045b4310918</update_guid>
+        <update_guid_history>5d25692fdba32110582c2045b4310918:-1662546888,9c05652f49a32110a9990c6c1757c36b:524821737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 20:21:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>06cbc6323c0d4b6584d2ecc2fbfdf6a1</sys_id>
+        <sys_metadata>47c4652f47a321104c7a41fe436d4364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0.dummyhoriztest</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_script_47c4652f47a321104c7a41fe436d4364</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_47c4652f47a321104c7a41fe436d4364">d525692f47a321104c7a41fe436d4319</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 20:21:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

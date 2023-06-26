@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="DELETE">
+        <display_name>dummyjs</display_name>
+        <source>local</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 16:11:56</sys_created_on>
+        <sys_id>9866292f47a321104c7a41fe436d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dummyjs</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_ui_script display_value="x_831378_kore_ai_0.dummyhoriztest">47c4652f47a321104c7a41fe436d4364</sys_ui_script>
+        <sys_update_name>sp_js_include_9866292f47a321104c7a41fe436d439a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 16:11:56</sys_updated_on>
+        <url/>
+    </sp_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sp_js_include_9866292f47a321104c7a41fe436d439a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>dummyjs</display_name><source>local</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-26 16:11:56</sys_created_on><sys_id>9866292f47a321104c7a41fe436d439a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dummyjs</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_ui_script display_value="x_831378_kore_ai_0.dummyhoriztest">47c4652f47a321104c7a41fe436d4364</sys_ui_script><sys_update_name>sp_js_include_9866292f47a321104c7a41fe436d439a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-26 16:11:56</sys_updated_on><url/></sp_js_include></record_update>]]></payload>
+        <payload_hash>1829889727</payload_hash>
+        <record_name>dummyjs</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 16:11:56</sys_created_on>
+        <sys_id>a38661af47a321104c7a41fe436d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188f879e0b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 16:11:56</sys_updated_on>
+        <type>JS Include</type>
+        <update_guid>e78661affea32110e0015eedd4e85569</update_guid>
+        <update_guid_history>e78661affea32110e0015eedd4e85569:1829889727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="dummyjs">4537ed6f47a321104c7a41fe436d43f1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-26 16:14:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_js_include">sp_js_include</sys_db_object>
+        <sys_id>4d2b2eaf07ec4d94b96071a444fbba29</sys_id>
+        <sys_metadata>9866292f47a321104c7a41fe436d439a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dummyjs</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sp_js_include_9866292f47a321104c7a41fe436d439a</sys_update_name>
+        <sys_update_version display_value="sp_js_include_9866292f47a321104c7a41fe436d439a">a38661af47a321104c7a41fe436d436a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-26 16:14:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

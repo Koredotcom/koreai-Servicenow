@@ -5,15 +5,15 @@
         <sp_js_include display_value="kore-ai-sdk.min.js">83a4a9462f5f511051c859a72799b6d1</sp_js_include>
         <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-01 18:10:31</sys_created_on>
-        <sys_id>da90cc452f63111051c859a72799b6f6</sys_id>
+        <sys_created_on>2023-06-26 16:13:29</sys_created_on>
+        <sys_id>56e6e9eb47a321104c7a41fe436d43b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ITAssistKoreChatDepend.kore-ai-sdk.min.js</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
-        <sys_update_name>m2m_sp_dependency_js_include_da90cc452f63111051c859a72799b6f6</sys_update_name>
+        <sys_update_name>m2m_sp_dependency_js_include_56e6e9eb47a321104c7a41fe436d43b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-01 18:10:31</sys_updated_on>
+        <sys_updated_on>2023-06-26 16:13:29</sys_updated_on>
     </m2m_sp_dependency_js_include>
 </record_update>

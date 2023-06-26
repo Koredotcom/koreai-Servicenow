@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Configuration" section_id="b7da8c1b474321104c7a41fe436d4362" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>authorization</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>6d2217c9479321104c7a41fe436d434a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serv_host</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>612217c9479321104c7a41fe436d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>platform</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>652217c9479321104c7a41fe436d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>endpoint</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>692217c9479321104c7a41fe436d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>6d2217c9479321104c7a41fe436d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>firstentry</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>612217c9479321104c7a41fe436d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accept</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>652217c9479321104c7a41fe436d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_service</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>692217c9479321104c7a41fe436d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datatable</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+            <sys_id>6d2217c9479321104c7a41fe436d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Configuration</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-31 18:21:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7da8c1b474321104c7a41fe436d4362</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_b7da8c1b474321104c7a41fe436d4362</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-06 18:52:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>4f8a3dcddbde0818f492c597059619dc</instance_id>
+        <instance_name>dev96632</instance_name>
+        <name>sys_ui_section_b7da8c1b474321104c7a41fe436d4362</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Configuration" section_id="b7da8c1b474321104c7a41fe436d4362" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>authorization</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>6d2217c9479321104c7a41fe436d434a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>serv_host</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>612217c9479321104c7a41fe436d434b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>platform</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>652217c9479321104c7a41fe436d434b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>endpoint</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>692217c9479321104c7a41fe436d434b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>6d2217c9479321104c7a41fe436d434b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>firstentry</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>612217c9479321104c7a41fe436d434c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>accept</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>652217c9479321104c7a41fe436d434c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>integration_service</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>692217c9479321104c7a41fe436d434c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>datatable</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-06 19:21:31</sys_created_on><sys_id>6d2217c9479321104c7a41fe436d434c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Configuration" display_value="Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">b7da8c1b474321104c7a41fe436d4362</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 19:21:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Configuration</caption><header>false</header><name>x_831378_kore_ai_0_it_assist_config_horiz</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-31 18:21:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b7da8c1b474321104c7a41fe436d4362</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name><sys_overrides/><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_ui_section_b7da8c1b474321104c7a41fe436d4362</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-06 18:52:53</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1821617421</payload_hash>
+        <record_name>IT Assist Config Horiz</record_name>
+        <reverted_from/>
+        <source>835645f52f42111051c859a72799b692</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 19:21:31</sys_created_on>
+        <sys_id>a12217c9479321104c7a41fe436d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18892283fc70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:21:31</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>692217c9fe932110a66da7d326c49b4e</update_guid>
+        <update_guid_history>692217c9fe932110a66da7d326c49b4e:1821617421,129b8345ca9321100f6ef725e232bc18:-2077029603,829b43452a9321100e9d77a6d1742ad9:-1627205858,074a2d2bca8761101506d2994c4bd6c9:-1817065510,721a692b888761102c5e53e3caf35394:-2094294182,2927a967b2876110f201d9de3eb258ea:-1817065510,2eb325a384876110a65e4b55920a0272:1510403946,b29361a3b28761106c7a891aba24cbd0:1341941805,83f89de76647611055dc2a82e8550db0:788617886,b770dc939e8321106c4954e394bbce50:-1976066184,3fda085f8643211020fdd73c11ec5bcc:-20174157,bbda085fa443211031219e3e6c1bb2c6:650383880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 19:34:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>7ad7c49c0d8a4f838bb4d84258658a79</sys_id>
+        <sys_metadata>b7da8c1b474321104c7a41fe436d4362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuration</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="IT Assist Config Horiz">e0f5370b470321104c7a41fe436d43d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b7da8c1b474321104c7a41fe436d4362</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b7da8c1b474321104c7a41fe436d4362">a12217c9479321104c7a41fe436d434f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 19:34:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

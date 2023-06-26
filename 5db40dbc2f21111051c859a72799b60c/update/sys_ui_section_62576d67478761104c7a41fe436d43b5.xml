@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="WebSDK Configuration" section_id="62576d67478761104c7a41fe436d43b5" sys_domain="global" table="x_831378_kore_ai_0_websdk_config_horiz" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>3201399a47a321104c7a41fe436d430c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <text>This page allows you to configure the connection between the WebSDK platform and your instance of ServiceNow. ServiceNow will contact the endpoints listed below in the "URL's" section using the "Variables" provided to allow for the widget in the ServiceNow Service Platform (SP) to operate correctly.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>f201399a47a321104c7a41fe436d430c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <text>Add/update the information below in each tab, then press the "Submit" to update the configuration data used.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3201399a47a321104c7a41fe436d430c</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>fe01399a47a321104c7a41fe436d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f201399a47a321104c7a41fe436d430c</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>7201399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>f201399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bot_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>7601399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bot_id</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>f601399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kore_api_url</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>7a01399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>jwt_url</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>fa01399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>7e01399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_id</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>fe01399a47a321104c7a41fe436d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_secret</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>7201399a47a321104c7a41fe436d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>firstentry</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-22 19:45:21</sys_created_on>
+            <sys_id>f201399a47a321104c7a41fe436d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-22 19:45:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>WebSDK Configuration</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_websdk_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:44:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62576d67478761104c7a41fe436d43b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_websdk_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_62576d67478761104c7a41fe436d43b5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-01 19:44:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

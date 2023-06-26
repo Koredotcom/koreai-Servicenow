@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[api.controller = function($scope) {
+        <client_script><![CDATA[api.controller = function() {
   // widget controller
   var c = this;
-  c.data = [];
-  c.server.get().then(function(response) {
-    c.data = response.data;
-		var localBotOptions = window.KoreSDK.chatConfig.botOptions;
-		localBotOptions.JWTURL = c.data["JWT URL"];
-	  localBotOptions.botInfo._id = c.data["Bot ID"];
-	  localBotOptions.botInfo.name = c.data["Bot Name"];
-	  localBotOptions.clientId = c.data["Client ID"];
-	  localBotOptions.clientSecret = c.data["Client Secret"];
-   	localBotOptions.koreAPIUrl = c.data["Kore API URL"];
-	  localBotOptions.userIdentity = c.data.user_sdk_email;
-  });
-  /*
-  $scope.userUpdate = function(window) {
-	$sp.window.KoreSDK.chatConfig.botOptions.JWTURL = $scope.data.sdkinfo["JWT URL"];
-	$sp.window.KoreSDK.chatCoWindownfig.botOptions.botInfo._id = $scope.data.sdkinfo["Bot ID"];
-	$sp.window.KoreSDK.chatConfig.botOptions.botInfo.name = $scope.data.sdkinfo["Bot Name"];
-	$sp.window.KoreSDK.chatConfig.botOptions.clientId = $scope.data.sdkinfo["Client ID"];
-	$sp.window.KoreSDK.chatConfig.botOptions.clientSecret = $scope.data.sdkinfo["Client Secret"];
-	$sp.window.KoreSDK.chatConfig.botOptions.koreAPIUrl = $scope.data.sdkinfo["Kore API URL"];
-	$sp.window.KoreSDK.chatConfig.botOptions.userIdentity = $scope.data.sdkinfo["user_sdk_email"];
-	KoreSDK.show(KoreSDK.chatConfig);
-	$scope.server.update();
-	location.reload();
-  };
-	*/
+  chatConfig = KoreSDK.chatConfig;
+  chatConfig.botOptions.JWTUrl = c.data["JWT URL"];
+  chatConfig.botOptions.botInfo._id = c.data["Bot ID"];
+  chatConfig.botOptions.botInfo.name = c.data["Bot Name"];
+  chatConfig.botOptions.clientId = c.data["Client ID"];
+  chatConfig.botOptions.clientSecret = c.data["Client Secret"];
+  chatConfig.botOptions.koreAPIUrl = c.data["Kore API URL"];
+  chatConfig.botOptions.userIdentity = c.data.user_identity;
+  chatConfig.botOptions.brandingAPIUrl = c.data["Kore API URL"] + "websdkthemes/" + c.data["Bot ID"] + "/activetheme";
+  var koreBot = koreBotChat();
+  koreBot.show(chatConfig);
 };]]></client_script>
         <controller_as>c</controller_as>
         <css/>
@@ -49,42 +34,40 @@
         <public>true</public>
         <roles>x_831378_kore_ai_0.def_user,x_831378_kore_ai_0.itsm_config_usr,x_831378_kore_ai_0.def_admn,x_831378_kore_ai_0.configrulebools_vert_user,x_831378_kore_ai_0.testtableconfig_user,x_831378_kore_ai_0.websdkconfig_verti_user,x_831378_kore_ai_0.websdkconfig_vert_user,user,admin</roles>
         <script><![CDATA[(function() {
-  var data = [];
-
   // websdk config table scrape
-  var websdkTable = new GlideRecord("x_831378_kore_ai_0_websdkconfig_verti");
-  websdkTable.query();
-  while (websdkTable.next()) {
-		var sdkName = websdkTable.name_of_sdk_config;
-		var sdkValueDec = websdkTable.getElement("protected_config_value").getDecryptedValue();
-		var sdkPair = {};
-		sdkPair[sdkName] = sdkValueDec;
-		data.push(sdkPair);
+  // horiz websdk config table scrape
+  var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+  horizSDKTable.addQuery('firstentry', 'true');
+  horizSDKTable.query();
+  while (horizSDKTable.next()) {
+	data["Bot ID"] = horizSDKTable.bot_id + '';
+	data["Bot Name"] = horizSDKTable.bot_name + '';
+	data["Client ID"] = horizSDKTable.client_id + '';
+	data["Client Secret"] = horizSDKTable.getElement("client_secret").getDecryptedValue() + '';
+	data["Kore API URL"] = horizSDKTable.kore_api_url + '';
+	data["JWT URL"] = horizSDKTable.jwt_url + '';
   }
   // user table scrape
   var userTable = new GlideRecord("sys_user");
   userTable.addQuery("sys_id", gs.getUserID());
   userTable.query();
   while (userTable.next()) {
-		var sdkEmailPair = {user_sdk_email: userTable.email.toString()};
-		//sdkEmailPair["user_sdk_email"] = userTable.email.toString();
-		data.push(sdkEmailPair);
+	data.user_identity = userTable.email.toString();
   }
-  // gs.addInfoMessage(data.sdkinfo["user_sdk_email"]);
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-22 18:56:52</sys_created_on>
         <sys_id>f2a4b5c22f9f511051c859a72799b61e</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_name>ITAssistKoreChatWidg</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sp_widget_f2a4b5c22f9f511051c859a72799b61e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-02 20:12:26</sys_updated_on>
+        <sys_updated_on>2023-06-26 20:00:19</sys_updated_on>
         <template><![CDATA[<div>
   <!--
   <div ng-repeat="item in c.data">
