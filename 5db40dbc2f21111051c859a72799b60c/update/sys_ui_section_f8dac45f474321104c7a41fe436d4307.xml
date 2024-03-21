@@ -3,50 +3,50 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-20 14:01:18</sys_created_on>
-            <sys_id>b6b2d5b547010210e0406f8a436d4310</sys_id>
+            <sys_created_on>2024-03-21 06:18:21</sys_created_on>
+            <sys_id>8752fc8247c90210e0406f8a436d434d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-20 14:01:18</sys_updated_on>
+            <sys_updated_on>2024-03-21 06:18:21</sys_updated_on>
             <text>The page allows you to change what notifications are broadcasted out from ServiceNow into the Kore.ai ITSM platform. Certain types of notifications are grouped below.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-20 14:01:18</sys_created_on>
-            <sys_id>bab2d5b547010210e0406f8a436d4310</sys_id>
+            <sys_created_on>2024-03-21 06:18:21</sys_created_on>
+            <sys_id>9f52fc8247c90210e0406f8a436d434d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-20 14:01:18</sys_updated_on>
+            <sys_updated_on>2024-03-21 06:18:21</sys_updated_on>
             <text>Enable/disable any notification by clicking on its respective checkbox. Update any notifications' status in each tab and then press the "Update" button.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b6b2d5b547010210e0406f8a436d4310</element>
+            <element>8752fc8247c90210e0406f8a436d434d</element>
             <position>0</position>
             <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-20 14:01:18</sys_created_on>
-            <sys_id>b6b2d5b547010210e0406f8a436d4313</sys_id>
+            <sys_created_on>2024-03-21 06:18:21</sys_created_on>
+            <sys_id>d752fc8247c90210e0406f8a436d4351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Assist Rule Toggles" display_value="IT Assist Rule Toggles" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">f8dac45f474321104c7a41fe436d4307</sys_ui_section>
             <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-20 14:01:18</sys_updated_on>
+            <sys_updated_on>2024-03-21 06:18:21</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bab2d5b547010210e0406f8a436d4310</element>
+            <element>9f52fc8247c90210e0406f8a436d434d</element>
             <position>1</position>
             <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-20 14:01:18</sys_created_on>
-            <sys_id>bab2d5b547010210e0406f8a436d4313</sys_id>
+            <sys_created_on>2024-03-21 06:18:21</sys_created_on>
+            <sys_id>db52fc8247c90210e0406f8a436d4351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IT Assist Rule Toggles" display_value="IT Assist Rule Toggles" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">f8dac45f474321104c7a41fe436d4307</sys_ui_section>
             <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-20 14:01:18</sys_updated_on>
+            <sys_updated_on>2024-03-21 06:18:21</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

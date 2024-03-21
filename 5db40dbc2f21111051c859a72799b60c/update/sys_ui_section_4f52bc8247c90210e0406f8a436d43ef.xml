@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Request" section_id="c3f01b7497f442109b137076f053af3f" sys_domain="global" table="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" version="3" view="">
+    <sys_ui_section caption="Request" section_id="4f52bc8247c90210e0406f8a436d43ef" sys_domain="global" table="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>it_assist_interceptreqnotification</element>
             <position>0</position>
             <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-20 13:59:28</sys_created_on>
-            <sys_id>845211b547010210e0406f8a436d43a1</sys_id>
+            <sys_created_on>2024-03-21 06:18:22</sys_created_on>
+            <sys_id>5352fc8247c90210e0406f8a436d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Request" display_value="Request" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">c3f01b7497f442109b137076f053af3f</sys_ui_section>
+            <sys_ui_section caption="Request" display_value="Request" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">4f52bc8247c90210e0406f8a436d43ef</sys_ui_section>
             <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-20 13:59:28</sys_updated_on>
+            <sys_updated_on>2024-03-21 06:18:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-20 13:59:28</sys_created_on>
-            <sys_id>885211b547010210e0406f8a436d43a1</sys_id>
+            <sys_created_on>2024-03-21 06:18:22</sys_created_on>
+            <sys_id>5752fc8247c90210e0406f8a436d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Request" display_value="Request" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">c3f01b7497f442109b137076f053af3f</sys_ui_section>
+            <sys_ui_section caption="Request" display_value="Request" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">4f52bc8247c90210e0406f8a436d43ef</sys_ui_section>
             <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-20 13:59:28</sys_updated_on>
+            <sys_updated_on>2024-03-21 06:18:22</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>it_assist_getnotifreqclos</element>
             <position>2</position>
             <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-20 13:59:28</sys_created_on>
-            <sys_id>8c5211b547010210e0406f8a436d43a1</sys_id>
+            <sys_created_on>2024-03-21 06:18:22</sys_created_on>
+            <sys_id>5b52fc8247c90210e0406f8a436d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Request" display_value="Request" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">c3f01b7497f442109b137076f053af3f</sys_ui_section>
+            <sys_ui_section caption="Request" display_value="Request" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">4f52bc8247c90210e0406f8a436d43ef</sys_ui_section>
             <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-20 13:59:28</sys_updated_on>
+            <sys_updated_on>2024-03-21 06:18:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -48,20 +48,20 @@
             <name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-05 10:23:17</sys_created_on>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-21 06:18:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c3f01b7497f442109b137076f053af3f</sys_id>
+            <sys_id>4f52bc8247c90210e0406f8a436d43ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</sys_name>
             <sys_overrides/>
             <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
             <sys_policy/>
             <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
-            <sys_update_name>sys_ui_section_c3f01b7497f442109b137076f053af3f</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-05 10:23:17</sys_updated_on>
+            <sys_update_name>sys_ui_section_4f52bc8247c90210e0406f8a436d43ef</sys_update_name>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-21 06:18:20</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

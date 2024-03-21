@@ -3,13 +3,13 @@
         <element display="true" label="displayName" max_length="255" name="displayname" type="string_full_utf8"/>
         <element default="true" label="firstEntry" max_length="40" name="firstentry" type="boolean"/>
         <element default="true" label="Get Approval Notifications" max_length="40" name="it_assist_getapprvnotif" type="boolean"/>
-        <element default="true" label="Get Incident Property Change Notifications" max_length="40" name="it_assist_getincpropchnge" type="boolean"/>
+        <element default="true" label="Get Incident state Change Notifications" max_length="40" name="it_assist_getincpropchnge" type="boolean"/>
         <element default="true" label="Get Notifications on Approval Comments" max_length="40" name="it_assist_getnotifapprvcmnts" type="boolean"/>
         <element default="true" label="Get Notifications on Request Closure" max_length="40" name="it_assist_getnotifreqclos" type="boolean"/>
         <element default="true" label="Get Notifications on Request Workflow Change" max_length="40" name="it_assist_getnotifreqwrflw" type="boolean"/>
         <element default="true" label="Get Outage Notifications" max_length="40" name="it_assist_getotgenotif" type="boolean"/>
         <element default="true" label="Get Watcher Notifications on Change in Request" max_length="40" name="it_assist_getwatchnotifchge" type="boolean"/>
-        <element default="true" label="IT Assist InterceptIncNotification" max_length="40" name="it_assist_interceptincnotification" type="boolean"/>
-        <element label="IT Assist InterceptReqNotification" max_length="40" name="it_assist_interceptreqnotification" type="boolean"/>
+        <element default="true" label="IT Assist Intercept Incident Notification" max_length="40" name="it_assist_interceptincnotification" type="boolean"/>
+        <element label="IT Assist Intercept Request Notification" max_length="40" name="it_assist_interceptreqnotification" type="boolean"/>
     </element>
 </database>

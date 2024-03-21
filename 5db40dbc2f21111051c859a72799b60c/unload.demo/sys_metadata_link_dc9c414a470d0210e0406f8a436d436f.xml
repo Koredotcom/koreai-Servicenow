@@ -6,12 +6,12 @@
     <x_831378_kore_ai_0_it_assist_config_horiz action="INSERT_OR_UPDATE">
         <accept>application/json</accept>
         <account_id>Enter account Id </account_id>
-        <authorization>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭O3HoFWNcSIoJMhhl3mdoxg==7REUhnFEPedgRzdhJV3d36td9o6FOfVooAsVY2LZxRq-HxdQ042DPfqyuazIrkrn_x-9-YHeY0Phlnxm_gBjIriR6RATFg7fsc4aOqw5-twYw_PDyXD2dygYkM2lPrh9jTh9WNcuJtPkTesHLqRoV0ooFJgUND_P2-1Ca36hh6b0CHr7y_ZvUhawKCgy4vEdCeIqPz6ZDPkdSCrxL9sVsJWNprygFiiGj6xHYW-t2PERwqzE_WlqPb4p3OWzuGgBU-dzcyBO7zyHKnB_OrfIT6OjG0G62g6FM6jbUJW1YRta6BMK0m9RCxdH_SYiQbKf﷮﷯</authorization>
+        <authorization>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭4e5cvigmg_EBXctHwycQxQ==KJUjLbiDMu4EMcypoAdJLpShNXoJv4fJs9_Q7so=﷮﷯</authorization>
         <bot_id>Please Enter bot name</bot_id>
         <bot_name>Name of the bot</bot_name>
         <bot_service_account display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</bot_service_account>
-        <client_id>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭ANkhp2iozgAaOt44_uL5Gg==c_LmIPdzLsc6T3i3mDZnqzknsF3GnuEQzjSXzUOSGVoECW2x9j_9ZxG77ZX7qHjEV_Jr5707GA==﷮﷯</client_id>
-        <client_secret>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭Q4yjbr6duXuYz2hjKJ5s9w==0rapEbAoSBxN3KE8VTJoJrOHscAfjqFbieQexf46axrcS0AmG4T24sCTAX7mjPIH3NH8mjMJezNjJ2DF﷮﷯</client_secret>
+        <client_id>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭1WI5XZbeanSegSAepReLmg==wJW0NM3fz4htEGi4aPO_LVGRFN88oA-U﷮﷯</client_id>
+        <client_secret>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭FbDCBlpIQPJc6Po35kIrOQ==ZP5UH4vBLY5lm-rs_cBb3gCD502lkVsfScMOUQA=﷮﷯</client_secret>
         <datatable>Enter data table value</datatable>
         <display_name/>
         <endpoint>Enter the API Path.</endpoint>
@@ -24,24 +24,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 10:06:17</sys_created_on>
         <sys_id>98ec433097f442109b137076f053af48</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>vikramc</sys_updated_by>
-        <sys_updated_on>2024-03-20 17:45:18</sys_updated_on>
+        <sys_updated_on>2024-03-21 08:12:29</sys_updated_on>
     </x_831378_kore_ai_0_it_assist_config_horiz>
 </record_update>
 ]]></payload>
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>vikramc</sys_created_by>
-        <sys_created_on>2024-03-20 17:50:35</sys_created_on>
-        <sys_id>a13786bd47810210e0406f8a436d4332</sys_id>
+        <sys_created_on>2024-03-21 08:12:50</sys_created_on>
+        <sys_id>dc9c414a470d0210e0406f8a436d436f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
-        <sys_update_name>sys_metadata_link_a13786bd47810210e0406f8a436d4332</sys_update_name>
+        <sys_update_name>sys_metadata_link_dc9c414a470d0210e0406f8a436d436f</sys_update_name>
         <sys_updated_by>vikramc</sys_updated_by>
-        <sys_updated_on>2024-03-20 17:50:35</sys_updated_on>
+        <sys_updated_on>2024-03-21 08:12:50</sys_updated_on>
         <tablename>x_831378_kore_ai_0_it_assist_config_hori</tablename>
     </sys_metadata_link>
 </record_update>

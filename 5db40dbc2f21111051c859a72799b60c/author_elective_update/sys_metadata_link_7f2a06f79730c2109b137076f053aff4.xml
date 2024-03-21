@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>unload.demo</directory>
+        <documentkey>98ec433097f442109b137076f053af48</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_831378_kore_ai_0_it_assist_config_horiz">
+    <x_831378_kore_ai_0_it_assist_config_horiz action="INSERT_OR_UPDATE">
+        <accept>application/json</accept>
+        <account_id>6565dfce2b483c5ceff6c120</account_id>
+        <authorization>﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭BWmSDrJ4G2lKm_XZF_YHog==O77GcLHW9JueDPOKNxCi52_uQTbM7M9Fxir4cDrJF-gQj1HUiHEs2OyrOj6wBS5MhMLl9v4fV7icsQojlH_Rljd2P6NxISZX2FUQ7JpXxPGZhU2_kNzF0aS2w2a2sASt9RoNynvNONpSyaDMhLXekdAS2pCBE-1FIkPSyZ35R_fqGLa05cOxCZYr7zdyT9y_Se_QPTcXbdOlq4gIRo5F5w6tFv8RcyaTxK61rV_YqD186MRwGsebbxEH7VXQz4lkrHpYKliPln1CADdqktX9GY2_JifkVJ3IaXfb4FkUTCuZgOY-brQZsbUwd4Y8VKDM﷮﷯</authorization>
+        <bot_id>st-dcf36fda-e58c-5eb1-8122-8a3e42ed8e0a</bot_id>
+        <bot_name>IT Assist</bot_name>
+        <bot_service_account display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</bot_service_account>
+        <client_id>﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭0QAZYzCDGQwRXZiPrZ4ggA==LigInua-ZpTcuhzSNcwvFX7_JXle5Uf13q2tB44wjVhzZAGRHvhUbK7s71J5Oo57APXbLmTKbA==﷮﷯</client_id>
+        <client_secret>﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭5Rll0WhrBZdrNUMLmGBXcw==mpDy7RzHWWtMuAUSER20WlTIh7dkIrJgnudZjLLHKCZfgidndzmtLcUGL1XRo2LOWhwJFmYPWyWmQcXa﷮﷯</client_secret>
+        <datatable>pushnotificationstable-production</datatable>
+        <display_name/>
+        <endpoint>https://itassist-qa.kore.ai/itsm_services/api/v1/notify</endpoint>
+        <firstentry>true</firstentry>
+        <integration_service>general</integration_service>
+        <jwt_url>https://mk2r2rmj21.execute-api.us-east-1.amazonaws.com/dev/users/sts</jwt_url>
+        <kore_api_url>https://staging-bots.korebots.com/api</kore_api_url>
+        <platform>https://staging-bots.korebots.com/api/1.1/public/tables/</platform>
+        <serv_host/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 10:06:17</sys_created_on>
+        <sys_id>98ec433097f442109b137076f053af48</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 04:58:35</sys_updated_on>
+    </x_831378_kore_ai_0_it_assist_config_horiz>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 12:55:43</sys_created_on>
+        <sys_id>7f2a06f79730c2109b137076f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_metadata_link_7f2a06f79730c2109b137076f053aff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 12:55:43</sys_updated_on>
+        <tablename>x_831378_kore_ai_0_it_assist_config_hori</tablename>
+    </sys_metadata_link>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>8700b0c4db2eed5037a0c59705961902</instance_id>
+        <instance_name>ven06091</instance_name>
+        <name>sys_metadata_link_7f2a06f79730c2109b137076f053aff4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;unload.demo&lt;/directory&gt;&lt;documentkey&gt;98ec433097f442109b137076f053af48&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_831378_kore_ai_0_it_assist_config_horiz"&gt;
+    &lt;x_831378_kore_ai_0_it_assist_config_horiz action="INSERT_OR_UPDATE"&gt;
+        &lt;accept&gt;application/json&lt;/accept&gt;
+        &lt;account_id&gt;6565dfce2b483c5ceff6c120&lt;/account_id&gt;
+        &lt;authorization&gt;﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭BWmSDrJ4G2lKm_XZF_YHog==O77GcLHW9JueDPOKNxCi52_uQTbM7M9Fxir4cDrJF-gQj1HUiHEs2OyrOj6wBS5MhMLl9v4fV7icsQojlH_Rljd2P6NxISZX2FUQ7JpXxPGZhU2_kNzF0aS2w2a2sASt9RoNynvNONpSyaDMhLXekdAS2pCBE-1FIkPSyZ35R_fqGLa05cOxCZYr7zdyT9y_Se_QPTcXbdOlq4gIRo5F5w6tFv8RcyaTxK61rV_YqD186MRwGsebbxEH7VXQz4lkrHpYKliPln1CADdqktX9GY2_JifkVJ3IaXfb4FkUTCuZgOY-brQZsbUwd4Y8VKDM﷮﷯&lt;/authorization&gt;
+        &lt;bot_id&gt;st-dcf36fda-e58c-5eb1-8122-8a3e42ed8e0a&lt;/bot_id&gt;
+        &lt;bot_name&gt;IT Assist&lt;/bot_name&gt;
+        &lt;bot_service_account display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/bot_service_account&gt;
+        &lt;client_id&gt;﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭0QAZYzCDGQwRXZiPrZ4ggA==LigInua-ZpTcuhzSNcwvFX7_JXle5Uf13q2tB44wjVhzZAGRHvhUbK7s71J5Oo57APXbLmTKbA==﷮﷯&lt;/client_id&gt;
+        &lt;client_secret&gt;﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭5Rll0WhrBZdrNUMLmGBXcw==mpDy7RzHWWtMuAUSER20WlTIh7dkIrJgnudZjLLHKCZfgidndzmtLcUGL1XRo2LOWhwJFmYPWyWmQcXa﷮﷯&lt;/client_secret&gt;
+        &lt;datatable&gt;pushnotificationstable-production&lt;/datatable&gt;
+        &lt;display_name/&gt;
+        &lt;endpoint&gt;https://itassist-qa.kore.ai/itsm_services/api/v1/notify&lt;/endpoint&gt;
+        &lt;firstentry&gt;true&lt;/firstentry&gt;
+        &lt;integration_service&gt;general&lt;/integration_service&gt;
+        &lt;jwt_url&gt;https://mk2r2rmj21.execute-api.us-east-1.amazonaws.com/dev/users/sts&lt;/jwt_url&gt;
+        &lt;kore_api_url&gt;https://staging-bots.korebots.com/api&lt;/kore_api_url&gt;
+        &lt;platform&gt;https://staging-bots.korebots.com/api/1.1/public/tables/&lt;/platform&gt;
+        &lt;serv_host/&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-03-05 10:06:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;98ec433097f442109b137076f053af48&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-03-14 04:58:35&lt;/sys_updated_on&gt;
+    &lt;/x_831378_kore_ai_0_it_assist_config_horiz&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-14 12:55:43&lt;/sys_created_on&gt;&lt;sys_id&gt;7f2a06f79730c2109b137076f053aff4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_7f2a06f79730c2109b137076f053aff4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-14 12:55:43&lt;/sys_updated_on&gt;&lt;tablename&gt;x_831378_kore_ai_0_it_assist_config_hori&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-842203345</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>de6a7912932331102823f81d6cba1015</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-01-07 16:37:26</sys_created_on>
+        <sys_id>49c98986470d0210e0406f8a436d432f</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18ce4c949700000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Metadata Snapshot</type>
+        <update_guid>09c98986a20d0210bd554801c843fc2f</update_guid>
+        <update_guid_history>09c98986a20d0210bd554801c843fc2f:-842203345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-21 08:00:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>5e104e0d4d1843ca9763fa760a84b3a4</sys_id>
+        <sys_metadata>7f2a06f79730c2109b137076f053aff4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_metadata_link_7f2a06f79730c2109b137076f053aff4</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_7f2a06f79730c2109b137076f053aff4">49c98986470d0210e0406f8a436d432f</sys_update_version>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:00:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

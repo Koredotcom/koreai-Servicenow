@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>unload.demo</directory>
+        <documentkey>98ec433097f442109b137076f053af48</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_831378_kore_ai_0_it_assist_config_horiz">
+    <x_831378_kore_ai_0_it_assist_config_horiz action="INSERT_OR_UPDATE">
+        <accept>application/json</accept>
+        <account_id>Enter account Id </account_id>
+        <authorization>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭O3HoFWNcSIoJMhhl3mdoxg==7REUhnFEPedgRzdhJV3d36td9o6FOfVooAsVY2LZxRq-HxdQ042DPfqyuazIrkrn_x-9-YHeY0Phlnxm_gBjIriR6RATFg7fsc4aOqw5-twYw_PDyXD2dygYkM2lPrh9jTh9WNcuJtPkTesHLqRoV0ooFJgUND_P2-1Ca36hh6b0CHr7y_ZvUhawKCgy4vEdCeIqPz6ZDPkdSCrxL9sVsJWNprygFiiGj6xHYW-t2PERwqzE_WlqPb4p3OWzuGgBU-dzcyBO7zyHKnB_OrfIT6OjG0G62g6FM6jbUJW1YRta6BMK0m9RCxdH_SYiQbKf﷮﷯</authorization>
+        <bot_id>Please Enter bot name</bot_id>
+        <bot_name>Name of the bot</bot_name>
+        <bot_service_account display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</bot_service_account>
+        <client_id>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭ANkhp2iozgAaOt44_uL5Gg==c_LmIPdzLsc6T3i3mDZnqzknsF3GnuEQzjSXzUOSGVoECW2x9j_9ZxG77ZX7qHjEV_Jr5707GA==﷮﷯</client_id>
+        <client_secret>﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭Q4yjbr6duXuYz2hjKJ5s9w==0rapEbAoSBxN3KE8VTJoJrOHscAfjqFbieQexf46axrcS0AmG4T24sCTAX7mjPIH3NH8mjMJezNjJ2DF﷮﷯</client_secret>
+        <datatable>Enter data table value</datatable>
+        <display_name/>
+        <endpoint>Enter the API Path.</endpoint>
+        <firstentry>true</firstentry>
+        <integration_service>Integration Service Value</integration_service>
+        <jwt_url>add jwt generation url</jwt_url>
+        <kore_api_url>https://bots.kore.ai/api</kore_api_url>
+        <platform>enter the platform url</platform>
+        <serv_host/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 10:06:17</sys_created_on>
+        <sys_id>98ec433097f442109b137076f053af48</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:45:18</sys_updated_on>
+    </x_831378_kore_ai_0_it_assist_config_horiz>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-21 07:44:50</sys_created_on>
+        <sys_id>c6260982470d0210e0406f8a436d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_metadata_link_c6260982470d0210e0406f8a436d43f4</sys_update_name>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-21 07:44:50</sys_updated_on>
+        <tablename>x_831378_kore_ai_0_it_assist_config_hori</tablename>
+    </sys_metadata_link>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>8700b0c4db2eed5037a0c59705961902</instance_id>
+        <instance_name>ven06091</instance_name>
+        <name>sys_metadata_link_c6260982470d0210e0406f8a436d43f4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;unload.demo&lt;/directory&gt;&lt;documentkey&gt;98ec433097f442109b137076f053af48&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_831378_kore_ai_0_it_assist_config_horiz"&gt;
+    &lt;x_831378_kore_ai_0_it_assist_config_horiz action="INSERT_OR_UPDATE"&gt;
+        &lt;accept&gt;application/json&lt;/accept&gt;
+        &lt;account_id&gt;Enter account Id &lt;/account_id&gt;
+        &lt;authorization&gt;﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭O3HoFWNcSIoJMhhl3mdoxg==7REUhnFEPedgRzdhJV3d36td9o6FOfVooAsVY2LZxRq-HxdQ042DPfqyuazIrkrn_x-9-YHeY0Phlnxm_gBjIriR6RATFg7fsc4aOqw5-twYw_PDyXD2dygYkM2lPrh9jTh9WNcuJtPkTesHLqRoV0ooFJgUND_P2-1Ca36hh6b0CHr7y_ZvUhawKCgy4vEdCeIqPz6ZDPkdSCrxL9sVsJWNprygFiiGj6xHYW-t2PERwqzE_WlqPb4p3OWzuGgBU-dzcyBO7zyHKnB_OrfIT6OjG0G62g6FM6jbUJW1YRta6BMK0m9RCxdH_SYiQbKf﷮﷯&lt;/authorization&gt;
+        &lt;bot_id&gt;Please Enter bot name&lt;/bot_id&gt;
+        &lt;bot_name&gt;Name of the bot&lt;/bot_name&gt;
+        &lt;bot_service_account display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/bot_service_account&gt;
+        &lt;client_id&gt;﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭ANkhp2iozgAaOt44_uL5Gg==c_LmIPdzLsc6T3i3mDZnqzknsF3GnuEQzjSXzUOSGVoECW2x9j_9ZxG77ZX7qHjEV_Jr5707GA==﷮﷯&lt;/client_id&gt;
+        &lt;client_secret&gt;﷞﷟﷒1d357e994709ce14b1cb48fd436d4386﷬﷔1﷬﷭Q4yjbr6duXuYz2hjKJ5s9w==0rapEbAoSBxN3KE8VTJoJrOHscAfjqFbieQexf46axrcS0AmG4T24sCTAX7mjPIH3NH8mjMJezNjJ2DF﷮﷯&lt;/client_secret&gt;
+        &lt;datatable&gt;Enter data table value&lt;/datatable&gt;
+        &lt;display_name/&gt;
+        &lt;endpoint&gt;Enter the API Path.&lt;/endpoint&gt;
+        &lt;firstentry&gt;true&lt;/firstentry&gt;
+        &lt;integration_service&gt;Integration Service Value&lt;/integration_service&gt;
+        &lt;jwt_url&gt;add jwt generation url&lt;/jwt_url&gt;
+        &lt;kore_api_url&gt;https://bots.kore.ai/api&lt;/kore_api_url&gt;
+        &lt;platform&gt;enter the platform url&lt;/platform&gt;
+        &lt;serv_host/&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-03-05 10:06:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;98ec433097f442109b137076f053af48&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;vikramc&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-03-20 17:45:18&lt;/sys_updated_on&gt;
+    &lt;/x_831378_kore_ai_0_it_assist_config_horiz&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vikramc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-21 07:44:50&lt;/sys_created_on&gt;&lt;sys_id&gt;c6260982470d0210e0406f8a436d43f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_c6260982470d0210e0406f8a436d43f4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;vikramc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-21 07:44:50&lt;/sys_updated_on&gt;&lt;tablename&gt;x_831378_kore_ai_0_it_assist_config_hori&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>945513779</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6ba876c847410a10496fbd42736d43b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-21 07:44:50</sys_created_on>
+        <sys_id>0a260982470d0210e0406f8a436d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5ff849040000001</sys_recorded_at>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-21 07:44:50</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>42260982330d0210c717a4d8b2f372f6</update_guid>
+        <update_guid_history>42260982330d0210c717a4d8b2f372f6:945513779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-21 08:10:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>ae89d9be2d02471b95852be54b1bc641</sys_id>
+        <sys_metadata>c6260982470d0210e0406f8a436d43f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_metadata_link_c6260982470d0210e0406f8a436d43f4</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_c6260982470d0210e0406f8a436d43f4">0a260982470d0210e0406f8a436d43f6</sys_update_version>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:10:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

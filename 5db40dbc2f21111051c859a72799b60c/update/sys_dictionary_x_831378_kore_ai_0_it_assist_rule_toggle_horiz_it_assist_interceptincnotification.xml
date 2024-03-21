@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>IT Assist InterceptIncNotification</column_label>
+        <column_label>IT Assist Intercept Incident Notification</column_label>
         <comments/>
         <create_roles/>
         <default_value>true</default_value>
@@ -52,13 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 10:57:05</sys_created_on>
-        <sys_name>IT Assist InterceptIncNotification</sys_name>
+        <sys_name>IT Assist Intercept Incident Notification</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_dictionary_x_831378_kore_ai_0_it_assist_rule_toggle_horiz_it_assist_interceptincnotification</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-05 10:57:53</sys_updated_on>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-21 06:18:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
