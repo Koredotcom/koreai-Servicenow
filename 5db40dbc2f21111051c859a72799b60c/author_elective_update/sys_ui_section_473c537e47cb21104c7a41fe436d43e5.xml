@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="473c537e47cb21104c7a41fe436d43e5" sys_domain="global" table="x_831378_kore_ai_0_configrulebools_vert" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-30 20:19:15</sys_created_on>
+            <sys_id>cf3c937e47cb21104c7a41fe436d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_831378_kore_ai_0_configrulebools_vert" sys_domain="global" view="Default view">473c537e47cb21104c7a41fe436d43e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-30 20:19:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_configrulebools_vert</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-30 20:19:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>473c537e47cb21104c7a41fe436d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_configrulebools_vert</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_473c537e47cb21104c7a41fe436d43e5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-30 20:19:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_ui_section_473c537e47cb21104c7a41fe436d43e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="473c537e47cb21104c7a41fe436d43e5" sys_domain="global" table="x_831378_kore_ai_0_configrulebools_vert" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-30 20:19:15</sys_created_on>
+            <sys_id>cf3c937e47cb21104c7a41fe436d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_831378_kore_ai_0_configrulebools_vert" sys_domain="global" view="Default view">473c537e47cb21104c7a41fe436d43e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-30 20:19:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_configrulebools_vert</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-30 20:19:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>473c537e47cb21104c7a41fe436d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_configrulebools_vert</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_473c537e47cb21104c7a41fe436d43e5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-30 20:19:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1637487464</payload_hash>
+        <record_name>IT Assist Rule Toggle</record_name>
+        <reverted_from/>
+        <source>ca1003fc977442109b137076f053afde</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 09:10:12</sys_created_on>
+        <sys_id>9040033097b442109b137076f053af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0de0ae840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 09:10:12</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>dc400330c5b44210ade162e8484f519a</update_guid>
+        <update_guid_history>dc400330c5b44210ade162e8484f519a:0,3ff3b7983b5fb1102093598e97aae8ce:365364867,12320acb3002311087b82cde62ae062b:-1637487464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 09:19:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>68d0227b665a4e6baebc72c8a67a48e9</sys_id>
+        <sys_metadata>473c537e47cb21104c7a41fe436d43e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_configrulebools_vert</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="">d7548cce2f12111051c859a72799b6cb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_473c537e47cb21104c7a41fe436d43e5</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_473c537e47cb21104c7a41fe436d43e5">9040033097b442109b137076f053af9b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 09:19:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

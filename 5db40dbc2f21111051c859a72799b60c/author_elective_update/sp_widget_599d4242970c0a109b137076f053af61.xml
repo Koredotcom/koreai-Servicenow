@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+  // widget controller
+  var c = this;
+	console.log("data", c.data);
+	chatConfig = KoreSDK.chatConfig;
+	console.log("chatConfig", chatConfig);
+  chatConfig.botOptions.JWTUrl =c.data["JWT URL"];
+  chatConfig.botOptions.botInfo._id = c.data["Bot ID"];
+  chatConfig.botOptions.botInfo.name = "ITSM Bot";
+	chatConfig.botOptions.botInfo.customData = {
+		"rtmType": "web",
+		itsmUserId:c.data.userId
+	};
+	
+	 
+  chatConfig.botOptions.clientId = c.data["Client ID"];
+  chatConfig.botOptions.clientSecret = 'ej+5mnvEkuuzuyQptYb3lGYtBa+Ucdlj0UiZ7E0KtFk=';// c.data["Client Secret"];
+  //chatConfig.botOptions.assertion = c.data.jwt;
+	chatConfig.botOptions.koreAPIUrl = c.data["Kore API URL"];
+  chatConfig.botOptions.userIdentity = c.data.user_identity;
+  chatConfig.botOptions.accountId = c.data["account id"];
+	//chatConfig.botOptions.brandingAPIUrl = c.data["Kore API URL"] + "websdkthemes/" + c.data["Bot ID"] + "/activetheme";
+  chatConfig.minimizeMode = true;
+	KoreSDK.chatConfig = chatConfig;
+	//var koreBot = koreBotChat();
+	
+  console.log(koreBot);
+	console.log("chatConfig::",chatConfig);
+	koreBot.show(chatConfig);
+	 $('.openChatWindow').click(function () {
+            koreBot.show(chatConfig);
+        });
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>itassistkorechatwidget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>ITAssistKoreChatWidget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  // websdk config table scrape
+  // horiz websdk config table scrape
+  var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+  horizSDKTable.addQuery('firstentry', 'true');
+  horizSDKTable.query();
+  while (horizSDKTable.next()) {
+	data["Bot ID"] = horizSDKTable.bot_id + '';
+	data["Bot Name"] = horizSDKTable.bot_name + '';
+	//data["Client ID"] = horizSDKTable.client_id + '';
+	//data["Client Secret"] = horizSDKTable.getElement("client_secret").getDecryptedValue() + '';
+	data["Kore API URL"] = horizSDKTable.kore_api_url + '';
+	data["JWT URL"] = horizSDKTable.jwt_url + '';
+	data["account id"]	 = horizSDKTable.account_id;
+	data.jwt = horizSDKTable.getElement("jwt_token").getDecryptedValue() + '';	
+  }
+	
+  // user table scrape
+	data.userId =gs.getUserID();
+  var userTable = new GlideRecord("sys_user");
+  userTable.addQuery("sys_id", gs.getUserID());
+  userTable.query();
+	while (userTable.next()) {
+		data.user_identity = userTable.email.toString();
+		
+  }
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 19:54:07</sys_created_on>
+        <sys_id>599d4242970c0a109b137076f053af61</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ITAssistKoreChatWidget</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sp_widget_599d4242970c0a109b137076f053af61</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:05:40</sys_updated_on>
+        <template><![CDATA[<div>
+  
+  <!--<div ng-repeat="item in c.data">
+  <input id="korehtmlwidg" type="button" ng-model="c.data" ng-change="c.display()"/> 
+  <a href="{{data.bot_name}}" title="Test Bot Name">
+  <p> Bot Name is {{data.bot_name}}</p> 
+  <h2>{{item.name}}</h2>
+  <p>{{item.description}}</p> -->
+  <!--<script>KoreSDK.show(KoreSDK.chatConfig);</script>-->
+  
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sp_widget_599d4242970c0a109b137076f053af61</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+  // widget controller
+  var c = this;
+	console.log("data", c.data);
+	chatConfig = KoreSDK.chatConfig;
+	console.log("chatConfig", chatConfig);
+  chatConfig.botOptions.JWTUrl =c.data["JWT URL"];
+  chatConfig.botOptions.botInfo._id = c.data["Bot ID"];
+  chatConfig.botOptions.botInfo.name = "ITSM Bot";
+	chatConfig.botOptions.botInfo.customData = {
+		"rtmType": "web",
+		itsmUserId:c.data.userId
+	};
+	
+	 
+  chatConfig.botOptions.clientId = c.data["Client ID"];
+  chatConfig.botOptions.clientSecret = 'ej+5mnvEkuuzuyQptYb3lGYtBa+Ucdlj0UiZ7E0KtFk=';// c.data["Client Secret"];
+  //chatConfig.botOptions.assertion = c.data.jwt;
+	chatConfig.botOptions.koreAPIUrl = c.data["Kore API URL"];
+  chatConfig.botOptions.userIdentity = c.data.user_identity;
+  chatConfig.botOptions.accountId = c.data["account id"];
+	//chatConfig.botOptions.brandingAPIUrl = c.data["Kore API URL"] + "websdkthemes/" + c.data["Bot ID"] + "/activetheme";
+  chatConfig.minimizeMode = true;
+	KoreSDK.chatConfig = chatConfig;
+	//var koreBot = koreBotChat();
+	
+  console.log(koreBot);
+	console.log("chatConfig::",chatConfig);
+	koreBot.show(chatConfig);
+	 $('.openChatWindow').click(function () {
+            koreBot.show(chatConfig);
+        });
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;itassistkorechatwidget&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;ITAssistKoreChatWidget&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  // websdk config table scrape
+  // horiz websdk config table scrape
+  var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+  horizSDKTable.addQuery('firstentry', 'true');
+  horizSDKTable.query();
+  while (horizSDKTable.next()) {
+	data["Bot ID"] = horizSDKTable.bot_id + '';
+	data["Bot Name"] = horizSDKTable.bot_name + '';
+	//data["Client ID"] = horizSDKTable.client_id + '';
+	//data["Client Secret"] = horizSDKTable.getElement("client_secret").getDecryptedValue() + '';
+	data["Kore API URL"] = horizSDKTable.kore_api_url + '';
+	data["JWT URL"] = horizSDKTable.jwt_url + '';
+	data["account id"]	 = horizSDKTable.account_id;
+	data.jwt = horizSDKTable.getElement("jwt_token").getDecryptedValue() + '';	
+  }
+	
+  // user table scrape
+	data.userId =gs.getUserID();
+  var userTable = new GlideRecord("sys_user");
+  userTable.addQuery("sys_id", gs.getUserID());
+  userTable.query();
+	while (userTable.next()) {
+		data.user_identity = userTable.email.toString();
+		
+  }
+	
+	
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-31 19:54:07&lt;/sys_created_on&gt;&lt;sys_id&gt;599d4242970c0a109b137076f053af61&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;ITAssistKoreChatWidget&lt;/sys_name&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_599d4242970c0a109b137076f053af61&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-31 20:05:40&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  
+  &lt;!--&lt;div ng-repeat="item in c.data"&gt;
+  &lt;input id="korehtmlwidg" type="button" ng-model="c.data" ng-change="c.display()"/&gt; 
+  &lt;a href="{{data.bot_name}}" title="Test Bot Name"&gt;
+  &lt;p&gt; Bot Name is {{data.bot_name}}&lt;/p&gt; 
+  &lt;h2&gt;{{item.name}}&lt;/h2&gt;
+  &lt;p&gt;{{item.description}}&lt;/p&gt; --&gt;
+  &lt;!--&lt;script&gt;KoreSDK.show(KoreSDK.chatConfig);&lt;/script&gt;--&gt;
+  
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1173141357</payload_hash>
+        <record_name>ITAssistKoreChatWidget</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 20:05:40</sys_created_on>
+        <sys_id>e630de06970c0a109b137076f053aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d612090c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:05:40</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>ee30de06aa0c0a10462c8bcb496142f2</update_guid>
+        <update_guid_history>ee30de06aa0c0a10462c8bcb496142f2:-1173141357,68cd0e028c0c0a10c2561dfaf3f20e98:-1344676109,dd9d4242840c0a103ad1b49b79fa1b62:-1173141357</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITAssistKoreChatWidget">08c09a46970c0a109b137076f053afa8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 20:07:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>65b1a1cd380b4ef2ac86553a23016ef9</sys_id>
+        <sys_metadata>599d4242970c0a109b137076f053af61</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITAssistKoreChatWidget</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sp_widget_599d4242970c0a109b137076f053af61</sys_update_name>
+        <sys_update_version display_value="sp_widget_599d4242970c0a109b137076f053af61">e630de06970c0a109b137076f053aff3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:07:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

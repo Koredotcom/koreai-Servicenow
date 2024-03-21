@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -40,7 +40,7 @@ for (var i = 0; i < approver_user.length; i++) {
 	(function executeRule(current, previous) {
         var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
 		// modified for horiz table usage
-		var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_itsm_config_horiz");
+		var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
 		itsm_horiz.query();
 		var workbenchheaders = [
 			"accept", "authorization", "datatable", "endpoint",
@@ -48,10 +48,10 @@ for (var i = 0; i < approver_user.length; i++) {
 		];
 		while (itsm_horiz.next()) {
 			for (var header in workbenchheaders) {
-				var header_val = itsm_horiz.header + '';
-				if (header == "authorization")
-					header_val = itsm_horiz.getElement(header).getDecryptedValue();
-				rm.setStringParameterNoEscape(header, header_val);
+				var header_val = itsm_horiz[workbenchheaders[header]] + '';
+				if (workbenchheaders[header] == "authorization")
+					header_val = itsm_horiz.getElement("authorization").getDecryptedValue();
+				rm.setStringParameterNoEscape(workbenchheaders[header], header_val);
 			}
 		}
         var user_updated = current.sys_updated_by;
@@ -108,7 +108,7 @@ for (var i = 0; i < approver_user.length; i++) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff10bb522f42111051c859a72799b65a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>IT Assist GetNotifReqClos</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
@@ -116,7 +116,7 @@ for (var i = 0; i < approver_user.length; i++) {
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_script_ff10bb522f42111051c859a72799b65a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:09:17</sys_updated_on>
+        <sys_updated_on>2024-03-13 13:24:17</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Lavish</sys_created_by>
+        <sys_created_on>2023-12-22 08:14:30</sys_created_on>
+        <sys_id>0fdda10d97d775109b137076f053af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableRESTMessageClient.setHttpMethod</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_scope_privilege_0fdda10d97d775109b137076f053af39</sys_update_name>
+        <sys_updated_by>Lavish</sys_updated_by>
+        <sys_updated_on>2023-12-22 08:14:30</sys_updated_on>
+        <target_name>ScriptableRESTMessageClient.setHttpMethod</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_scope_privilege_0fdda10d97d775109b137076f053af39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>Lavish</sys_created_by><sys_created_on>2023-12-22 08:14:30</sys_created_on><sys_id>0fdda10d97d775109b137076f053af39</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.setHttpMethod</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_scope_privilege_0fdda10d97d775109b137076f053af39</sys_update_name><sys_updated_by>Lavish</sys_updated_by><sys_updated_on>2023-12-22 08:14:30</sys_updated_on><target_name>ScriptableRESTMessageClient.setHttpMethod</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>1405489889</payload_hash>
+        <record_name>ScriptableRESTMessageClient.setHttpMethod</record_name>
+        <reverted_from/>
+        <source>cfdda10d97d775109b137076f053af3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Lavish</sys_created_by>
+        <sys_created_on>2023-12-22 08:14:30</sys_created_on>
+        <sys_id>8bdda10d97d775109b137076f053af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c909717540000001</sys_recorded_at>
+        <sys_updated_by>Lavish</sys_updated_by>
+        <sys_updated_on>2023-12-22 08:14:30</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>c3dda10d97d77510dcfd76fdd5b46a3d</update_guid>
+        <update_guid_history>c3dda10d97d77510dcfd76fdd5b46a3d:1405489889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:14:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>cad4bb5c16fb4570b270e65ef7de4290</sys_id>
+        <sys_metadata>0fdda10d97d775109b137076f053af39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableRESTMessageClient.setHttpMethod</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_0fdda10d97d775109b137076f053af39</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_0fdda10d97d775109b137076f053af39">8bdda10d97d775109b137076f053af3d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:14:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

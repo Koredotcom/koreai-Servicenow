@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="DELETE">
+        <name>kore-ai-sdk.min.css</name>
+        <source>local</source>
+        <sp_css display_value="kore-ai-sdk.min.css">59fc3052979231109b137076f053af1d</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 08:53:17</sys_created_on>
+        <sys_id>aafc7c92979231109b137076f053af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kore-ai-sdk.min.css</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sp_css_include_aafc7c92979231109b137076f053af42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 08:53:17</sys_updated_on>
+        <url/>
+    </sp_css_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sp_css_include_aafc7c92979231109b137076f053af42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>kore-ai-sdk.min.css</name><source>local</source><sp_css display_value="kore-ai-sdk.min.css">59fc3052979231109b137076f053af1d</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-06 08:53:17</sys_created_on><sys_id>aafc7c92979231109b137076f053af42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>kore-ai-sdk.min.css</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sp_css_include_aafc7c92979231109b137076f053af42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-06 08:53:17</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+        <payload_hash>1028049141</payload_hash>
+        <record_name>kore-ai-sdk.min.css</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 08:53:17</sys_created_on>
+        <sys_id>369df012975231109b137076f053afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba3d613cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 08:53:17</sys_updated_on>
+        <type>CSS Include</type>
+        <update_guid>7e9df012ce5231102239957cb1363bd2</update_guid>
+        <update_guid_history>7e9df012ce5231102239957cb1363bd2:1028049141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="kore-ai-sdk.min.css">c8b33abc973442109b137076f053aff8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:15:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_css_include">sp_css_include</sys_db_object>
+        <sys_id>79fb5a860b784fb8913a8529ad9ef8f9</sys_id>
+        <sys_metadata>aafc7c92979231109b137076f053af42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kore-ai-sdk.min.css</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sp_css_include_aafc7c92979231109b137076f053af42</sys_update_name>
+        <sys_update_version display_value="sp_css_include_aafc7c92979231109b137076f053af42">369df012975231109b137076f053afd3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:15:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

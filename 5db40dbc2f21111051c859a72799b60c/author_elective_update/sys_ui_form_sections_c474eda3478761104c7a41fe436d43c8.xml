@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="c474eda3478761104c7a41fe436d43c8" sys_domain="global" table="x_831378_kore_ai_0_websdk_config_horiz" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:44:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae576d67478761104c7a41fe436d43b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_websdk_config_horiz" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">c474eda3478761104c7a41fe436d43c8</sys_ui_form>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-01 19:44:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 12:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67892730977842109b137076f053af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_websdk_config_horiz" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">c474eda3478761104c7a41fe436d43c8</sys_ui_form>
+            <sys_ui_section caption="Bot Information" display_value="Bot Information" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">e7892730977842109b137076f053af38</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 12:10:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 12:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef892730977842109b137076f053af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_websdk_config_horiz" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">c474eda3478761104c7a41fe436d43c8</sys_ui_form>
+            <sys_ui_section caption="Client Information" display_value="Client Information" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">6f892730977842109b137076f053af39</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 12:10:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_831378_kore_ai_0_websdk_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:31:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c474eda3478761104c7a41fe436d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_websdk_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c474eda3478761104c7a41fe436d43c8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-01 19:31:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>8700b0c4db2eed5037a0c59705961902</instance_id>
+        <instance_name>ven06091</instance_name>
+        <name>sys_ui_form_sections_c474eda3478761104c7a41fe436d43c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c474eda3478761104c7a41fe436d43c8" sys_domain="global" table="x_831378_kore_ai_0_websdk_config_horiz" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:44:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae576d67478761104c7a41fe436d43b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_websdk_config_horiz" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">c474eda3478761104c7a41fe436d43c8</sys_ui_form>
+            <sys_ui_section caption="WebSDK Configuration" display_value="WebSDK Configuration" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">62576d67478761104c7a41fe436d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-01 19:44:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 12:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67892730977842109b137076f053af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_websdk_config_horiz" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">c474eda3478761104c7a41fe436d43c8</sys_ui_form>
+            <sys_ui_section caption="Bot Information" display_value="Bot Information" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">e7892730977842109b137076f053af38</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 12:10:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-05 12:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef892730977842109b137076f053af70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_websdk_config_horiz" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">c474eda3478761104c7a41fe436d43c8</sys_ui_form>
+            <sys_ui_section caption="Client Information" display_value="Client Information" name="x_831378_kore_ai_0_websdk_config_horiz" sys_domain="global" view="Default view">6f892730977842109b137076f053af39</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-05 12:10:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_831378_kore_ai_0_websdk_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:31:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c474eda3478761104c7a41fe436d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_websdk_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c474eda3478761104c7a41fe436d43c8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-01 19:31:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>1493790257</payload_hash>
+        <record_name>WebSDK Config</record_name>
+        <reverted_from/>
+        <source>6868bac847410a10496fbd42736d4359</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-15 10:56:29</sys_created_on>
+        <sys_id>8778760c47410a10496fbd42736d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e41c1963c0000001</sys_recorded_at>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-15 10:56:29</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>4778760c09410a108c3747d9f53e9826</update_guid>
+        <update_guid_history>4778760c09410a108c3747d9f53e9826:1493790257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-20 17:58:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>6c4335db67464cc8b2a68a5c6a959f10</sys_id>
+        <sys_metadata>c474eda3478761104c7a41fe436d43c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_websdk_config_horiz</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="WebSDK Config">0b76734b470321104c7a41fe436d439c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_c474eda3478761104c7a41fe436d43c8</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_c474eda3478761104c7a41fe436d43c8">8778760c47410a10496fbd42736d4326</sys_update_version>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:58:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>kore_api_url</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>formDesign</name>
+        <order/>
+        <script><![CDATA[//g_form.setDisplay('field_name', false); // Hide the field
+	var ele = g_form.getElement('kore_api_url');
+	
+	ele.style.width = "300px";
+	alert(ele);
+function onLoad() {
+    // Your code to be executed when the form loads goes here
+    // For example, you might want to set default values or perform other actions.
+    
+    // Example: Set the value of a field with the ID 'field_name'
+	var ele = g_form.getControl('kore_api_url');
+	
+	ele.style.width = "300px";
+	alert(ele);
+	//g_form.setHeight('kore_api_url', '300px');
+	//g_form.setDisplay('kore_api_url', false);
+	//g_form.setDisplay('kore_api_url', true);
+}
+ // Set the width to 300 pixels
+//g_form.setDisplay('field_name', true); // Show the field]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 06:05:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d06ce69974886109b137076f053af5a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>formDesign</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_client_7d06ce69974886109b137076f053af5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 07:41:12</sys_updated_on>
+        <table>x_831378_kore_ai_0_websdk_config_horiz</table>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_script_client_7d06ce69974886109b137076f053af5a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;true&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;kore_api_url&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;formDesign&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[//g_form.setDisplay('field_name', false); // Hide the field
+	var ele = g_form.getElement('kore_api_url');
+	
+	ele.style.width = "300px";
+	alert(ele);
+function onLoad() {
+    // Your code to be executed when the form loads goes here
+    // For example, you might want to set default values or perform other actions.
+    
+    // Example: Set the value of a field with the ID 'field_name'
+	var ele = g_form.getControl('kore_api_url');
+	
+	ele.style.width = "300px";
+	alert(ele);
+	//g_form.setHeight('kore_api_url', '300px');
+	//g_form.setDisplay('kore_api_url', false);
+	//g_form.setDisplay('kore_api_url', true);
+}
+ // Set the width to 300 pixels
+//g_form.setDisplay('field_name', true); // Show the field]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-30 06:05:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7d06ce69974886109b137076f053af5a&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;formDesign&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7d06ce69974886109b137076f053af5a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-30 07:41:12&lt;/sys_updated_on&gt;&lt;table&gt;x_831378_kore_ai_0_websdk_config_horiz&lt;/table&gt;&lt;type/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1906472659</payload_hash>
+        <record_name>formDesign</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 07:41:12</sys_created_on>
+        <sys_id>ab3c52a197c886109b137076f053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5950a17f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 07:41:12</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a33c52a172c886101a521bc640cefc86</update_guid>
+        <update_guid_history>a33c52a172c886101a521bc640cefc86:1906472659,229a9aeda088861081c3618aa63861ac:-1610591231,e94a1e6d288886100390d14cfd69d235:1759603120,c7f91aed27888610c52a1ae036c99cd9:812616600,b8f9d6edce88861028a970037c610bee:-352296072,bb485a6dfc888610c80af528d339907c:1612601887,a2281e2993888610f0026ee25b4eb7bd:-1303652897,2f9396292a888610ce6d0565d4b2459c:-344791132,51631a29418886102896c63fc176a516:366876795,c53316299d8886100061e4016ff0d927:-1508882725,53e296a52188861012690dff649406fb:1518936025,0de2d2a5bc888610d0726eb403784761:-2052070084,0452d6ad1148861012592739e4e50205:-600288314,32a19e255f8886102b077bd19826c4e2:1722780178,f949c26de64886101105edfb47e944c3:1745680807,4ca7cee5994886103e4083ed1f5612d2:2143136973,cb46ce6918488610d2c4d049334c0d25:-101897869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 09:22:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>017ddd08eacb4fe281d833d9d1d1c844</sys_id>
+        <sys_metadata>7d06ce69974886109b137076f053af5a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>formDesign</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="WebSDK Config">0b76734b470321104c7a41fe436d439c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_client_7d06ce69974886109b137076f053af5a</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7d06ce69974886109b137076f053af5a">ab3c52a197c886109b137076f053af86</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 09:22:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

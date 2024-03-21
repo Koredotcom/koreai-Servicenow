@@ -65,7 +65,7 @@
         <update_guid_history>b4167f0b07032110820f4efce14d4448:1379263314</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="IT Assist Config Horizes">3526ff0b470321104c7a41fe436d43f8</sys_audit_delete>
+        <sys_audit_delete display_value="">3526ff0b470321104c7a41fe436d43f8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-31 16:50:58</sys_created_on>

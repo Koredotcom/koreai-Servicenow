@@ -2949,7 +2949,6 @@
         <dispatched_events>8329f8f9720211100e1d0a981b401662,0f29f8f996021110096916e2e73d7361</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -3138,4 +3137,5 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-09-20 16:39:08</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f29f8f930021110144e9c0d9917c868"/>
 </record_update>

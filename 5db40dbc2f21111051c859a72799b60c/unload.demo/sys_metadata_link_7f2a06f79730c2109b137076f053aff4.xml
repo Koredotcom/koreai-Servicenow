@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>98ec433097f442109b137076f053af48</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_831378_kore_ai_0_it_assist_config_horiz">
+    <x_831378_kore_ai_0_it_assist_config_horiz action="INSERT_OR_UPDATE">
+        <accept>application/json</accept>
+        <account_id>6565dfce2b483c5ceff6c120</account_id>
+        <authorization>﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭BWmSDrJ4G2lKm_XZF_YHog==O77GcLHW9JueDPOKNxCi52_uQTbM7M9Fxir4cDrJF-gQj1HUiHEs2OyrOj6wBS5MhMLl9v4fV7icsQojlH_Rljd2P6NxISZX2FUQ7JpXxPGZhU2_kNzF0aS2w2a2sASt9RoNynvNONpSyaDMhLXekdAS2pCBE-1FIkPSyZ35R_fqGLa05cOxCZYr7zdyT9y_Se_QPTcXbdOlq4gIRo5F5w6tFv8RcyaTxK61rV_YqD186MRwGsebbxEH7VXQz4lkrHpYKliPln1CADdqktX9GY2_JifkVJ3IaXfb4FkUTCuZgOY-brQZsbUwd4Y8VKDM﷮﷯</authorization>
+        <bot_id>st-dcf36fda-e58c-5eb1-8122-8a3e42ed8e0a</bot_id>
+        <bot_name>IT Assist</bot_name>
+        <bot_service_account display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</bot_service_account>
+        <client_id>﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭0QAZYzCDGQwRXZiPrZ4ggA==LigInua-ZpTcuhzSNcwvFX7_JXle5Uf13q2tB44wjVhzZAGRHvhUbK7s71J5Oo57APXbLmTKbA==﷮﷯</client_id>
+        <client_secret>﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭5Rll0WhrBZdrNUMLmGBXcw==mpDy7RzHWWtMuAUSER20WlTIh7dkIrJgnudZjLLHKCZfgidndzmtLcUGL1XRo2LOWhwJFmYPWyWmQcXa﷮﷯</client_secret>
+        <datatable>pushnotificationstable-production</datatable>
+        <display_name/>
+        <endpoint>https://itassist-qa.kore.ai/itsm_services/api/v1/notify</endpoint>
+        <firstentry>true</firstentry>
+        <integration_service>general</integration_service>
+        <jwt_url>https://mk2r2rmj21.execute-api.us-east-1.amazonaws.com/dev/users/sts</jwt_url>
+        <kore_api_url>https://staging-bots.korebots.com/api</kore_api_url>
+        <platform>https://staging-bots.korebots.com/api/1.1/public/tables/</platform>
+        <serv_host/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 10:06:17</sys_created_on>
+        <sys_id>98ec433097f442109b137076f053af48</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 04:58:35</sys_updated_on>
+    </x_831378_kore_ai_0_it_assist_config_horiz>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 12:55:43</sys_created_on>
+        <sys_id>7f2a06f79730c2109b137076f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_metadata_link_7f2a06f79730c2109b137076f053aff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 12:55:43</sys_updated_on>
+        <tablename>x_831378_kore_ai_0_it_assist_config_hori</tablename>
+    </sys_metadata_link>
+</record_update>

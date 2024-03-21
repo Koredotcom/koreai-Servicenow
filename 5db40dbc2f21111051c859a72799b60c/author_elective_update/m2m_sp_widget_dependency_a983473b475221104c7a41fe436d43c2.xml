@@ -41,7 +41,7 @@
         <update_guid_history>e583473b4452211049db51d04f0a20c4:-1763923403</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITAssistWebClientDepend.ITAssistWebClientWidg">7beaf7fb471621104c7a41fe436d433d</sys_audit_delete>
+        <sys_audit_delete display_value="">7beaf7fb471621104c7a41fe436d433d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-26 18:20:13</sys_created_on>

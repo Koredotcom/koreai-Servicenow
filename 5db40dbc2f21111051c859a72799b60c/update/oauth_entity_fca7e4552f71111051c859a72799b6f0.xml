@@ -15,7 +15,6 @@
         <id_token_lifespan>86400</id_token_lifespan>
         <logo_url/>
         <message_signature_lifespan>60</message_signature_lifespan>
-        <mobile_client>false</mobile_client>
         <name>Kore_AI_WebSDK_Auth</name>
         <oauth_api_script/>
         <protocol_name/>

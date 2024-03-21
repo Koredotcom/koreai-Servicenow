@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>homepages</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_831378_kore_ai_0_$it_assist_home_page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<style>
+	.heading{
+		display: flex;
+		width: 100%;
+		justify-content:center;
+		position: relative;
+		top: 10px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+</style>
+	<div class="heading">Getting start page for testing</div>
+</j:jelly>]]></html>
+        <name>$it_assist_home_page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 12:06:17</sys_created_on>
+        <sys_id>2a5443f1973802109b137076f053afb5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>$it_assist_home_page</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ui_page_2a5443f1973802109b137076f053afb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 12:42:04</sys_updated_on>
+    </sys_ui_page>
+</record_update>

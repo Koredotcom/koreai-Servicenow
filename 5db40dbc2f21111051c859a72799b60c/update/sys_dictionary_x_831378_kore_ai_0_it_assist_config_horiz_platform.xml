@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Platform Table Endpoint</column_label>
+        <column_label>Platform</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="URL">url</internal_type>
+        <internal_type display_value="">string_full_utf8</internal_type>
         <mandatory>true</mandatory>
         <max_length>255</max_length>
         <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
@@ -52,13 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-31 17:57:55</sys_created_on>
-        <sys_name>Platform Table Endpoint</sys_name>
+        <sys_name>Platform</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_dictionary_x_831378_kore_ai_0_it_assist_config_horiz_platform</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-01 19:16:22</sys_updated_on>
+        <sys_updated_on>2024-03-05 10:04:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

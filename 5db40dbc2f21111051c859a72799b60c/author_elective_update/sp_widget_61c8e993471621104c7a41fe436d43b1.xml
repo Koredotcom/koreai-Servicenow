@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>kore-ai-it-assist-web-chat</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+	
+}]]></link>
+        <name>ITAssistWebClientWidg</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  //KoreSDK.show(KoreSDK.chatConfig);
+  window.KoreSDK.chatConfig.botOptions.accountId = "TEST";
+  KoreSDK.show(KoreSDK.chatConfig);
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 18:26:15</sys_created_on>
+        <sys_id>61c8e993471621104c7a41fe436d43b1</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>ITAssistWebClientWidg</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sp_widget_61c8e993471621104c7a41fe436d43b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 18:36:43</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- <input id="korehtmlwidg" type="button" ng-model="c.data" ng-change="c.display()"/> 
+  More info on staging bots platform available @ staging-bots.korebots.com platform. -->
+</div>]]></template>
+    </sp_widget>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sp_widget_61c8e993471621104c7a41fe436d43b1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;
+    &lt;sp_widget action="INSERT_OR_UPDATE"&gt;
+        &lt;category&gt;custom&lt;/category&gt;
+        &lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;
+        &lt;controller_as&gt;c&lt;/controller_as&gt;
+        &lt;css/&gt;
+        &lt;data_table&gt;sp_instance&lt;/data_table&gt;
+        &lt;demo_data/&gt;
+        &lt;description/&gt;
+        &lt;docs/&gt;
+        &lt;field_list/&gt;
+        &lt;has_preview&gt;false&lt;/has_preview&gt;
+        &lt;id&gt;kore-ai-it-assist-web-chat&lt;/id&gt;
+        &lt;internal&gt;false&lt;/internal&gt;
+        &lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+	
+}]]&gt;&lt;/link&gt;
+        &lt;name&gt;ITAssistWebClientWidg&lt;/name&gt;
+        &lt;option_schema/&gt;
+        &lt;public&gt;false&lt;/public&gt;
+        &lt;roles/&gt;
+        &lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  //KoreSDK.show(KoreSDK.chatConfig);
+  window.KoreSDK.chatConfig.botOptions.accountId = "TEST";
+  KoreSDK.show(KoreSDK.chatConfig);
+})();]]&gt;&lt;/script&gt;
+        &lt;servicenow&gt;false&lt;/servicenow&gt;
+        &lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-04-24 18:26:15&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;61c8e993471621104c7a41fe436d43b1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;ITAssistWebClientWidg&lt;/sys_name&gt;
+        &lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_widget_61c8e993471621104c7a41fe436d43b1&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-04-27 18:36:43&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;!-- &lt;input id="korehtmlwidg" type="button" ng-model="c.data" ng-change="c.display()"/&gt; 
+  More info on staging bots platform available @ staging-bots.korebots.com platform. --&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;
+    &lt;/sp_widget&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1629960799</payload_hash>
+        <record_name>ITAssistWebClientWidg</record_name>
+        <reverted_from/>
+        <source>ca1003fc977442109b137076f053afde</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 09:09:54</sys_created_on>
+        <sys_id>8c300bfc977442109b137076f053afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0de068080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 09:09:54</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>c8300bfc227442102157236b946b3bd7</update_guid>
+        <update_guid_history>c8300bfc227442102157236b946b3bd7:0,731ebeba5aab7110281ce347dc95a42b:1297509113,3e22c2cbcd02311001b13726b980c01a:1629960799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITAssistWebClientWidg">e5ed2b74977842109b137076f053af0f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 12:29:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>25f57c10a8ca4670abc3fb37cb372100</sys_id>
+        <sys_metadata>61c8e993471621104c7a41fe436d43b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITAssistWebClientWidg</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sp_widget_61c8e993471621104c7a41fe436d43b1</sys_update_name>
+        <sys_update_version display_value="sp_widget_61c8e993471621104c7a41fe436d43b1">8c300bfc977442109b137076f053afd7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 12:29:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

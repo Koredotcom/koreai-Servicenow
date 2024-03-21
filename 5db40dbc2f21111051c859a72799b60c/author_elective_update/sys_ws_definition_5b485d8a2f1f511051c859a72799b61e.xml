@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="DELETE">
+        <active>true</active>
+        <base_uri>/api/x_831378_kore_ai_0/snowwebsdklink</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>snowwebsdklink</name>
+        <namespace>x_831378_kore_ai_0</namespace>
+        <produces>application/javascript</produces>
+        <produces_customized>true</produces_customized>
+        <service_id>snowwebsdklink</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 16:52:47</sys_created_on>
+        <sys_id>5b485d8a2f1f511051c859a72799b61e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>snowwebsdklink</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ws_definition_5b485d8a2f1f511051c859a72799b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 18:55:11</sys_updated_on>
+    </sys_ws_definition>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>8700b0c4db2eed5037a0c59705961902</instance_id>
+        <instance_name>ven06091</instance_name>
+        <name>sys_ws_definition_5b485d8a2f1f511051c859a72799b61e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_831378_kore_ai_0/snowwebsdklink</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>snowwebsdklink</name>
+        <namespace>x_831378_kore_ai_0</namespace>
+        <produces>application/javascript</produces>
+        <produces_customized>true</produces_customized>
+        <service_id>snowwebsdklink</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 16:52:47</sys_created_on>
+        <sys_id>5b485d8a2f1f511051c859a72799b61e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>snowwebsdklink</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ws_definition_5b485d8a2f1f511051c859a72799b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 18:55:11</sys_updated_on>
+    </sys_ws_definition>
+</record_update>]]></payload>
+        <payload_hash>2093929316</payload_hash>
+        <record_name>snowwebsdklink</record_name>
+        <reverted_from/>
+        <source>6868bac847410a10496fbd42736d4359</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-15 10:56:47</sys_created_on>
+        <sys_id>6b88364c47410a10496fbd42736d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e41c1dd1a0000001</sys_recorded_at>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-15 10:56:47</sys_updated_on>
+        <type>Scripted REST API</type>
+        <update_guid>2b88364c73410a1067cab7d12db55bb3</update_guid>
+        <update_guid_history>2b88364c73410a1067cab7d12db55bb3:2093929316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-20 18:09:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_definition">sys_ws_definition</sys_db_object>
+        <sys_id>7011d10d62744762a94052c3e380a6a4</sys_id>
+        <sys_metadata>5b485d8a2f1f511051c859a72799b61e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>snowwebsdklink</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ws_definition_5b485d8a2f1f511051c859a72799b61e</sys_update_name>
+        <sys_update_version display_value="sys_ws_definition_5b485d8a2f1f511051c859a72799b61e">6b88364c47410a10496fbd42736d43b3</sys_update_version>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-20 18:09:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

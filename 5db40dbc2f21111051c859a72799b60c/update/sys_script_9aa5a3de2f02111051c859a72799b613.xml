@@ -30,7 +30,8 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
 	// modified for horiz table usage
-	var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_itsm_config_horiz");
+	
+	var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
 	itsm_horiz.query();
 	var workbenchheaders = [
 		"accept", "authorization", "datatable", "endpoint",
@@ -38,12 +39,13 @@
 	];
 	while (itsm_horiz.next()) {
 		for (var header in workbenchheaders) {
-			var header_val = itsm_horiz.header + '';
-			if (header == "authorization")
-				header_val = itsm_horiz.getElement(header).getDecryptedValue();
-			rm.setStringParameterNoEscape(header, header_val);
+			var header_val = itsm_horiz[workbenchheaders[header]] + '';
+			if (workbenchheaders[header] == "authorization")
+				header_val = itsm_horiz.getElement("authorization").getDecryptedValue();
+			rm.setStringParameterNoEscape(workbenchheaders[header], header_val);
 		}
 	}
+	
 	
     var grUser = new GlideRecord('sys_user');
     grUser.addQuery('sys_id', current.getValue('approver'));
@@ -232,15 +234,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9aa5a3de2f02111051c859a72799b613</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>IT Assist GetApprvNotif</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_script_9aa5a3de2f02111051c859a72799b613</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:56:18</sys_updated_on>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-20 13:31:33</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

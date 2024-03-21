@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="License/Subcription" section_id="a3263294975bb1109b137076f053af6c" sys_domain="global" table="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>it_assist_getlicenserem</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-20 05:35:03</sys_created_on>
+            <sys_id>b7267294975bb1109b137076f053af06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="License/Subcription" display_value="License/Subcription" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">a3263294975bb1109b137076f053af6c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-20 05:35:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-20 05:35:03</sys_created_on>
+            <sys_id>bb267294975bb1109b137076f053af06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="License/Subcription" display_value="License/Subcription" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">a3263294975bb1109b137076f053af6c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-20 05:35:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>License/Subcription</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-20 05:35:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3263294975bb1109b137076f053af6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_a3263294975bb1109b137076f053af6c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-20 05:35:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_ui_section_a3263294975bb1109b137076f053af6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="License/Subcription" section_id="a3263294975bb1109b137076f053af6c" sys_domain="global" table="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>it_assist_getlicenserem</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-20 05:35:03</sys_created_on><sys_id>b7267294975bb1109b137076f053af06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="License/Subcription" display_value="License/Subcription" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">a3263294975bb1109b137076f053af6c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-20 05:35:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-20 05:35:03</sys_created_on><sys_id>bb267294975bb1109b137076f053af06</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="License/Subcription" display_value="License/Subcription" name="x_831378_kore_ai_0_it_assist_rule_toggle_horiz" sys_domain="global" view="Default view">a3263294975bb1109b137076f053af6c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-20 05:35:03</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>License/Subcription</caption><header>false</header><name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-20 05:35:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3263294975bb1109b137076f053af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</sys_name><sys_overrides/><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_ui_section_a3263294975bb1109b137076f053af6c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-20 05:35:02</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-378632701</payload_hash>
+        <record_name>IT Assist Rule Toggle Horiz</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 05:35:03</sys_created_on>
+        <sys_id>77267294975bb1109b137076f053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c85b865170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 05:35:03</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ff2672945d5bb110fbdc7dc5558ccd07</update_guid>
+        <update_guid_history>ff2672945d5bb110fbdc7dc5558ccd07:-378632701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 13:16:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2a2f8f7f9ba841eea813d5c888ac5744</sys_id>
+        <sys_metadata>a3263294975bb1109b137076f053af6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>License/Subcription</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="IT Assist Rule Toggle">4436fb0b470321104c7a41fe436d4377</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_section_a3263294975bb1109b137076f053af6c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a3263294975bb1109b137076f053af6c">77267294975bb1109b137076f053af08</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 13:16:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

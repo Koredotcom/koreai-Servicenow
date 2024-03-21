@@ -8,6 +8,7 @@
   chatConfig.botOptions.JWTUrl = c.data["JWT URL"];
   chatConfig.botOptions.botInfo._id = c.data["Bot ID"];
   chatConfig.botOptions.botInfo.name = c.data["Bot Name"];
+	chatConfig.botOptions.botInfo.customData= { "rtmType": "web", "itsmUserId": c.data.userId}
   chatConfig.botOptions.clientId = c.data["Client ID"];
   chatConfig.botOptions.clientSecret = c.data["Client Secret"];
   chatConfig.botOptions.koreAPIUrl = c.data["Kore API URL"];
@@ -15,6 +16,7 @@
   chatConfig.botOptions.brandingAPIUrl = c.data["Kore API URL"] + "websdkthemes/" + c.data["Bot ID"] + "/activetheme";
   var koreBot = koreBotChat();
   koreBot.show(chatConfig);
+
 };]]></client_script>
         <controller_as>c</controller_as>
         <css/>
@@ -36,20 +38,22 @@
         <script><![CDATA[(function() {
   // websdk config table scrape
   // horiz websdk config table scrape
-  var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+  //var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_websdk_config_horiz");
+	var horizSDKTable = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
   horizSDKTable.addQuery('firstentry', 'true');
   horizSDKTable.query();
   while (horizSDKTable.next()) {
-	data["Bot ID"] = horizSDKTable.bot_id + '';
-	data["Bot Name"] = horizSDKTable.bot_name + '';
-	data["Client ID"] = horizSDKTable.client_id + '';
-	data["Client Secret"] = horizSDKTable.getElement("client_secret").getDecryptedValue() + '';
-	data["Kore API URL"] = horizSDKTable.kore_api_url + '';
-	data["JWT URL"] = horizSDKTable.jwt_url + '';
+		data["Bot ID"] = horizSDKTable.bot_id + '';
+		data["Bot Name"] = horizSDKTable.bot_name + '';
+		data["Client ID"] = horizSDKTable.getElement("client_id").getDecryptedValue() + '';
+		data["Client Secret"] = horizSDKTable.getElement("client_secret").getDecryptedValue() + '';
+		data["Kore API URL"] = horizSDKTable.kore_api_url + '';
+		data["JWT URL"] = horizSDKTable.jwt_url + '';
   }
   // user table scrape
   var userTable = new GlideRecord("sys_user");
   userTable.addQuery("sys_id", gs.getUserID());
+	data.userId = gs.getUserID();
   userTable.query();
   while (userTable.next()) {
 	data.user_identity = userTable.email.toString();
@@ -60,14 +64,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-22 18:56:52</sys_created_on>
         <sys_id>f2a4b5c22f9f511051c859a72799b61e</sys_id>
-        <sys_mod_count>96</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_name>ITAssistKoreChatWidg</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sp_widget_f2a4b5c22f9f511051c859a72799b61e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:00:19</sys_updated_on>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-20 13:55:31</sys_updated_on>
         <template><![CDATA[<div>
   <!--
   <div ng-repeat="item in c.data">

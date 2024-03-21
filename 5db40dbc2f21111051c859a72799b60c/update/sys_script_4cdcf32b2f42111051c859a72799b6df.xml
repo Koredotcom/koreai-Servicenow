@@ -31,17 +31,18 @@
 	// modified for horiz table usage
 	var ruleDict = {
 		"it_assist_getapprvnotif": "IT Assist GetApprvNotif", "it_assist_getincpropchnge": "IT Assist GetIncPropChnge",
-		"it_assist_getlicenserem": "IT Assist GetLicenseRem", "it_assist_getnotifapprvcmnts": "IT Assist GetNotifApprvCmnts",
+		"it_assist_getnotifapprvcmnts": "IT Assist GetNotifApprvCmnts",
 		"it_assist_getnotifreqclos": "IT Assist GetNotifReqClos", "it_assist_getnotifreqwrflw": "IT Assist GetNotifReqWrflw",
-		"it_assist_getotgenotif": "IT Assist GetOtgeNotif", "it_assist_getwatchnotifchge": "IT Assist GetWatchNotifChge"
+		"it_assist_getotgenotif": "IT Assist GetOtgeNotif", "it_assist_getwatchnotifchge": "IT Assist GetWatchNotifChge",
+		"it_assist_interceptincnotification":"IT Assist InterceptIncnotifi","it_assist_interceptreqnotification":"IT Assist InterceptReqNotifi"
 	};
 	for (var rule in ruleDict)
 	{
-		if (!current.hasOwnProperty(rule) || !previous.hasOwnProperty(rule)) continue;
-		if (current[rule] == previous[rule]) continue;
+		//if (!current.hasOwnProperty(rule) || !previous.hasOwnProperty(rule)) continue;
+		//if (current[rule] == previous[rule]) continue;
 		var scriptFind = new GlideRecord("sys_script");
 		scriptFind.get("name", ruleDict[rule]);
-		scriptFind.active = current[rule] ? true : false;
+		scriptFind.active = current[rule];
 		scriptFind.update();
 	}
 })(current, previous);]]></script>
@@ -51,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4cdcf32b2f42111051c859a72799b6df</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>IT Assist Rule Check Toggles</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
@@ -59,7 +60,7 @@
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_script_4cdcf32b2f42111051c859a72799b6df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:55:47</sys_updated_on>
+        <sys_updated_on>2024-03-06 06:59:46</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

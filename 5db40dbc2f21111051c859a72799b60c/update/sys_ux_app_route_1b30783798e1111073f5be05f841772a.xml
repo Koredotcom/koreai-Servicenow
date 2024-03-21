@@ -8,7 +8,7 @@
         <name>Dashboard</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>dashboard</route_type>
         <screen_type display_value="Dashboard">5b30783728e111105324ca23a911052a</screen_type>

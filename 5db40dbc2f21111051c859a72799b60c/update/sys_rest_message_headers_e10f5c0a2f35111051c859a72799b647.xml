@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
     <sys_rest_message_headers action="INSERT_OR_UPDATE">
         <name>accept</name>
-        <rest_message display_value="KoreITAssistPing">c40fd40a2f35111051c859a72799b67c</rest_message>
+        <rest_message display_value="">c40fd40a2f35111051c859a72799b67c</rest_message>
         <sys_class_name>sys_rest_message_headers</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 00:21:33</sys_created_on>

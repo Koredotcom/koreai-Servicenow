@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist IntceptIncNotif</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    var caller = current.getValue("caller_id");
+    var caller_name = current.getDisplayValue("caller_id");
+    var opened_by = current.opened_by;
+    var number = current.number;
+    var currentUserId = gs.getUserID();
+    var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
+    itsm_horiz.query();
+    while (itsm_horiz.next()) {
+        if (opened_by.toString() !== itsm_horiz["user_sys_id"]) {
+            var workbenchheaders = [
+                "accept", "authorization", "datatable", "endpoint",
+                "integration_service", "platform"
+            ];
+
+            var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+            for (var header in workbenchheaders) {
+               if(workbenchheaders[header] === "authorization"){
+					var authValue = itsm_horiz.getElement("authorization").getDecryptedValue() + "";
+					rm.setStringParameterNoEscape(workbenchheaders[header],authValue );
+				}else{
+					rm.setStringParameterNoEscape(workbenchheaders[header], itsm_horiz[workbenchheaders[header]] + "");
+				}
+            }
+            var actions = [];
+            actions.push({
+                "type": "postback",
+                "label": "View ticket " + number,
+                "value": "View ticket " + number
+            });
+
+            var notification_text = "\nHi " + caller_name + ", \n Your IT ticket " + number + " just landed in ServiceNow! I'll be on it. Please check with me if you need any update";
+            gs.info("notification_text:::" + notification_text);
+            var item = {
+                "_id": "_id",
+                "body": notification_text,
+                "target_id": caller,
+                "target_type": "USER",
+                "actions": actions,
+            };
+            rm.setRequestBody(JSON.stringify({
+                "notifications": [item]
+            }));
+            var response = rm.executeAsync();
+            gs.info("REsponse" + JSON.stringify(response));
+        }
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-20 09:20:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ca445ba97a231109b137076f053af84</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>IT Assist IntceptIncNotif</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_7ca445ba97a231109b137076f053af84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 13:18:27</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=7ca445ba97a231109b137076f053af84"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_script_7ca445ba97a231109b137076f053af84</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;IT Assist IntceptIncNotif&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+    var caller = current.getValue("caller_id");
+    var caller_name = current.getDisplayValue("caller_id");
+    var opened_by = current.opened_by;
+    var number = current.number;
+    var currentUserId = gs.getUserID();
+    var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
+    itsm_horiz.query();
+    while (itsm_horiz.next()) {
+        if (opened_by.toString() !== itsm_horiz["user_sys_id"]) {
+            var workbenchheaders = [
+                "accept", "authorization", "datatable", "endpoint",
+                "integration_service", "platform"
+            ];
+
+            var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+            for (var header in workbenchheaders) {
+               if(workbenchheaders[header] === "authorization"){
+					var authValue = itsm_horiz.getElement("authorization").getDecryptedValue() + "";
+					rm.setStringParameterNoEscape(workbenchheaders[header],authValue );
+				}else{
+					rm.setStringParameterNoEscape(workbenchheaders[header], itsm_horiz[workbenchheaders[header]] + "");
+				}
+            }
+            var actions = [];
+            actions.push({
+                "type": "postback",
+                "label": "View ticket " + number,
+                "value": "View ticket " + number
+            });
+
+            var notification_text = "\nHi " + caller_name + ", \n Your IT ticket " + number + " just landed in ServiceNow! I'll be on it. Please check with me if you need any update";
+            gs.info("notification_text:::" + notification_text);
+            var item = {
+                "_id": "_id",
+                "body": notification_text,
+                "target_id": caller,
+                "target_type": "USER",
+                "actions": actions,
+            };
+            rm.setRequestBody(JSON.stringify({
+                "notifications": [item]
+            }));
+            var response = rm.executeAsync();
+            gs.info("REsponse" + JSON.stringify(response));
+        }
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-20 09:20:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7ca445ba97a231109b137076f053af84&lt;/sys_id&gt;&lt;sys_mod_count&gt;66&lt;/sys_mod_count&gt;&lt;sys_name&gt;IT Assist IntceptIncNotif&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7ca445ba97a231109b137076f053af84&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-26 13:18:27&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7ca445ba97a231109b137076f053af84"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-255398885</payload_hash>
+        <record_name>IT Assist IntceptIncNotif</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 13:18:27</sys_created_on>
+        <sys_id>4f5ce29e972802109b137076f053aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de59117eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 13:18:27</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>c35ce29e9828021067b7d7b447e4c7f3</update_guid>
+        <update_guid_history>c35ce29e9828021067b7d7b447e4c7f3:-255398885,6e06a44e04040a103cc7ab19b1ab4997:-2037082260,dc50f74fe7afb1103ceead2d19f05f1b:796284325,a62efd93cfd3311095fda3a1812627ea:-596771436,c2bcfd9366d331108e325571bfbfb5e1:210554488,6ebee883219fb11092548a9356ed4ede:-1832209206,b15887a2d8977110e776a7878e0206f5:470618386,1f808b626f977110537ce28969b4a80e:2098714217,dd8c726ed05771105d3057f908fc7f08:-1190055517,4c1b3aea11577110c18f20f4b86c41df:651601491,0c9ab6aa7f577110fa115f9ea2220555:-1541613951,14c2131a08973110a5d395ce86c860d3:651601491,80e252c5779b75102bfb8515a604cec6:1150065811,6d819a45129b751025ca083771719b80:1906868569,240e0a416f9b75103dfbec07390949b7:-489219365,5bbc4e8d705b7510648b06e65bdf734f:-1837210124,319bce4db75b751053613692ac8265d9:1503807562,e93902c90b5b75107d47dd9c2dc6f908:-1429891781,f2a68a45f85b7510b436b8e75bdf9300:1914233902,db644a45015b751023e41c445d660697:-219380539,e19246c1645b751088109d5e3e6ce8e2:1913141843,4d04bd81131b751098b43d297428ada4:1096645362,d91275cdafd775107c7ff7ce012f12ed:2076575419,39efa18dbdd7751058dff3630886d24c:264250617,87706949dc977510210eb1c866a6f60d:619874967,84aa1185dc97751068ef05b5281090f8:-2132182912,17e81dc1389775107db244c004183767:1403362628,3fc71181909775103645d7ef2cc88478:-401609121,1d031d4d95577510310665f432091b63:1874238085,1a31510d5b577510294d6aeaa18fb0e8:1056967963,d40e4dc56d577510be7493369aa45a4a:-1910018545,13f44fb4f71f351071344957d9bf8894:1056967963,636bbe3c33db3510483d48aaa6af2056:1588245818,437a76f8ebdb35103d82e1bf04bbe532:-227567687,a828fa7851db3510d67d769b1fc67bb8:2066305267,54e7b67806db351094b4f4c5c4ae5cac:1059934116,3a0676f48cdb35105c637c05614912d4:1438075569,f9a3323468db3510d2ef9765f9383cbb:1525895748,4ac232b04edb3510c0405ac1ea16fd48:290848482,41a076bcde9b35108552a21bad322abe:2043152075,4dcd2a7c0e9b3510889c0f8d1b8bb4f9:-786052138,e2bc263c589b3510660000ae15ca6417:-2069757989,093a2e78109b3510cece63407a3e2262:1495633947,08e7a6b4bf9b351080de2f3557e166e3:-851983008,36f6a6b49c9b3510fe5cc6bc8b301e58:-1315642008,cac52e342a9b3510045586fef2bfc0c7:-168147414,dca3ff584c5fb1100700398e9e5dbd05:1355010750,4763fb58715fb110114fecc3fda2ca8c:1788226511,a0237758985fb110a3f4f3994f4ee065:1355010750,a67177d4c85fb11051c6917fc4c38738:1788226511,c5aeaeb96d4771104b104706103bdeb6:1355010750,54e0d6355f07711030afe442444c3970:-828381492,568fc948003231100d637ffeefd2a0ec:-929862134,9b4e4dc49b3231108934e326efb8f0b6:937807770,8ec5f1f2f26631102a14e1c95ad774c5:-1118766891,6340e9f65426311076cdfec67d17a922:-1408269763,c96f11769a2631102d545ea1d985a981:1851018176,73581532a6263110eb2ba63ec1ef89c5:1684392260,94f7ddbe28e23110bb5423cdfe9e18c6:-359022637,7f7751fec3e2311033717564c32f28c8:-1452051245,0eb55dfa2fe231103284ce0ad2c2c8c7:1168616042,2f841d7ae7e231109e7f7941fd855803:-585271843,cab2953a22e23110c08fd70b4b0467a0:-357432027,e2fec53608e2311034ad069b3fab45e7:-1821326843,740e01f216e23110dfea767df8c83073:-585862621,75ab893207e23110977bb2f4d83cc9df:128850417,d80acdfea8a23110e7a145937ad2544a:-604153610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:15:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>47e0fbdfe9154a6abea253a7cf430084</sys_id>
+        <sys_metadata>7ca445ba97a231109b137076f053af84</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Assist IntceptIncNotif</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="Incident">40b16076d4a3211095d7c105f1bf431c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_7ca445ba97a231109b137076f053af84</sys_update_name>
+        <sys_update_version display_value="sys_script_7ca445ba97a231109b137076f053af84">4f5ce29e972802109b137076f053aff3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:15:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

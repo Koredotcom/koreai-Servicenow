@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <name>Kore-css-include</name>
+        <source>url</source>
+        <sp_css/>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 12:38:14</sys_created_on>
+        <sys_id>ecbf2ff4977842109b137076f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kore-css-include</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sp_css_include_ecbf2ff4977842109b137076f053af76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 12:38:14</sys_updated_on>
+        <url>https://itassist.kore.ai/snowsdk/assets/kore-ai-sdk.min.css</url>
+    </sp_css_include>
+</record_update>

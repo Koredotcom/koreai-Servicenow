@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 17:43:37</sys_created_on>
+        <sys_id>0da404022f52111051c859a72799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_configrulebools_vert.x_831378_kore_ai_0.configrulebools_vert_user</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_security_acl display_value="x_831378_kore_ai_0_configrulebools_vert">4da404022f52111051c859a72799b680</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0da404022f52111051c859a72799b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 17:43:37</sys_updated_on>
+        <sys_user_role display_value="x_831378_kore_ai_0.configrulebools_vert_user" name="x_831378_kore_ai_0.configrulebools_vert_user">52e2400e2f12111051c859a72799b69b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_security_acl_role_0da404022f52111051c859a72799b68f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 17:43:37</sys_created_on>
+        <sys_id>0da404022f52111051c859a72799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_configrulebools_vert.x_831378_kore_ai_0.configrulebools_vert_user</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_security_acl display_value="x_831378_kore_ai_0_configrulebools_vert">4da404022f52111051c859a72799b680</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0da404022f52111051c859a72799b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 17:43:37</sys_updated_on>
+        <sys_user_role display_value="x_831378_kore_ai_0.configrulebools_vert_user" name="x_831378_kore_ai_0.configrulebools_vert_user">52e2400e2f12111051c859a72799b69b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-1016146324</payload_hash>
+        <record_name>x_831378_kore_ai_0_configrulebools_vert.x_831378_kore_ai_0.configrulebools_vert_user</record_name>
+        <reverted_from/>
+        <source>ca1003fc977442109b137076f053afde</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 09:10:07</sys_created_on>
+        <sys_id>83308ffc977442109b137076f053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0de099e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 09:10:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>43308ffcdc7442101eae9e2dcb73918b</update_guid>
+        <update_guid_history>43308ffcdc7442101eae9e2dcb73918b:0,ebf3b798aa5fb1105ab69095d2a74a97:-1845230825,5d3286cb98023110cc37afec189f953c:-1016146324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_831378_kore_ai_0_configrulebools_vert.x_831378_kore_ai_0.configrulebools_vert_">c06247f097b442109b137076f053af1d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 09:19:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1a05041ff99d43a0839886818fd44c91</sys_id>
+        <sys_metadata>0da404022f52111051c859a72799b68f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_configrulebools_vert.x_831378_kore_ai_0.configrulebools_vert_user</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="">4da404022f52111051c859a72799b680</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0da404022f52111051c859a72799b68f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0da404022f52111051c859a72799b68f">83308ffc977442109b137076f053afa4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 09:19:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

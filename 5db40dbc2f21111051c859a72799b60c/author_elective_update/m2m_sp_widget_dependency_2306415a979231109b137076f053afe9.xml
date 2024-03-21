@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="Kore-IT-Assist-Link">d316285e971231109b137076f053af5b</sp_dependency>
+        <sp_widget display_value="KoreITAssist Chat">4215c59a979231109b137076f053afb9</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 09:30:12</sys_created_on>
+        <sys_id>2306415a979231109b137076f053afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kore-IT-Assist-Link.KoreITAssist Chat</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_2306415a979231109b137076f053afe9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 09:30:12</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>m2m_sp_widget_dependency_2306415a979231109b137076f053afe9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="Kore-IT-Assist-Link">d316285e971231109b137076f053af5b</sp_dependency><sp_widget display_value="KoreITAssist Chat">4215c59a979231109b137076f053afb9</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-06 09:30:12</sys_created_on><sys_id>2306415a979231109b137076f053afe9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Kore-IT-Assist-Link.KoreITAssist Chat</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>m2m_sp_widget_dependency_2306415a979231109b137076f053afe9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-06 09:30:12</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>1738126696</payload_hash>
+        <record_name>Kore-IT-Assist-Link.KoreITAssist Chat</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 09:30:12</sys_created_on>
+        <sys_id>e306415a979231109b137076f053afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba3f7de4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 09:30:12</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>2f06415a73923110b394410c453011ea</update_guid>
+        <update_guid_history>2f06415a73923110b394410c453011ea:1738126696</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Kore-IT-Assist-Link.KoreITAssist Chat">25fdbaba97ab71109b137076f053afd9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 10:49:32</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>18ce92dfa16342f899ff8c633be92469</sys_id>
+        <sys_metadata>2306415a979231109b137076f053afe9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kore-IT-Assist-Link.KoreITAssist Chat</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>m2m_sp_widget_dependency_2306415a979231109b137076f053afe9</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_2306415a979231109b137076f053afe9">e306415a979231109b137076f053afeb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 10:49:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -60,7 +60,7 @@
         <update_guid_history>626821989430211056a9eaf3ee7b5daa:0,a4b0c085066311105165ae0e668229e5:-1466976146</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="newer_kore-ai-sdk.min.css.ITAssistKoreChatDepend">f7c241fb470621104c7a41fe436d43af</sys_audit_delete>
+        <sys_audit_delete display_value="">f7c241fb470621104c7a41fe436d43af</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-13 18:40:04</sys_created_on>

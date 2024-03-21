@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="WebSDK Config Horiz" language="en" table="x_831378_kore_ai_0_websdk_config_horiz">
+    <sys_documentation element="" label="WebSDK Config" language="en" table="x_831378_kore_ai_0_websdk_config_horiz">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>WebSDK Config Horiz</label>
+            <label>WebSDK Config</label>
             <language>en</language>
             <name>x_831378_kore_ai_0_websdk_config_horiz</name>
-            <plural>WebSDK Config Horizes</plural>
+            <plural>WebSDK Configs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-05-31 16:52:40</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>WebSDK Config Horiz</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>WebSDK Config</sys_name>
             <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
             <sys_policy/>
             <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
             <sys_update_name>sys_documentation_x_831378_kore_ai_0_websdk_config_horiz__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 16:52:40</sys_updated_on>
+            <sys_updated_on>2024-03-05 09:21:02</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

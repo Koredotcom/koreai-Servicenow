@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="IT Assist  Application ">f577265c2f52111051c859a72799b6b4</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_831378_kore_ai_0_it_assist_config_horiz">firstentry=true^EQ<item endquery="false" field="firstentry" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Form to revise the ITSM config data for the app.</hint>
+        <homepage/>
+        <image/>
+        <link_type>DETAIL</link_type>
+        <map_page/>
+        <mobile_title>ITSM Configs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 13:14:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>89691565972231109b137076f053af02</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Base Configurations </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_app_module_89691565972231109b137076f053af02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 09:58:11</sys_updated_on>
+        <timeline_page/>
+        <title>Base Configurations </title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_app_module_89691565972231109b137076f053af02</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="IT Assist  Application ">f577265c2f52111051c859a72799b6b4</application><assessment/><device_type/><filter table="x_831378_kore_ai_0_it_assist_config_horiz">firstentry=true^EQ<item endquery="false" field="firstentry" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>Form to revise the ITSM config data for the app.</hint><homepage/><image/><link_type>DETAIL</link_type><map_page/><mobile_title>ITSM Configs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_831378_kore_ai_0_it_assist_config_horiz</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-16 13:14:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>89691565972231109b137076f053af02</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Base Configurations </sys_name><sys_overrides/><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_app_module_89691565972231109b137076f053af02</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-29 09:58:11</sys_updated_on><timeline_page/><title>Base Configurations </title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>34680796</payload_hash>
+        <record_name>Base Configurations </record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 09:58:11</sys_created_on>
+        <sys_id>664b119797e002109b137076f053af55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18df44cd1c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 09:58:11</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6e4b1197a7e002108b43cba43296ad54</update_guid>
+        <update_guid_history>6e4b1197a7e002108b43cba43296ad54:34680796,bc3b15179be00210437aad1e641a6538:-2093140478,b9bcbe65ce4c86107bfa4591ea3aeb4a:1836890219,595afddf649331100bec408b8814f8f9:420974965,b0993dd7f9933110953ccaa501a28e70:626639376,6953351bf6933110b43fb9b16abe233a:-657620355,598e486450dfb1108cb0d71cfb6a02c4:626639376,85691565782231109da269f21acbc805:-1941113449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Base Configurations ">ba83fa7c973442109b137076f053af55</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1006b18d678c4591ac5ec7b533cd9d59</sys_id>
+        <sys_metadata>89691565972231109b137076f053af02</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Configurations </sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_app_module_89691565972231109b137076f053af02</sys_update_name>
+        <sys_update_version display_value="sys_app_module_89691565972231109b137076f053af02">664b119797e002109b137076f053af55</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

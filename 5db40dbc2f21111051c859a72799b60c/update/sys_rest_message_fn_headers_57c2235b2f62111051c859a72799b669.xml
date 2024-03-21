@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
     <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
-        <name>integration_service</name>
+        <name>integration-service</name>
         <rest_message_function display_value="ITAssistWorkbenchPing">9f1b36022fc2111051c859a72799b670</rest_message_function>
         <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 17:23:33</sys_created_on>
         <sys_id>57c2235b2f62111051c859a72799b669</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>integration_service</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>integration-service</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_rest_message_fn_headers_57c2235b2f62111051c859a72799b669</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:08:24</sys_updated_on>
+        <sys_updated_on>2024-03-14 04:57:02</sys_updated_on>
         <value>${integration_service}</value>
     </sys_rest_message_fn_headers>
 </record_update>

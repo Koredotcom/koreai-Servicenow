@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e0f5370b470321104c7a41fe436d43d2" label="IT Assist Config Horiz" max_length="40" name="x_831378_kore_ai_0_it_assist_config_horiz" type="collection">
-        <element label="Accept Filetype" max_length="255" name="accept" read_only="true" type="string_full_utf8"/>
-        <element label="Authorization Key" mandatory="true" max_length="255" name="authorization" type="password2"/>
-        <element label="Datatable For API" mandatory="true" max_length="255" name="datatable" type="string_full_utf8"/>
-        <element label="Endpoint For Notify Platform" mandatory="true" max_length="255" name="endpoint" type="url"/>
+    <element db_object_id="e0f5370b470321104c7a41fe436d43d2" label="IT Assist Configurations" max_length="40" name="x_831378_kore_ai_0_it_assist_config_horiz" type="collection">
+        <element default="application/json" label="Accept Filetype" max_length="255" name="accept" read_only="true" type="string_full_utf8"/>
+        <element label="Account Id" mandatory="true" max_length="255" name="account_id" type="string_full_utf8"/>
+        <element label="Authorization" mandatory="true" max_length="8000" name="authorization" type="password2"/>
+        <element label="Bot ID" mandatory="true" max_length="255" name="bot_id" type="string_full_utf8"/>
+        <element label="Bot Name" mandatory="true" max_length="255" name="bot_name" type="string_full_utf8"/>
+        <element choice="2" label="Bot Service Account " mandatory="true" max_length="32" name="bot_service_account" reference="sys_user" type="reference">
+            <choice/>
+        </element>
+        <element label="Client ID" mandatory="true" max_length="255" name="client_id" type="password2"/>
+        <element label="Client Secret " mandatory="true" max_length="255" name="client_secret" type="password2"/>
+        <element label="Datatable" mandatory="true" max_length="255" name="datatable" type="string_full_utf8"/>
+        <element display="true" label="Display Name" max_length="255" name="display_name" type="string_full_utf8"/>
+        <element label="API Path" mandatory="true" max_length="255" name="endpoint" type="string_full_utf8"/>
         <element label="firstEntry" max_length="40" name="firstentry" read_only="true" type="boolean"/>
-        <element label="Integration Service for API" mandatory="true" max_length="255" name="integration_service" type="string_full_utf8"/>
-        <element label="Platform Table Endpoint" mandatory="true" max_length="255" name="platform" type="url"/>
-        <element display="true" label="Service Host Table Endpoint" mandatory="true" max_length="255" name="serv_host" type="url"/>
+        <element label="Integration Service" mandatory="true" max_length="255" name="integration_service" type="string_full_utf8"/>
+        <element label="JWT URL" mandatory="true" max_length="255" name="jwt_url" type="string_full_utf8"/>
+        <element label="Kore API URL" mandatory="true" max_length="255" name="kore_api_url" type="string_full_utf8"/>
+        <element label="Platform" mandatory="true" max_length="255" name="platform" type="string_full_utf8"/>
+        <element label="Service Host Table Endpoint" mandatory="true" max_length="255" name="serv_host" type="url"/>
+        <index name="index">
+            <element name="bot_service_account"/>
+        </index>
     </element>
 </database>

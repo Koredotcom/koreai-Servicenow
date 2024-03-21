@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2d5accab2fe2111051c859a72799b60d" label="IT Assist Config" max_length="40" name="x_831378_kore_ai_0_itsm_config" type="collection">
-        <element label="Description" max_length="75" name="description" type="string_full_utf8"/>
-        <element label="Protected Value" max_length="255" name="encrypted_val" type="password2"/>
-        <element label="Name" max_length="30" name="name" type="string_full_utf8"/>
-    </element>
-</database>

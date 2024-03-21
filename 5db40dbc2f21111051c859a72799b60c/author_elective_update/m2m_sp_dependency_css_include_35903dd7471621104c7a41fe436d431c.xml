@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
+    <m2m_sp_dependency_css_include action="DELETE">
+        <order>100</order>
+        <sp_css_include display_value="StagingCSS">b680b19b471621104c7a41fe436d43f0</sp_css_include>
+        <sp_dependency display_value="ITAssistWebClientDepend">bafee91b471621104c7a41fe436d435b</sp_dependency>
+        <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 18:58:49</sys_created_on>
+        <sys_id>35903dd7471621104c7a41fe436d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StagingCSS.ITAssistWebClientDepend</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>m2m_sp_dependency_css_include_35903dd7471621104c7a41fe436d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:58:49</sys_updated_on>
+    </m2m_sp_dependency_css_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>m2m_sp_dependency_css_include_35903dd7471621104c7a41fe436d431c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
+    <m2m_sp_dependency_css_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_css_include display_value="StagingCSS">b680b19b471621104c7a41fe436d43f0</sp_css_include>
+        <sp_dependency display_value="ITAssistWebClientDepend">bafee91b471621104c7a41fe436d435b</sp_dependency>
+        <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 18:58:49</sys_created_on>
+        <sys_id>35903dd7471621104c7a41fe436d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StagingCSS.ITAssistWebClientDepend</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>m2m_sp_dependency_css_include_35903dd7471621104c7a41fe436d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:58:49</sys_updated_on>
+    </m2m_sp_dependency_css_include>
+</record_update>]]></payload>
+        <payload_hash>1394496568</payload_hash>
+        <record_name>StagingCSS.ITAssistWebClientDepend</record_name>
+        <reverted_from/>
+        <source>ca1003fc977442109b137076f053afde</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 09:09:51</sys_created_on>
+        <sys_id>57200bfc977442109b137076f053af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0de05c840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 09:09:51</sys_updated_on>
+        <type>Dependency CSS Includes</type>
+        <update_guid>93200bfcde74421044e34aa43fe9111c</update_guid>
+        <update_guid_history>93200bfcde74421044e34aa43fe9111c:0,0e3fce683b2b751052868efcc70716af:-315674953,4e2282cb9d023110d678d6a6e6ae1604:1394496568</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="StagingCSS.ITAssistWebClientDepend">d3ae67b4977842109b137076f053af2a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 12:33:00</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_css_include">m2m_sp_dependency_css_include</sys_db_object>
+        <sys_id>1f0ced818ff24d898204423bec9cf9d1</sys_id>
+        <sys_metadata>35903dd7471621104c7a41fe436d431c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StagingCSS.ITAssistWebClientDepend</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_css_include_35903dd7471621104c7a41fe436d431c</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_css_include_35903dd7471621104c7a41fe436d431c">57200bfc977442109b137076f053af1c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 12:33:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

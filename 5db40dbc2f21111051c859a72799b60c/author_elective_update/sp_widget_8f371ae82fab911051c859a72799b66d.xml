@@ -126,7 +126,7 @@
         <update_guid_history>d7686198f93021103ef4488c2b7fcc34:0,3afa52ecedab91103db45916e4948efb:1829026670,f0dada2c4bab9110d0558871cf89af87:801812750,0e68562c1fab9110f76e972fd2f82390:572233748,179796e860ab9110edf983552d1ca7ec:-1222808518</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="test variables">c25209bb470621104c7a41fe436d43bc</sys_audit_delete>
+        <sys_audit_delete display_value="">c25209bb470621104c7a41fe436d43bc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-13 18:38:02</sys_created_on>

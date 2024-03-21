@@ -220,7 +220,6 @@
         <dispatched_events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -267,4 +266,5 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-09-20 16:39:04</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b29f8f9340211100ce8d0b818653f67"/>
 </record_update>

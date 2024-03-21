@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Tesing_ITAssist</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+        <sys_id>9ee5051297a002109b137076f053af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tesing ITAssist</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ui_view_9ee5051297a002109b137076f053af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+        <title>Tesing ITAssist</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_ui_view_9ee5051297a002109b137076f053af2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Tesing_ITAssist</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>9ee5051297a002109b137076f053af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tesing ITAssist</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_ui_view_9ee5051297a002109b137076f053af2c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><title>Tesing ITAssist</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>1368611245</payload_hash>
+        <record_name>Tesing ITAssist</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+        <sys_id>5ee5051297a002109b137076f053af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de3f74be40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>96e50512c3a0021063f119922085d030</update_guid>
+        <update_guid_history>96e50512c3a0021063f119922085d030:1368611245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:15:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>15345f108060475094be6e33aa896e40</sys_id>
+        <sys_metadata>9ee5051297a002109b137076f053af2c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tesing ITAssist</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_view_9ee5051297a002109b137076f053af2c</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_9ee5051297a002109b137076f053af2c">5ee5051297a002109b137076f053af30</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:15:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

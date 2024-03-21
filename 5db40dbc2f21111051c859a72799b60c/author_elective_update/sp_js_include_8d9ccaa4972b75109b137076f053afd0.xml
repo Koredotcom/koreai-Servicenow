@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="DELETE">
+        <display_name>kore-ai-sdk-part4.min.js</display_name>
+        <source>local</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 07:28:43</sys_created_on>
+        <sys_id>8d9ccaa4972b75109b137076f053afd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kore-ai-sdk-part4.min.js</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_ui_script display_value="x_831378_kore_ai_0.kore-ai-sdk4.min.js">acbc8ea4972b75109b137076f053af0c</sys_ui_script>
+        <sys_update_name>sp_js_include_8d9ccaa4972b75109b137076f053afd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 07:28:43</sys_updated_on>
+        <url/>
+    </sp_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sp_js_include_8d9ccaa4972b75109b137076f053afd0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>kore-ai-sdk-part4.min.js</display_name><source>local</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-02 07:28:43</sys_created_on><sys_id>8d9ccaa4972b75109b137076f053afd0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>kore-ai-sdk-part4.min.js</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_ui_script display_value="x_831378_kore_ai_0.kore-ai-sdk4.min.js">acbc8ea4972b75109b137076f053af0c</sys_ui_script><sys_update_name>sp_js_include_8d9ccaa4972b75109b137076f053afd0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-02 07:28:43</sys_updated_on><url/></sp_js_include></record_update>]]></payload>
+        <payload_hash>-627341737</payload_hash>
+        <record_name>kore-ai-sdk-part4.min.js</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 07:28:43</sys_created_on>
+        <sys_id>f7dc42e4972b75109b137076f053af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cc91323a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 07:28:43</sys_updated_on>
+        <type>JS Include</type>
+        <update_guid>33dc42e4872b7510785ea299e0c0df1c</update_guid>
+        <update_guid_history>33dc42e4872b7510785ea299e0c0df1c:-627341737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="kore-ai-sdk-part4.min.js">c3b37ebc973442109b137076f053af70</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:15:29</sys_created_on>
+        <sys_db_object display_value="" name="sp_js_include">sp_js_include</sys_db_object>
+        <sys_id>0f9b8a8400e145648d86de1e3d367b90</sys_id>
+        <sys_metadata>8d9ccaa4972b75109b137076f053afd0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kore-ai-sdk-part4.min.js</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sp_js_include_8d9ccaa4972b75109b137076f053afd0</sys_update_name>
+        <sys_update_version display_value="sp_js_include_8d9ccaa4972b75109b137076f053afd0">f7dc42e4972b75109b137076f053af1c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:15:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

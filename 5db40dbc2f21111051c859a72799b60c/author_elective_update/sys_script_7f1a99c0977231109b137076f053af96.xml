@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist InterceptRecNotif</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    var requestor = current.getValue("requested_for");
+    var requestor_name = current.getDisplayValue("requested_for");
+    var opened_by = current.opened_by;
+    var number = current.number;
+    var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
+    itsm_horiz.query();
+    while (itsm_horiz.next()) {
+        if (opened_by.toString() !== itsm_horiz["user_sys_id"].toString()) {
+            var workbenchheaders = [
+                "accept", "authorization", "datatable", "endpoint",
+                "integration_service", "platform"
+            ];
+            var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+
+            for (var header in workbenchheaders) {
+				if(workbenchheaders[header] === "authorization"){
+					var authValue = itsm_horiz.getElement("authorization").getDecryptedValue() + "";
+					rm.setStringParameterNoEscape(workbenchheaders[header],authValue );
+				}else{
+					rm.setStringParameterNoEscape(workbenchheaders[header], itsm_horiz[workbenchheaders[header]] + "");
+				}
+                
+            }
+
+            var actions = [];
+            actions.push({
+                "type": "postback",
+                "label": "View ticket " + number,
+                "value": "View ticket " + number
+            });
+
+            var notification_text = "\nHi " + requestor_name + ", \n Your IT ticket " + number + " just landed in ServiceNow! I'll be on it. Please check with me if you need any update";
+            var item = {
+                "_id": "_id",
+                "body": notification_text,
+                "target_id": requestor,
+                "target_type": "USER",
+                "actions": actions,
+            };
+            rm.setRequestBody(JSON.stringify({
+                "notifications": [item]
+            }));
+            var response = rm.executeAsync();
+        }
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-24 07:47:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f1a99c0977231109b137076f053af96</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>IT Assist InterceptRecNotif</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_7f1a99c0977231109b137076f053af96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:46:50</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=7f1a99c0977231109b137076f053af96"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_script_7f1a99c0977231109b137076f053af96</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;IT Assist InterceptRecNotif&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+    var requestor = current.getValue("requested_for");
+    var requestor_name = current.getDisplayValue("requested_for");
+    var opened_by = current.opened_by;
+    var number = current.number;
+    var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
+    itsm_horiz.query();
+    while (itsm_horiz.next()) {
+        if (opened_by.toString() !== itsm_horiz["user_sys_id"].toString()) {
+            var workbenchheaders = [
+                "accept", "authorization", "datatable", "endpoint",
+                "integration_service", "platform"
+            ];
+            var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+
+            for (var header in workbenchheaders) {
+				if(workbenchheaders[header] === "authorization"){
+					var authValue = itsm_horiz.getElement("authorization").getDecryptedValue() + "";
+					rm.setStringParameterNoEscape(workbenchheaders[header],authValue );
+				}else{
+					rm.setStringParameterNoEscape(workbenchheaders[header], itsm_horiz[workbenchheaders[header]] + "");
+				}
+                
+            }
+
+            var actions = [];
+            actions.push({
+                "type": "postback",
+                "label": "View ticket " + number,
+                "value": "View ticket " + number
+            });
+
+            var notification_text = "\nHi " + requestor_name + ", \n Your IT ticket " + number + " just landed in ServiceNow! I'll be on it. Please check with me if you need any update";
+            var item = {
+                "_id": "_id",
+                "body": notification_text,
+                "target_id": requestor,
+                "target_type": "USER",
+                "actions": actions,
+            };
+            rm.setRequestBody(JSON.stringify({
+                "notifications": [item]
+            }));
+            var response = rm.executeAsync();
+        }
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-24 07:47:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7f1a99c0977231109b137076f053af96&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;IT Assist InterceptRecNotif&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="IT Assist" source="x_831378_kore_ai_0"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Assist"&gt;5db40dbc2f21111051c859a72799b60c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7f1a99c0977231109b137076f053af96&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-31 11:46:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7f1a99c0977231109b137076f053af96"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>870930427</payload_hash>
+        <record_name>IT Assist InterceptRecNotif</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 11:46:50</sys_created_on>
+        <sys_id>6b0e900a97040a109b137076f053afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5f57df040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:46:50</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>ef0e900af3040a10747ca4067f7a02bd</update_guid>
+        <update_guid_history>ef0e900af3040a10747ca4067f7a02bd:870930427,495b940a1b040a10b0c425441acc52fa:1785641751,9189d086bb040a10c10ec964fce66fda:-504677688,f9ed8c0a0cc00a10056a0f2c42968b7c:1147144364,cbf740c2f6c00a1089ca4163a65a0dd7:1869371676,84874c8295c00a102cd7e1d2ad707b12:604293702,b8e58402b8c00a104ac423fa700a0ac1:2016681442,bd250ccedf800a10562381e8aba389f2:1720721731,bf2440ce13800a1017e2b10dd6b54abd:1743409539,4004c48e46800a10acb952e035b5aba7:-1566267748,a6e30c8e04800a10d4f29065e100a610:1743409539,a943884ecc800a10894ab0a1ffeb46bc:-694530380,73c2844e94800a102aaf2a5aea72a5d5:-1806117696,e3f1c40e00800a10effc74afec85c2b8:431134096,ccedf117eed331105388b7369c8c8bb4:-1267372670,61accb5248973110ef25cc478caa3498:-2035149114,a0b33398625fb110efda703419f3c97d:2135908518,00a3ff58e45fb1108a68db8235ff8902:332830327,2c237758c25fb110853d13913691ed54:2135908518,e67177d4565fb1105aa65794e4030b34:332830327,57ae57502b1fb110ef1da4789cfd34ff:2135908518,bdbeea79b2477110f2a749247756968f:1915616262,e1f0d635d20771107608bdadf2391754:979910366,f92bd9c05c7231105bb696dd0d0eae2f:1235632634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:15:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>4ce55a67e58544e29c63394c9f32c044</sys_id>
+        <sys_metadata>7f1a99c0977231109b137076f053af96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Assist InterceptRecNotif</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="Sc Request">e422a83ad4a3211095d7c105f1bf437b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_7f1a99c0977231109b137076f053af96</sys_update_name>
+        <sys_update_version display_value="sys_script_7f1a99c0977231109b137076f053af96">6b0e900a97040a109b137076f053afbe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:15:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

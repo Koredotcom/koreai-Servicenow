@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="IT Assist Configuration Testing" section_id="9ae5051297a002109b137076f053af32" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="Tesing_ITAssist">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>12e5051297a002109b137076f053af75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <text>This page allows you to configure the connection between the IT Assist platform and your instance of ServiceNow. ServiceNow will contact the endpoints listed to allow for notifications to be broadcasted across all of the Kore.ai ITSM platform.
+
+- Authorization Key: A
+- Service Host Table Endpoint: B
+- Platform Table Endpoint: C</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12e5051297a002109b137076f053af75</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>dee5051297a002109b137076f053af75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>1ae5051297a002109b137076f053af76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>authorization</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>1ee5051297a002109b137076f053af76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>platform</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>12e5051297a002109b137076f053af77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>endpoint</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>16e5051297a002109b137076f053af77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accept</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>1ae5051297a002109b137076f053af77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>1ee5051297a002109b137076f053af77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_service</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>12e5051297a002109b137076f053af78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datatable</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>16e5051297a002109b137076f053af78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_sys_id</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_id>1ae5051297a002109b137076f053af78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>IT Assist Configuration Testing</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ae5051297a002109b137076f053af32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_9ae5051297a002109b137076f053af32</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Tesing ITAssist" name="Tesing_ITAssist">9ee5051297a002109b137076f053af2c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_ui_section_9ae5051297a002109b137076f053af32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="IT Assist Configuration Testing" section_id="9ae5051297a002109b137076f053af32" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="Tesing_ITAssist"><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>12e5051297a002109b137076f053af75</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><text>This page allows you to configure the connection between the IT Assist platform and your instance of ServiceNow. ServiceNow will contact the endpoints listed to allow for notifications to be broadcasted across all of the Kore.ai ITSM platform.
+
+- Authorization Key: A
+- Service Host Table Endpoint: B
+- Platform Table Endpoint: C</text><type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>12e5051297a002109b137076f053af75</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>dee5051297a002109b137076f053af75</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>1ae5051297a002109b137076f053af76</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>authorization</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>1ee5051297a002109b137076f053af76</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>platform</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>12e5051297a002109b137076f053af77</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>endpoint</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>16e5051297a002109b137076f053af77</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>accept</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>1ae5051297a002109b137076f053af77</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>1ee5051297a002109b137076f053af77</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>integration_service</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>12e5051297a002109b137076f053af78</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>datatable</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>16e5051297a002109b137076f053af78</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>user_sys_id</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_id>1ae5051297a002109b137076f053af78</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="IT Assist Configuration Testing" display_value="IT Assist Configuration Testing" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="9ee5051297a002109b137076f053af2c">9ae5051297a002109b137076f053af32</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>IT Assist Configuration Testing</caption><header>false</header><name>x_831378_kore_ai_0_it_assist_config_horiz</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 05:50:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9ae5051297a002109b137076f053af32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name><sys_overrides/><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_ui_section_9ae5051297a002109b137076f053af32</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 05:50:51</sys_updated_on><sys_user/><title>false</title><view display_value="Tesing ITAssist" name="Tesing_ITAssist">9ee5051297a002109b137076f053af2c</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-41051067</payload_hash>
+        <record_name>IT Assist Configuration</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 05:50:51</sys_created_on>
+        <sys_id>dae5051297a002109b137076f053af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de3f74ccd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 05:50:51</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>56e5051294a002108236ab5f874a8e7b</update_guid>
+        <update_guid_history>56e5051294a002108236ab5f874a8e7b:-41051067</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 08:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>01b09083d8404ab48110aafca4af9110</sys_id>
+        <sys_metadata>9ae5051297a002109b137076f053af32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Assist Configuration Testing</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="IT Assist Configurations">e0f5370b470321104c7a41fe436d43d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_section_9ae5051297a002109b137076f053af32</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9ae5051297a002109b137076f053af32">dae5051297a002109b137076f053af7b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 08:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

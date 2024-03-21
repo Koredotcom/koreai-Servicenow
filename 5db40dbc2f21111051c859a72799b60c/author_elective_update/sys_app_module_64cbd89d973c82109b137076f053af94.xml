@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="IT Assist Application">f577265c2f52111051c859a72799b6b4</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page display_value="Incident Counts by Location">c86c5feac0a80a6600706f0102968196</map_page>
+        <mobile_title>Getting started</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>cmdb_ci_lb_ace</name>
+        <order/>
+        <override_menu_roles>true</override_menu_roles>
+        <query>/x_831378_kore_ai_0_$it_assist_home_page.do?sysparm_use_polaris=false</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 10:31:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64cbd89d973c82109b137076f053af94</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Getting started</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_app_module_64cbd89d973c82109b137076f053af94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 12:11:08</sys_updated_on>
+        <timeline_page/>
+        <title>Getting started</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_app_module_64cbd89d973c82109b137076f053af94</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="IT Assist Application">f577265c2f52111051c859a72799b6b4</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page display_value="Incident Counts by Location">c86c5feac0a80a6600706f0102968196</map_page><mobile_title>Getting started</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>cmdb_ci_lb_ace</name><order/><override_menu_roles>true</override_menu_roles><query>/x_831378_kore_ai_0_$it_assist_home_page.do?sysparm_use_polaris=false</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-06 10:31:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>64cbd89d973c82109b137076f053af94</sys_id><sys_mod_count>19</sys_mod_count><sys_name>Getting started</sys_name><sys_overrides/><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_app_module_64cbd89d973c82109b137076f053af94</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-08 12:11:08</sys_updated_on><timeline_page/><title>Getting started</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>805062624</payload_hash>
+        <record_name>Getting started</record_name>
+        <reverted_from/>
+        <source>1670cbf8977442109b137076f053af53</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 12:11:08</sys_created_on>
+        <sys_id>0476c775973802109b137076f053af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e1df9686e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 12:11:08</sys_updated_on>
+        <type>Module</type>
+        <update_guid>40764f35a6380210b9ef0851f1a4d6d7</update_guid>
+        <update_guid_history>40764f35a6380210b9ef0851f1a4d6d7:805062624,6d26cb35083802101c42675317c7f8fc:-1791280633,01d5c735813802109f3df2ed137c701a:558426375,f355833569380210df85ca8cb137d77c:1378771495,9d13c7711e3802105f4cc29007dd7415:-30552840,e342cb319f38021085014ca5efaa2156:589839158,e222c7317b380210123b671511edd7d6:-196433166,6621cfbd3af40210792db91dce1d27a8:-1063724075,bec047bd3bf40210a866326d9a7ecede:-822885686,d690c7bdcaf40210f5529cd070fb6e97:-355930051,ed4047bd00f40210488bac1df8daf187:589839158,757fbe3d37f402108b9b22b3a0b56458:1993129142,db3f6ef96db40210be7e89a6311cfaaa:1203144603,8275a271c2b40210f5cbdb71736fc19b:1956986524,af15a63dfc7402105e09e863015dff33:1897244803,10312ef921740210cca4be4d636080bd:-755796564,80112ef9d274021040d390bcbbb3ff5a:-1646876397,70d026f94a74021049b3507a92932f91:1763546234,2dcc5095cc7c8210dbd2181058f7d843:1113310476,4f6c90d1ad7c8210c056aaf0f7ceb44d:-27063550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Getting started">a67fb83797f882109b137076f053af78</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 07:29:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>56100afdc0814e1e81314b91f1a54111</sys_id>
+        <sys_metadata>64cbd89d973c82109b137076f053af94</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Getting started</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_app_module_64cbd89d973c82109b137076f053af94</sys_update_name>
+        <sys_update_version display_value="sys_app_module_64cbd89d973c82109b137076f053af94">0476c775973802109b137076f053af06</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 07:29:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

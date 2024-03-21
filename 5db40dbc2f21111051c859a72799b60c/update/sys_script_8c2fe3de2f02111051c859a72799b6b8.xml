@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
 	// modified for horiz table usage
-	var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_itsm_config_horiz");
+	var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
 	itsm_horiz.query();
 	var workbenchheaders = [
 		"accept", "authorization", "datatable", "endpoint",
@@ -38,12 +38,13 @@
 	];
 	while (itsm_horiz.next()) {
 		for (var header in workbenchheaders) {
-			var header_val = itsm_horiz.header + '';
-			if (header == "authorization")
-				header_val = itsm_horiz.getElement(header).getDecryptedValue();
-			rm.setStringParameterNoEscape(header, header_val);
+			var header_val = itsm_horiz[workbenchheaders[header]] + '';
+			if (workbenchheaders[header] == "authorization")
+				header_val = itsm_horiz.getElement("authorization").getDecryptedValue();
+			rm.setStringParameterNoEscape(workbenchheaders[header], header_val);
 		}
 	}
+	
 	function getTarget_id(type) {
         var target_id;
         switch (type) {
@@ -98,7 +99,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c2fe3de2f02111051c859a72799b6b8</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>IT Assist GetLicenseRem</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
@@ -106,7 +107,7 @@
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_script_8c2fe3de2f02111051c859a72799b6b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:08:13</sys_updated_on>
+        <sys_updated_on>2024-03-13 13:25:05</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

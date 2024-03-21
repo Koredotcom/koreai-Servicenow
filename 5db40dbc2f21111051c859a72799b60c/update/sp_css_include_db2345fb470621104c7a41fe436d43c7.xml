@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
     <sp_css_include action="INSERT_OR_UPDATE">
-        <lazy_load>false</lazy_load>
         <name>kore-ai-sdk.min.css</name>
         <source>url</source>
         <sp_css display_value="koremincsinput">28e611d4476621104c7a41fe436d4311</sp_css>

@@ -83,7 +83,7 @@
         <update_guid_history>0dafec7392c2211062dc9d30b901a9d4:-91045248,53b8ec73fcc22110de59430b41e85761:1765151054,7025ecbfcf822110011841788f9f8d07:1614166707,b2682198713021108a0e5e9e436216e4:-1225043169,38e94fa8ba6f91108e27467c45ed66c1:-526832454,afc98fa8886f911028e1d342def2ba27:-888385961,dc44c3e0f36f91101418daf95bbc17c2:-1039027298,1334c3e0e36f911087bbb0d1d90e78f2:1772187302,1669668887935110a8ab770de4cb4611:-1039027298,8a49e688539351101586319c2bb62e28:998002377,b449ea4824935110e0b4a96ed898b006:1821388120,e5f7bfce04071110372ab5765ca115ee:2046204012,84f7bfcecc07111023744050b602258c:-1017314516,63c7ff4e0b071110e4e0532bf38d16a0:-1873918407,9a88a20a050311102cf19da5b9c54ee0:794883641</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="newer_kore-ai-sdk.min.css">40d241fb470621104c7a41fe436d43c6</sys_audit_delete>
+        <sys_audit_delete display_value="">40d241fb470621104c7a41fe436d43c6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-13 18:40:04</sys_created_on>

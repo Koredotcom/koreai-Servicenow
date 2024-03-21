@@ -26,19 +26,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a06bc0a32f26111051c859a72799b66e</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Base Config</sys_name>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Base Configurations</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_app_module_a06bc0a32f26111051c859a72799b66e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-01 18:42:49</sys_updated_on>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-20 17:51:23</sys_updated_on>
         <timeline_page/>
-        <title>Base Config</title>
+        <title>Base Configurations</title>
         <uncancelable>false</uncancelable>
-        <view_name>baseconfig_horiz</view_name>
+        <view_name>baseconfig</view_name>
         <window_name>baseconfig_horiz</window_name>
     </sys_app_module>
 </record_update>

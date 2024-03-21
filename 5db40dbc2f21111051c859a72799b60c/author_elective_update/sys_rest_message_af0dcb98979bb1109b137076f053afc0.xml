@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>public</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>TestRequest</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://eob7ybx65c9ph3b.m.pipedream.net</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 07:16:00</sys_created_on>
+        <sys_id>af0dcb98979bb1109b137076f053afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestRequest</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_rest_message_af0dcb98979bb1109b137076f053afc0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 07:16:00</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_rest_message_af0dcb98979bb1109b137076f053afc0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>public</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>TestRequest</name><oauth2_profile/><protocol_name/><rest_endpoint>https://eob7ybx65c9ph3b.m.pipedream.net</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-20 07:16:00</sys_created_on><sys_id>af0dcb98979bb1109b137076f053afc0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TestRequest</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_rest_message_af0dcb98979bb1109b137076f053afc0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-20 07:16:00</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>-748685277</payload_hash>
+        <record_name>TestRequest</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 07:16:00</sys_created_on>
+        <sys_id>2e4dcf9c979bb1109b137076f053af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8614cfee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 07:16:00</sys_updated_on>
+        <type>REST Message</type>
+        <update_guid>664dcf9c979bb11022c0ecfb39363425</update_guid>
+        <update_guid_history>664dcf9c979bb11022c0ecfb39363425:-748685277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 09:50:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>14ded2613cf1421e8f3c403597df6a04</sys_id>
+        <sys_metadata>af0dcb98979bb1109b137076f053afc0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestRequest</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_rest_message_af0dcb98979bb1109b137076f053afc0</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_af0dcb98979bb1109b137076f053afc0">2e4dcf9c979bb1109b137076f053af25</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 09:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

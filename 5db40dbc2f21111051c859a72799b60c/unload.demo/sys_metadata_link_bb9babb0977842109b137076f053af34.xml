@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>98ec433097f442109b137076f053af48</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_831378_kore_ai_0_it_assist_config_horiz">
+    <x_831378_kore_ai_0_it_assist_config_horiz action="INSERT_OR_UPDATE">
+        <accept>application/json</accept>
+        <authorization>﷞﷟﷒08a4896f972231109b137076f053af7d﷬﷔1﷬﷭-qKo1osIlEy7QEDY6kG1zA==R_uzuk-yhzDUYmIBksnV55rj3j5UeJBSEWJfA6l91n6TSGTZGLu3y1inKoovHy2o82-IheWXlMen0xKzbFurjC8lO4Cbo97W-EtAGVA_4jGwP55QhOc6biEIo0XIGFhTXHLOaYntz9bYeq_0YqQAgznBGGqthjlZqWpfCxYXmz5lREcS8deHewfOC3yKIlzfcjkQcvgrcQo2OaRTnrnjcxJ_x9jmyiF81X7v-SJef8oHkNK1YwMHY7ckaNVxkqD_CbXTczlDgDwez4WzYLSxk4K5WOLv7Lz2Gmu0UPNyYrMMSOjNrBtdx4I3AIVck9nn﷮﷯</authorization>
+        <bot_service_account display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</bot_service_account>
+        <datatable>pushnotificationstable-production</datatable>
+        <endpoint>https://itassist-qa.kore.ai/itsm_services/api/v1/notify</endpoint>
+        <firstentry>true</firstentry>
+        <integration_service>General</integration_service>
+        <platform>https://staging-bots.korebots.com/api/1.1/public/tables/</platform>
+        <serv_host/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 10:06:17</sys_created_on>
+        <sys_id>98ec433097f442109b137076f053af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 10:06:17</sys_updated_on>
+    </x_831378_kore_ai_0_it_assist_config_horiz>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 12:19:40</sys_created_on>
+        <sys_id>bb9babb0977842109b137076f053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_metadata_link_bb9babb0977842109b137076f053af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 12:19:40</sys_updated_on>
+        <tablename>x_831378_kore_ai_0_it_assist_config_hori</tablename>
+    </sys_metadata_link>
+</record_update>

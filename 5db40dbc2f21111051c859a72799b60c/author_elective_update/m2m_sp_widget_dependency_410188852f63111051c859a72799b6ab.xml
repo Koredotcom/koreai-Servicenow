@@ -58,7 +58,7 @@
         <update_guid_history>a26821985c30211005b6db9fef1e4db1:0,c90188850d6311103d72d7064eae38ac:616961184</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITAssistKoreChatDepend.ITAssistKoreChatWidg">97ad2dd3471621104c7a41fe436d4332</sys_audit_delete>
+        <sys_audit_delete display_value="">97ad2dd3471621104c7a41fe436d4332</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 18:46:05</sys_created_on>

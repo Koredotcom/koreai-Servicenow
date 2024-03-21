@@ -3,107 +3,242 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>accept</element>
-            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faee981347c321104c7a41fe436d4307</list_id>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
-            <sys_id>3aee981347c321104c7a41fe436d4308</sys_id>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>861786bd47810210e0406f8a436d4398</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>authorization</element>
-            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faee981347c321104c7a41fe436d4307</list_id>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
-            <sys_id>baee981347c321104c7a41fe436d4308</sys_id>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>0a1786bd47810210e0406f8a436d4398</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>datatable</element>
-            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faee981347c321104c7a41fe436d4307</list_id>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
-            <sys_id>3eee981347c321104c7a41fe436d4308</sys_id>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>8a1786bd47810210e0406f8a436d4398</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>endpoint</element>
-            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faee981347c321104c7a41fe436d4307</list_id>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
-            <sys_id>beee981347c321104c7a41fe436d4308</sys_id>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>0e1786bd47810210e0406f8a436d4398</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>integration_service</element>
-            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faee981347c321104c7a41fe436d4307</list_id>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
-            <sys_id>32ee981347c321104c7a41fe436d4309</sys_id>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>8e1786bd47810210e0406f8a436d4398</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>platform</element>
-            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faee981347c321104c7a41fe436d4307</list_id>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
-            <sys_id>b2ee981347c321104c7a41fe436d4309</sys_id>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>021786bd47810210e0406f8a436d4399</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>serv_host</element>
-            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">faee981347c321104c7a41fe436d4307</list_id>
+            <element>bot_service_account</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
-            <sys_id>36ee981347c321104c7a41fe436d4309</sys_id>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>821786bd47810210e0406f8a436d4399</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>firstentry</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>061786bd47810210e0406f8a436d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>account_id</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>861786bd47810210e0406f8a436d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bot_id</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>0a1786bd47810210e0406f8a436d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bot_name</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>8a1786bd47810210e0406f8a436d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client_id</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>0e1786bd47810210e0406f8a436d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client_secret</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>8e1786bd47810210e0406f8a436d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>021786bd47810210e0406f8a436d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>jwt_url</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>821786bd47810210e0406f8a436d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>kore_api_url</element>
+            <list_id display_value="x_831378_kore_ai_0_it_assist_config_horiz" element="NULL" name="x_831378_kore_ai_0_it_assist_config_horiz" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b91786bd47810210e0406f8a436d4397</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
+            <sys_id>061786bd47810210e0406f8a436d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -116,19 +251,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-31 19:49:04</sys_created_on>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 17:50:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>faee981347c321104c7a41fe436d4307</sys_id>
+            <sys_id>b91786bd47810210e0406f8a436d4397</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
             <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
             <sys_policy/>
             <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
             <sys_update_name>sys_ui_list_x_831378_kore_ai_0_it_assist_config_horiz_null</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-31 19:49:04</sys_updated_on>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 17:50:04</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>106</order>
+        <sp_dependency display_value="Kore-IT-Assist-Link">d316285e971231109b137076f053af5b</sp_dependency>
+        <sp_js_include display_value="kore-ai-sdk-part7.min.js">f2bd42e4972b75109b137076f053af3c</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 09:14:32</sys_created_on>
+        <sys_id>6fae2b309723f5109b137076f053afbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Kore-IT-Assist-Link.kore-ai-sdk-part7.min.js</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_6fae2b309723f5109b137076f053afbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 09:14:42</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>m2m_sp_dependency_js_include_6fae2b309723f5109b137076f053afbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>106</order><sp_dependency display_value="Kore-IT-Assist-Link">d316285e971231109b137076f053af5b</sp_dependency><sp_js_include display_value="kore-ai-sdk-part7.min.js">f2bd42e4972b75109b137076f053af3c</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-03 09:14:32</sys_created_on><sys_id>6fae2b309723f5109b137076f053afbf</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Kore-IT-Assist-Link.kore-ai-sdk-part7.min.js</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>m2m_sp_dependency_js_include_6fae2b309723f5109b137076f053afbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-03 09:14:42</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>-731731569</payload_hash>
+        <record_name>Kore-IT-Assist-Link.kore-ai-sdk-part7.min.js</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 09:14:42</sys_created_on>
+        <sys_id>4abe67fc97efb5109b137076f053afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cce9a87680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 09:14:42</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>42be67fc10efb510737372c8f3c081eb</update_guid>
+        <update_guid_history>42be67fc10efb510737372c8f3c081eb:-731731569,afae2b309d23f5109c61a10a894472c1:-1172813815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Kore-IT-Assist-Link.kore-ai-sdk-part7.min.js">361b7f5297dc82109b137076f053afd3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 08:46:48</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>164f0c9c55e34b4cabe22c4bee138290</sys_id>
+        <sys_metadata>6fae2b309723f5109b137076f053afbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kore-IT-Assist-Link.kore-ai-sdk-part7.min.js</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>m2m_sp_dependency_js_include_6fae2b309723f5109b137076f053afbf</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_6fae2b309723f5109b137076f053afbf">4abe67fc97efb5109b137076f053afeb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 08:46:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

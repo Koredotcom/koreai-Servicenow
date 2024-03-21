@@ -188,7 +188,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Configuration</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
-        <sys_parent display_value="IT Assist Config Horiz">e0f5370b470321104c7a41fe436d43d2</sys_parent>
+        <sys_parent display_value="IT Assist Configurations">e0f5370b470321104c7a41fe436d43d2</sys_parent>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>

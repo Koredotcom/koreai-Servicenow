@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>IT Assist InterceptIncnotifi</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var caller = current.getValue("caller_id");
+    var caller_name = current.getDisplayValue("caller_id");
+    var opened_by = current.opened_by;
+    var number = current.number;
+	var botServiceAccount = "";
+
+	var itsm_horiz = new GlideRecord("x_831378_kore_ai_0_it_assist_config_horiz");
+	itsm_horiz.query();
+	var rm = new sn_ws.RESTMessageV2("ITAssistWorkbenchPing", "ITAssistWorkbenchPing");
+	var workbenchheaders = [
+		"accept", "authorization", "datatable", "endpoint",
+		"integration_service", "platform", "serv_host"
+	];
+	while (itsm_horiz.next()) {
+		for (var header in workbenchheaders) {
+			var header_val = itsm_horiz[workbenchheaders[header]] + '';
+			if (workbenchheaders[header] == "authorization")
+				header_val = itsm_horiz.getElement("authorization").getDecryptedValue();
+			rm.setStringParameterNoEscape(workbenchheaders[header], header_val);
+		}
+		botServiceAccount = itsm_horiz["bot_service_account"].toString();
+	}
+	
+    if (opened_by.toString() !== botServiceAccount) {
+        
+        var actions = [];
+        actions.push({
+            "type": "postback",
+            "label": "View ticket " + number,
+            "value": "View ticket " + number
+        });
+
+
+        var notification_text = "\nYour IT ticket " + number + " just landed in ServiceNow! You can check with me for any updates. Also, if you need any other help, just ask me.";
+        var item = {
+            "_id": "_id",
+            "body": notification_text,
+            "target_id": caller,
+            "target_type": "USER",
+            "actions": actions,
+        };
+        rm.setRequestBody(JSON.stringify({
+            "notifications": [item]
+        }));
+        var response = rm.executeAsync();
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 10:40:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62a3d73897f442109b137076f053afcb</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>IT Assist InterceptIncnotifi</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_script_62a3d73897f442109b137076f053afcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 05:00:54</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=62a3d73897f442109b137076f053afcb"/>
+</record_update>

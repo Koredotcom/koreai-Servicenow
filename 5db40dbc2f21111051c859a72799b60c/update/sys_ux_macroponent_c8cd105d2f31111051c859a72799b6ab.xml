@@ -10,7 +10,6 @@
         <dispatched_events/>
         <ext_controller_dep/>
         <extends display_value="Dashboard Template">33f0d274b7321010f1feb81cde11a969</extends>
-        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -39,4 +38,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-06 15:06:28</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8cd105d2f31111051c859a72799b6ab"/>
 </record_update>

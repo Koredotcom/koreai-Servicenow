@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>it_assist_getnotifapprvcmnts</element>
+        <name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</name>
+        <style>background-color: red;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 10:36:32</sys_created_on>
+        <sys_id>2da4057c97d335109b137076f053af62</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>sys_ui_style_2da4057c97d335109b137076f053af62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:21:28</sys_updated_on>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=2da4057c97d335109b137076f053af62"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_ui_style_2da4057c97d335109b137076f053af62</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>it_assist_getnotifapprvcmnts</element><name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</name><style>background-color: red;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 10:36:32</sys_created_on><sys_id>2da4057c97d335109b137076f053af62</sys_id><sys_mod_count>9</sys_mod_count><sys_name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>sys_ui_style_2da4057c97d335109b137076f053af62</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:21:28</sys_updated_on><value/></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=2da4057c97d335109b137076f053af62"/></record_update>]]></payload>
+        <payload_hash>1948647005</payload_hash>
+        <record_name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</record_name>
+        <reverted_from/>
+        <source>79b20a47970231109b137076f053af13</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:21:28</sys_created_on>
+        <sys_id>101f0138971735109b137076f053af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8c1bea860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:21:28</sys_updated_on>
+        <type>Style</type>
+        <update_guid>181f013836173510f9defffdc8178436</update_guid>
+        <update_guid_history>181f013836173510f9defffdc8178436:1948647005,4e0f4d38301735103d8f1bae0fda122e:-408485966,aa9ec1384817351070c53041e3f75b94:1452046146,fd6e09f46017351016da1bb17e10de71:-1735736501,ef3ec9f486173510dcc040c55733207a:-1022068285,771ec9f48f173510e21efb262e7eb429:1891736870,f1fd01b449173510c04069a3ada1bba9:128385097,d89c8d747d173510fcab2300caf97a71:-200857982,775c4974e2173510c337d2284915be02:1298408354,c6c4057c28d33510be3dec2922578412:-1124472259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:21:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>3c63bf5a5ce44c00a9e73fbd03749000</sys_id>
+        <sys_metadata>2da4057c97d335109b137076f053af62</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_it_assist_rule_toggle_horiz</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="IT Assist Rule Toggle">4436fb0b470321104c7a41fe436d4377</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_style_2da4057c97d335109b137076f053af62</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_2da4057c97d335109b137076f053af62">101f0138971735109b137076f053af37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:21:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

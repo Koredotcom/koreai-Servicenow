@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
-        <authentication_type>inherit_from_parent</authentication_type>
+        <authentication_type>no_authentication</authentication_type>
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
@@ -39,14 +39,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-21 20:45:38</sys_created_on>
         <sys_id>9f1b36022fc2111051c859a72799b670</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>ITAssistWorkbenchPing</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_rest_message_fn_9f1b36022fc2111051c859a72799b670</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-19 20:29:37</sys_updated_on>
+        <sys_updated_on>2024-03-14 04:57:23</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

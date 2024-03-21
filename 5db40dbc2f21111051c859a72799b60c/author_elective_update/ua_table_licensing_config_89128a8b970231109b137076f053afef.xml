@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_831378_kore_ai_0_itsm_config</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 11:32:12</sys_created_on>
+        <sys_id>89128a8b970231109b137076f053afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_itsm_config</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>ua_table_licensing_config_89128a8b970231109b137076f053afef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 11:32:12</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>ua_table_licensing_config_89128a8b970231109b137076f053afef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_831378_kore_ai_0_itsm_config</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-27 11:32:12</sys_created_on><sys_id>89128a8b970231109b137076f053afef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_831378_kore_ai_0_itsm_config</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>ua_table_licensing_config_89128a8b970231109b137076f053afef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-27 11:32:12</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-174026777</payload_hash>
+        <record_name>x_831378_kore_ai_0_itsm_config</record_name>
+        <reverted_from/>
+        <source>f483c611970231109b137076f053af2a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-22 01:09:06</sys_created_on>
+        <sys_id>ff42420f970231109b137076f053af30</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b54edb3500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Table Subscription Configuration</type>
+        <update_guid>bf42420f5802311097e64a5d55b6f630</update_guid>
+        <update_guid_history>bf42420f5802311097e64a5d55b6f630:-174026777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 09:57:53</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>c02e2bb54b5643a795682aa78821dab9</sys_id>
+        <sys_metadata>89128a8b970231109b137076f053afef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_itsm_config</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>ua_table_licensing_config_89128a8b970231109b137076f053afef</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_89128a8b970231109b137076f053afef">ff42420f970231109b137076f053af30</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 09:57:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

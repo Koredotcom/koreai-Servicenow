@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d7548cce2f12111051c859a72799b6cb" label="IT Assist Rule Toggle" max_length="40" name="x_831378_kore_ai_0_configrulebools_vert" type="collection">
-        <element label="Name of Rule" mandatory="true" max_length="50" name="name_of_rule" type="string"/>
-        <element display="true" label="Rule Description" max_length="255" name="rule_description" type="string_full_utf8"/>
-        <element label="Rule ID" max_length="50" name="rule_id" type="string_full_utf8"/>
-        <element label="Status" max_length="10" name="status" type="boolean"/>
-    </element>
-</database>
