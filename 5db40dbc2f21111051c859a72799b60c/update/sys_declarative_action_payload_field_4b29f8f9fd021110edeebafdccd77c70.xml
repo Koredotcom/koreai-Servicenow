@@ -60,6 +60,7 @@
         <sys_class_name>sys_declarative_action_payload_field</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-09-20 16:39:06</sys_created_on>
+        <sys_id>55baac86978982109b137076f053af9b</sys_id>
         <sys_name>table</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>

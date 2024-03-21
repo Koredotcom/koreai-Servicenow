@@ -56,6 +56,34 @@
             <sys_updated_by>vikramc</sys_updated_by>
             <sys_updated_on>2024-03-21 06:28:49</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 08:18:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33ed4dce970d82109b137076f053af10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_it_assist_config_horiz" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">fed07c4247c90210e0406f8a436d432d</sys_ui_form>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 08:18:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 08:18:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbed4dce970d82109b137076f053af6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_it_assist_config_horiz" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">fed07c4247c90210e0406f8a436d432d</sys_ui_form>
+            <sys_ui_section caption="IT Assist Configurations" display_value="IT Assist Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">d127a967478761104c7a41fe436d4374</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 08:18:49</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
             <roles/>

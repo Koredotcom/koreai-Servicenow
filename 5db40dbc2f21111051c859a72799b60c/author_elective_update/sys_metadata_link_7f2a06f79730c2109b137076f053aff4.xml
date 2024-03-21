@@ -85,13 +85,13 @@
         <source>de6a7912932331102823f81d6cba1015</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-07 16:37:26</sys_created_on>
         <sys_id>49c98986470d0210e0406f8a436d432f</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>18ce4c949700000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:19:09</sys_updated_on>
         <type>Metadata Snapshot</type>
         <update_guid>09c98986a20d0210bd554801c843fc2f</update_guid>
         <update_guid_history>09c98986a20d0210bd554801c843fc2f:-842203345</update_guid_history>
