@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Notifications Configurations" section_id="5e30fdf597b002109b137076f053af4b" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>5aa295b547010210e0406f8a436d438d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <text>Required details are available in the 'Header table' of IT Assist Workbench.
+Navigate to Configurations →  Assistant Configurations → Notifications → Push Notifications → Header table.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5aa295b547010210e0406f8a436d438d</element>
+            <position>0</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>d6a295b547010210e0406f8a436d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>endpoint</element>
+            <position>1</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>daa295b547010210e0406f8a436d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_service</element>
+            <position>2</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>dea295b547010210e0406f8a436d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>platform</element>
+            <position>3</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>d2a295b547010210e0406f8a436d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>authorization</element>
+            <position>4</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>d6a295b547010210e0406f8a436d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datatable</element>
+            <position>5</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>daa295b547010210e0406f8a436d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Notifications Configurations</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 05:54:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e30fdf597b002109b137076f053af4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_5e30fdf597b002109b137076f053af4b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 05:54:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_ui_section_5e30fdf597b002109b137076f053af4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notifications Configurations" section_id="5e30fdf597b002109b137076f053af4b" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>5aa295b547010210e0406f8a436d438d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <text>Required details are available in the 'Header table' of IT Assist Workbench.
+Navigate to Configurations →  Assistant Configurations → Notifications → Push Notifications → Header table.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5aa295b547010210e0406f8a436d438d</element>
+            <position>0</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>d6a295b547010210e0406f8a436d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>endpoint</element>
+            <position>1</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>daa295b547010210e0406f8a436d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_service</element>
+            <position>2</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>dea295b547010210e0406f8a436d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>platform</element>
+            <position>3</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>d2a295b547010210e0406f8a436d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>authorization</element>
+            <position>4</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>d6a295b547010210e0406f8a436d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datatable</element>
+            <position>5</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>daa295b547010210e0406f8a436d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notifications Configurations</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 05:54:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e30fdf597b002109b137076f053af4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_5e30fdf597b002109b137076f053af4b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 05:54:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>985854211</payload_hash>
+        <record_name>IT Assist Configurations</record_name>
+        <reverted_from/>
+        <source>dcaae486978982109b137076f053af86</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 05:45:07</sys_created_on>
+        <sys_id>a0caa4c6978982109b137076f053af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5f8aae8d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 05:45:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>eccaa4c6ea898210093d485da64a5f55</update_guid>
+        <update_guid_history>eccaa4c6ea898210093d485da64a5f55:0,37f9e006388982105ee728334d33c8bc:1064856106,248fb9ba14b4061045f43d66ea3ba2c9:-1761110980,25ab71b645b40610323ca21d4a50d935:-1860515060,0f7e83bdad380210ddd164ce146c202f:-996489758,af1ecb7da33802106db74b57fc4aa7b8:-533229433,c055f57d79b0021018cf86d047fa575d:-1635401223,f002fd79f7b00210414dfdd3a0a74d9f:1437854282,45e17d79d9b00210fda6e5c96b38fe9c:-590602339,1230fdf558b00210a15b3b4036ce2d7a:757191211</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 08:28:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>8132e92205544de8931fb4f02ef3f6e1</sys_id>
+        <sys_metadata>5e30fdf597b002109b137076f053af4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="IT Assist Configurations">e0f5370b470321104c7a41fe436d43d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5e30fdf597b002109b137076f053af4b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5e30fdf597b002109b137076f053af4b">a0caa4c6978982109b137076f053af56</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:28:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

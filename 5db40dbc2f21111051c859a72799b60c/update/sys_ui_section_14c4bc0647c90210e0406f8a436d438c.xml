@@ -2,26 +2,26 @@
     <sys_ui_section caption="" section_id="14c4bc0647c90210e0406f8a436d438c" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-21 06:36:25</sys_created_on>
-            <sys_id>7376348647c90210e0406f8a436d4314</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 08:28:20</sys_created_on>
+            <sys_id>db105506974d82109b137076f053afc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-21 06:36:25</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 08:28:20</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>7376348647c90210e0406f8a436d4314</element>
+            <element>db105506974d82109b137076f053afc7</element>
             <position>0</position>
-            <sys_created_by>vikramc</sys_created_by>
-            <sys_created_on>2024-03-21 06:36:25</sys_created_on>
-            <sys_id>3776348647c90210e0406f8a436d4316</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 08:28:20</sys_created_on>
+            <sys_id>17105506974d82109b137076f053afca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">14c4bc0647c90210e0406f8a436d438c</sys_ui_section>
-            <sys_updated_by>vikramc</sys_updated_by>
-            <sys_updated_on>2024-03-21 06:36:25</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 08:28:20</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

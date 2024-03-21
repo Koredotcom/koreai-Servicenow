@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="IT Assist Configurations" section_id="d127a967478761104c7a41fe436d4374" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>16a295b547010210e0406f8a436d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>1aa295b547010210e0406f8a436d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>16a295b547010210e0406f8a436d431f</element>
+            <position>0</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>5aa295b547010210e0406f8a436d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configurations" display_value="IT Assist Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">d127a967478761104c7a41fe436d4374</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1aa295b547010210e0406f8a436d431f</element>
+            <position>1</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>5ea295b547010210e0406f8a436d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configurations" display_value="IT Assist Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">d127a967478761104c7a41fe436d4374</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>IT Assist Configurations</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:43:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d127a967478761104c7a41fe436d4374</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_d127a967478761104c7a41fe436d4374</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 09:18:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>a8ade591db83d5140288c597059619f8</instance_id>
+        <instance_name>dev143442</instance_name>
+        <name>sys_ui_section_d127a967478761104c7a41fe436d4374</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="IT Assist Configurations" section_id="d127a967478761104c7a41fe436d4374" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>16a295b547010210e0406f8a436d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>1aa295b547010210e0406f8a436d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>16a295b547010210e0406f8a436d431f</element>
+            <position>0</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>5aa295b547010210e0406f8a436d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configurations" display_value="IT Assist Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">d127a967478761104c7a41fe436d4374</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1aa295b547010210e0406f8a436d431f</element>
+            <position>1</position>
+            <sys_created_by>vikramc</sys_created_by>
+            <sys_created_on>2024-03-20 14:00:59</sys_created_on>
+            <sys_id>5ea295b547010210e0406f8a436d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Assist Configurations" display_value="IT Assist Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">d127a967478761104c7a41fe436d4374</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>IT Assist Configurations</caption>
+            <header>false</header>
+            <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:43:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d127a967478761104c7a41fe436d4374</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_section_d127a967478761104c7a41fe436d4374</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 09:18:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>184238965</payload_hash>
+        <record_name>IT Assist Configurations</record_name>
+        <reverted_from/>
+        <source>dcaae486978982109b137076f053af86</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 05:45:08</sys_created_on>
+        <sys_id>a0caa4c6978982109b137076f053af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5f8ab04a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 05:45:08</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>eccaa4c6c0898210fcc76394d48b229a</update_guid>
+        <update_guid_history>eccaa4c6c0898210fcc76394d48b229a:0,f3f9e0063f8982107ad00d572870c0c1:-551518614,688fb9ba60b4061017e89219ff8bb1bd:-1583346143,7a4f75baf5b40610038315d624122335:-98993546,69ab71b677b40610bf83d087ab455629:-2100451185,adab71b6c6b40610efc565ff1d701d21:812287331,837e83bd4838021064308ce12be2e223:1176495073,a71ecb7da3380210f74a3314693a69ab:-339337260,4055f57dcfb002102a7d758d7f024f52:-559054155,ec02fd7920b002108ed4612c1fa40e93:938453345,09e17d7909b002102ab13824c4d37b6c:-1574876431,a591f579e2b0021051624b0002930cfc:458323559,e651f179f5b00210277db317d8f91217:1450928162,1d403139f7b002102685f6636b39218a:-1286398331,da30fdf5a9b00210d74ecd4d3a0c3b73:-1937641986,9e30fdf52ab00210c78aca1166e80e4a:-1442110114,faf6a1bd4f7002101142a2c6e3bb757b:1106124682,6a26257daf700210fee0062f80b3d5fe:757521518,8445a4ddb97c821011172acf404c644d:1977362735,dc2524dd987c821087a0b9f4e578ee1e:-675453954,950a10d1a87c8210a7f92a24e283e5bd:-1196981366,9ab99891b47c82108ecd1fbca485e1ff:1079510624,8eb99891137c82103a6c4946229d55d7:1775377304,d8991891f27c8210c45a76f5bb477104:1384932006,79dc0f3068f442100e066a307be191a8:-531916623,dfcccb3033f44210c67fc43a11c3cfc6:-1847101434,d7bb47fc1fb442102febd27a5a240b0d:675306667,ec8b03fc01b44210c36ef7f3a0b94c8e:-212124670,aa3b4bbc66b442108a6bf073b1af6c0a:1356976131,e5cacf7c57b442100b8de934edaf773b:943481083,0e0847b80bb44210c79c29318223cbee:-1189725549,b527cb3857b44210e26fddd70fc53a94:-1497836455,e3764fb42fb44210c79d76d7f98ca79a:-2122165479,85364338b3b44210c9904c109a9c6068:-647175588,e040033006b44210351a305117a86bc0:0,7a83fa7c42344210097d8e6cad5bc572:748832076,a6b7e8a2a890c2105b627fa0489d809d:-1939876390,e3f6ac628e90c210b12fff55bf1142ca:1973470649,a007e04665440a1057b49f92af831bac:-2117115092,7c3b7d134bd33110d63f66302f789d21:660312736,d6320acb620231106b8112b5936b5657:1945598240</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 08:28:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3b89d072cae549f699bfed8ab2d0ac64</sys_id>
+        <sys_metadata>d127a967478761104c7a41fe436d4374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="IT Assist Configurations">e0f5370b470321104c7a41fe436d43d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d127a967478761104c7a41fe436d4374</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d127a967478761104c7a41fe436d4374">a0caa4c6978982109b137076f053af9b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:28:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
