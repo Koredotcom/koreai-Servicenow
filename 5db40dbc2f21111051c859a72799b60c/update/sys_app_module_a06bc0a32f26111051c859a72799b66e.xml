@@ -10,7 +10,7 @@
         <hint>Form to revise the ITSM config data for the app.</hint>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DETAIL</link_type>
         <map_page/>
         <mobile_title>ITSM Configs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a06bc0a32f26111051c859a72799b66e</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Base Configurations</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_app_module_a06bc0a32f26111051c859a72799b66e</sys_update_name>
         <sys_updated_by>vikramc</sys_updated_by>
-        <sys_updated_on>2024-03-21 07:44:19</sys_updated_on>
+        <sys_updated_on>2024-03-21 08:22:00</sys_updated_on>
         <timeline_page/>
         <title>Base Configurations</title>
         <uncancelable>false</uncancelable>

@@ -10,7 +10,7 @@
         <hint>Form to toggle the ITSM alerts (business rules) for the app.</hint>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DETAIL</link_type>
         <map_page/>
         <mobile_title>Configure Business Rules [Vert]</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c4d684822f52111051c859a72799b6d1</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Notifications</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
         <sys_update_name>sys_app_module_c4d684822f52111051c859a72799b6d1</sys_update_name>
         <sys_updated_by>vikramc</sys_updated_by>
-        <sys_updated_on>2024-03-21 07:56:40</sys_updated_on>
+        <sys_updated_on>2024-03-21 08:22:13</sys_updated_on>
         <timeline_page/>
         <title>Notifications</title>
         <uncancelable>false</uncancelable>
