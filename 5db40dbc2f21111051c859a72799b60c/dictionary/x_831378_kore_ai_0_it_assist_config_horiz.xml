@@ -5,11 +5,11 @@
         <element label="Authorization" mandatory="true" max_length="8000" name="authorization" type="password2"/>
         <element label="Bot ID" mandatory="true" max_length="255" name="bot_id" type="string_full_utf8"/>
         <element label="Bot Name" mandatory="true" max_length="255" name="bot_name" type="string_full_utf8"/>
-        <element choice="2" label="Bot Service Account " mandatory="true" max_length="32" name="bot_service_account" reference="sys_user" type="reference">
+        <element choice="2" label="Bot Service Account" mandatory="true" max_length="32" name="bot_service_account" reference="sys_user" type="reference">
             <choice/>
         </element>
         <element label="Client ID" mandatory="true" max_length="255" name="client_id" type="password2"/>
-        <element label="Client Secret " mandatory="true" max_length="255" name="client_secret" type="password2"/>
+        <element label="Client Secret" mandatory="true" max_length="255" name="client_secret" type="password2"/>
         <element label="Datatable" mandatory="true" max_length="255" name="datatable" type="string_full_utf8"/>
         <element display="true" label="Display Name" max_length="255" name="display_name" type="string_full_utf8"/>
         <element label="API Path" mandatory="true" max_length="255" name="endpoint" type="string_full_utf8"/>

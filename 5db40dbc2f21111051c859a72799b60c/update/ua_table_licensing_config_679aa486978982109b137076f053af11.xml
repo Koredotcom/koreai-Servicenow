@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-31 16:52:40</sys_created_on>
-        <sys_id>7a863b4b470321104c7a41fe436d434b</sys_id>
+        <sys_id>679aa486978982109b137076f053af11</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_831378_kore_ai_0_websdk_config_horiz</sys_name>
         <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7a863b4b470321104c7a41fe436d434b</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_679aa486978982109b137076f053af11</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-05-31 16:52:40</sys_updated_on>
     </ua_table_licensing_config>

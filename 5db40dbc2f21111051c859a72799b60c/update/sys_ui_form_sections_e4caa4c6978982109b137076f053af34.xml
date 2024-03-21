@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e4caa4c6978982109b137076f053af34" sys_domain="global" table="x_831378_kore_ai_0_it_assist_config_horiz" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:43:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5127a967478761104c7a41fe436d43ce</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_it_assist_config_horiz" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">e4caa4c6978982109b137076f053af34</sys_ui_form>
+            <sys_ui_section caption="IT Assist Configurations" display_value="IT Assist Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">d127a967478761104c7a41fe436d4374</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 05:10:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 10:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d899d491977c82109b137076f053afd3</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_it_assist_config_horiz" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">e4caa4c6978982109b137076f053af34</sys_ui_form>
+            <sys_ui_section caption="Adapter Configuration" display_value="Adapter Configuration" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">0099d491977c82109b137076f053afce</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-08 05:54:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a30fdf597b002109b137076f053af4f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_it_assist_config_horiz" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">e4caa4c6978982109b137076f053af34</sys_ui_form>
+            <sys_ui_section caption="Notifications Configurations" display_value="Notifications Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5e30fdf597b002109b137076f053af4b</sys_ui_section>
+            <sys_updated_by>vikramc</sys_updated_by>
+            <sys_updated_on>2024-03-20 14:00:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 10:20:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>590a10d1977c82109b137076f053af52</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_831378_kore_ai_0_it_assist_config_horiz" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">e4caa4c6978982109b137076f053af34</sys_ui_form>
+            <sys_ui_section caption="WebSDK Configurations" display_value="WebSDK Configurations" name="x_831378_kore_ai_0_it_assist_config_horiz" sys_domain="global" view="Default view">5d0a10d1977c82109b137076f053af4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-08 05:54:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_831378_kore_ai_0_it_assist_config_horiz</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-01 19:27:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4caa4c6978982109b137076f053af34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_831378_kore_ai_0_it_assist_config_horiz</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e4caa4c6978982109b137076f053af34</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-01 19:27:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
