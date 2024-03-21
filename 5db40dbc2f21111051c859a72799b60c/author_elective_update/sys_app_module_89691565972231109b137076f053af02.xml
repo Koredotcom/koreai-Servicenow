@@ -67,7 +67,7 @@
         <update_guid_history>6e4b1197a7e002108b43cba43296ad54:34680796,bc3b15179be00210437aad1e641a6538:-2093140478,b9bcbe65ce4c86107bfa4591ea3aeb4a:1836890219,595afddf649331100bec408b8814f8f9:420974965,b0993dd7f9933110953ccaa501a28e70:626639376,6953351bf6933110b43fb9b16abe233a:-657620355,598e486450dfb1108cb0d71cfb6a02c4:626639376,85691565782231109da269f21acbc805:-1941113449</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Base Configurations ">ba83fa7c973442109b137076f053af55</sys_audit_delete>
+        <sys_audit_delete display_value="">ba83fa7c973442109b137076f053af55</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 08:14:39</sys_created_on>

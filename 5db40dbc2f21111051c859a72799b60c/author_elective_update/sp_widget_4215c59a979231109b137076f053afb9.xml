@@ -81,7 +81,7 @@
         <update_guid_history>880ae2e448ab7510dc396664139d9c00:1934099383,d4f9aee4bdab75109e2cb1a788113ad3:-1320050526,5345099aa5923110b5b1bf4648192219:993618083</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="KoreITAssist Chat">fdfdbaba97ab71109b137076f053afed</sys_audit_delete>
+        <sys_audit_delete display_value="">fdfdbaba97ab71109b137076f053afed</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 10:49:32</sys_created_on>

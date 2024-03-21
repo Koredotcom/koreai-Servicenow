@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-21 08:47:04</sys_created_on>
+        <sys_id>61641506474d0210e0406f8a436d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb29f8f98602111012628130f4e4e26e.snc_internal</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_security_acl display_value="cb29f8f98602111012628130f4e4e26e">4b29f8f92b02111028bc196606140d6e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_61641506474d0210e0406f8a436d432e</sys_update_name>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:47:04</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>7144d5c2474d0210e0406f8a436d4364</transaction_id>
+    </sys_security_acl_role>
+</record_update>

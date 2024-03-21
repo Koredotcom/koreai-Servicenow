@@ -62,7 +62,7 @@
         <update_guid_history>33200bfc8f7442106b746d27c7433c7d:0,023fce68fa2b7510ce4693f3ccc84add:1597889365,ee2282cba6023110f3527aa1f4c88178:-601484467</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITAssistWebClientDepend">13aee7b4977842109b137076f053af52</sys_audit_delete>
+        <sys_audit_delete display_value="">13aee7b4977842109b137076f053af52</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 12:33:00</sys_created_on>

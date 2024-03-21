@@ -60,7 +60,7 @@
         <update_guid_history>7b30cffc3074421071d596c77ce14dd9:0,1d8b7625394c8610490b6a6959da48c3:132049724,3132c6cb6502311001a2e5e127ff656e:998581139</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_831378_kore_ai_0_itsm_config.x_831378_kore_ai_0.itsm_config_user">974243f097b442109b137076f053afca</sys_audit_delete>
+        <sys_audit_delete display_value="">974243f097b442109b137076f053afca</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 09:19:08</sys_created_on>

@@ -73,7 +73,7 @@
         <update_guid_history>be4ad8e25a50c210023f01a62302e557:-327822626,d1e9ff8272c04a1018d7a00bf7221626:-402904495,3909532a27eb3110a9738d145b419a0c:-1066865746,b8603426bd2331105412ed538a8d27fb:1803107596,a9f0bfb0d323f5107535bdfc03885dc9:-1668637842,617a6bf839efb510cbc4a17f1cbda40f:-1816038918,bab96ba8f5af75109ca8721a83dbfe72:-1668637842,ab5dfc921a923110fb069f45df28d923:-213167606</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="kore-ai-sdk.min.css">08b33abc973442109b137076f053affc</sys_audit_delete>
+        <sys_audit_delete display_value="">08b33abc973442109b137076f053affc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 08:15:18</sys_created_on>

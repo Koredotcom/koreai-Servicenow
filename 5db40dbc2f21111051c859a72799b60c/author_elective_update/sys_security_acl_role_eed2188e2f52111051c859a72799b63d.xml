@@ -60,7 +60,7 @@
         <update_guid_history>c040cffc46744210425af594fc56c6f4:0,21abba25114c86108d7f80d93ce58228:2031320773,3532c6cb5e023110d27d991f556e7582:-1472722646</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_831378_kore_ai_0_websdkconfig_verti.x_831378_kore_ai_0.websdkconfig_verti_user">3662c7f097b442109b137076f053afab</sys_audit_delete>
+        <sys_audit_delete display_value="">3662c7f097b442109b137076f053afab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 09:19:38</sys_created_on>

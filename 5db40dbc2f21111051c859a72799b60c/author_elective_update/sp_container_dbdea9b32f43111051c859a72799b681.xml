@@ -78,7 +78,7 @@
         <update_guid_history>67200bfc3d744210c4615ce514c5ea59:0,833a431ed0d882106ad02a8b8ca38f52:1641793476,de2282cbdc0231102244f968a35f014e:-2086351043</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="KoreSPPage - Container 1">3342885997f882109b137076f053af41</sys_audit_delete>
+        <sys_audit_delete display_value="">3342885997f882109b137076f053af41</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-06 08:37:16</sys_created_on>

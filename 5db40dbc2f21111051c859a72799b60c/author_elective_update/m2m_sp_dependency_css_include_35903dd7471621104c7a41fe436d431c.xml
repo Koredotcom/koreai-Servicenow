@@ -60,7 +60,7 @@
         <update_guid_history>93200bfcde74421044e34aa43fe9111c:0,0e3fce683b2b751052868efcc70716af:-315674953,4e2282cb9d023110d678d6a6e6ae1604:1394496568</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="StagingCSS.ITAssistWebClientDepend">d3ae67b4977842109b137076f053af2a</sys_audit_delete>
+        <sys_audit_delete display_value="">d3ae67b4977842109b137076f053af2a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 12:33:00</sys_created_on>

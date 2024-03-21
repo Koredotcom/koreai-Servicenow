@@ -150,7 +150,7 @@
         <update_guid_history>392047fc55744210840bf679f5c24fe0:0,392047fc3b74421083a9eed5bec9d1df:0,1ec336fc2a34421014a9b32a2e68ca6a:-847870771,b822ce8bea0231103b6d9e1d0711dc87:0,bc22ce8bc70231102f3f5b68169d0186:0</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_831378_kore_ai_0.custom_portal_login.svg">7e620c5997f882109b137076f053af33</sys_audit_delete>
+        <sys_audit_delete display_value="">7e620c5997f882109b137076f053af33</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-06 08:37:45</sys_created_on>

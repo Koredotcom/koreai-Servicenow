@@ -41,7 +41,7 @@
         <update_guid_history>9d9d4242630c0a102f233c162faded65:-382621168</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Kore-IT-Assist-Link.ITAssistKoreChatWidget">8cc09a46970c0a109b137076f053afa1</sys_audit_delete>
+        <sys_audit_delete display_value="">8cc09a46970c0a109b137076f053afa1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-31 20:07:57</sys_created_on>

@@ -203,7 +203,7 @@
         <update_guid_history>ee30de06aa0c0a10462c8bcb496142f2:-1173141357,68cd0e028c0c0a10c2561dfaf3f20e98:-1344676109,dd9d4242840c0a103ad1b49b79fa1b62:-1173141357</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITAssistKoreChatWidget">08c09a46970c0a109b137076f053afa8</sys_audit_delete>
+        <sys_audit_delete display_value="">08c09a46970c0a109b137076f053afa8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-31 20:07:57</sys_created_on>

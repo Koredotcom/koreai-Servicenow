@@ -62,7 +62,7 @@
         <update_guid_history>bf200bfc1a744210091d29d5e74c909b:0,429332bc6f34421055e812223baf0e47:-1060938912,6e2282cba9023110266feb2b2434b2b8:1958249624</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="StagingJS">476ea3b4977842109b137076f053af1e</sys_audit_delete>
+        <sys_audit_delete display_value="">476ea3b4977842109b137076f053af1e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 12:31:54</sys_created_on>

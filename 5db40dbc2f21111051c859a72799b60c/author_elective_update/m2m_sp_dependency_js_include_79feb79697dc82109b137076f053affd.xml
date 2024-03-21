@@ -42,7 +42,7 @@
         <update_guid_history>4efeb79659dc82101dbb80b0536ad1fe:713783660</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Kore-IT-Assist-link.kore-ai-sdk-part6.min.js">d831050d97e006109b137076f053afcb</sys_audit_delete>
+        <sys_audit_delete display_value="">d831050d97e006109b137076f053afcb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 08:17:49</sys_created_on>

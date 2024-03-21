@@ -22,6 +22,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>text/css</content_type>
+        <encryption_context/>
         <file_name>kore-ai-sdk.min.css</file_name>
         <hash>48f0f978638a72d9cf545e8fcfd4401861a1ad4102e16e3e227ab58302f7bad9</hash>
         <image_height/>

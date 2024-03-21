@@ -60,7 +60,7 @@
         <update_guid_history>9730cffc66744210e75d0832d2347106:0,dff3b798995fb110d42873f829854c81:203290204,913286cbd5023110b2d6906cb4cc8ec2:922875898</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_831378_kore_ai_0_configrulebools_vert.x_831378_kore_ai_0.configrulebools_vert_">006207f097b442109b137076f053affb</sys_audit_delete>
+        <sys_audit_delete display_value="">006207f097b442109b137076f053affb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 09:19:28</sys_created_on>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-15 10:56:26</sys_created_on>
+        <sys_id>4e78f20c47410a10496fbd42736d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb29f8f98602111012628130f4e4e26e.snc_internal</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_security_acl display_value="">4b29f8f92b02111028bc196606140d6e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4e78f20c47410a10496fbd42736d437a</sys_update_name>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-15 10:56:26</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>15583ac847410a10496fbd42736d436c</transaction_id>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>8700b0c4db2eed5037a0c59705961902</instance_id>
+        <instance_name>ven06091</instance_name>
+        <name>sys_security_acl_role_4e78f20c47410a10496fbd42736d437a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>vikramc</sys_created_by><sys_created_on>2024-03-15 10:56:26</sys_created_on><sys_id>4e78f20c47410a10496fbd42736d437a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cb29f8f98602111012628130f4e4e26e.snc_internal</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_security_acl display_value="">4b29f8f92b02111028bc196606140d6e</sys_security_acl><sys_update_name>sys_security_acl_role_4e78f20c47410a10496fbd42736d437a</sys_update_name><sys_updated_by>vikramc</sys_updated_by><sys_updated_on>2024-03-15 10:56:26</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>15583ac847410a10496fbd42736d436c</transaction_id></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-208647679</payload_hash>
+        <record_name>cb29f8f98602111012628130f4e4e26e.snc_internal</record_name>
+        <reverted_from/>
+        <source>de6a7912932331102823f81d6cba1015</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-01-07 16:37:26</sys_created_on>
+        <sys_id>c9839d42474d0210e0406f8a436d4303</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18ce4c949700000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>89839d42854d02106870290f74b4fa03</update_guid>
+        <update_guid_history>89839d42854d02106870290f74b4fa03:-208647679</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cb29f8f98602111012628130f4e4e26e.snc_internal">05839d42474d0210e0406f8a436d4305</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vikramc</sys_created_by>
+        <sys_created_on>2024-03-21 08:43:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4d90812209ae42639b019ae3e6479bf9</sys_id>
+        <sys_metadata>4e78f20c47410a10496fbd42736d437a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb29f8f98602111012628130f4e4e26e.snc_internal</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent display_value="cb29f8f98602111012628130f4e4e26e">4b29f8f92b02111028bc196606140d6e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_security_acl_role_4e78f20c47410a10496fbd42736d437a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4e78f20c47410a10496fbd42736d437a">c9839d42474d0210e0406f8a436d4303</sys_update_version>
+        <sys_updated_by>vikramc</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:43:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

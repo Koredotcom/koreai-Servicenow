@@ -23,6 +23,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>ServiceNow_logo_GG.png</file_name>
         <hash>3adf8faeb55a761e53bd75370f757907171b0f9e7305c8663dcddcc8a297871c</hash>
         <image_height/>
