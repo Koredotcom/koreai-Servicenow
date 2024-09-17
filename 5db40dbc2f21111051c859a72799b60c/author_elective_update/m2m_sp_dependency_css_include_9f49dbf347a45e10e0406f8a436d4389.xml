@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
+    <m2m_sp_dependency_css_include action="DELETE">
+        <order>100</order>
+        <sp_css_include display_value="Kore-css-include">ecbf2ff4977842109b137076f053af76</sp_css_include>
+        <sp_dependency/>
+        <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
+        <sys_created_by>sbolleddu</sys_created_by>
+        <sys_created_on>2024-09-17 04:37:05</sys_created_on>
+        <sys_id>9f49dbf347a45e10e0406f8a436d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kore-css-include.</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_update_name>m2m_sp_dependency_css_include_9f49dbf347a45e10e0406f8a436d4389</sys_update_name>
+        <sys_updated_by>sbolleddu</sys_updated_by>
+        <sys_updated_on>2024-09-17 04:37:05</sys_updated_on>
+    </m2m_sp_dependency_css_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</application>
+        <file_path/>
+        <instance_id>8700b0c4db2eed5037a0c59705961902</instance_id>
+        <instance_name>ven06091</instance_name>
+        <name>m2m_sp_dependency_css_include_9f49dbf347a45e10e0406f8a436d4389</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include"><m2m_sp_dependency_css_include action="INSERT_OR_UPDATE"><order>100</order><sp_css_include display_value="Kore-css-include">ecbf2ff4977842109b137076f053af76</sp_css_include><sp_dependency/><sys_class_name>m2m_sp_dependency_css_include</sys_class_name><sys_created_by>sbolleddu</sys_created_by><sys_created_on>2024-09-17 04:37:05</sys_created_on><sys_id>9f49dbf347a45e10e0406f8a436d4389</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Kore-css-include.</sys_name><sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package><sys_policy/><sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope><sys_update_name>m2m_sp_dependency_css_include_9f49dbf347a45e10e0406f8a436d4389</sys_update_name><sys_updated_by>sbolleddu</sys_updated_by><sys_updated_on>2024-09-17 04:37:05</sys_updated_on></m2m_sp_dependency_css_include></record_update>]]></payload>
+        <payload_hash>-58127667</payload_hash>
+        <record_name>Kore-css-include.</record_name>
+        <reverted_from/>
+        <source>9edb8f7347645e10e0406f8a436d434a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbolleddu</sys_created_by>
+        <sys_created_on>2024-09-17 04:37:05</sys_created_on>
+        <sys_id>b6591bb347a45e10e0406f8a436d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191fe4513330000001</sys_recorded_at>
+        <sys_updated_by>sbolleddu</sys_updated_by>
+        <sys_updated_on>2024-09-17 04:37:05</sys_updated_on>
+        <type>Dependency CSS Includes</type>
+        <update_guid>ba591bb383a45e10c0e23dcd814fb446</update_guid>
+        <update_guid_history>ba591bb383a45e10c0e23dcd814fb446:-58127667</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Kore-css-include.">ac8cdbf747a45e10e0406f8a436d43ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbolleddu</sys_created_by>
+        <sys_created_on>2024-09-17 04:50:52</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_css_include">m2m_sp_dependency_css_include</sys_db_object>
+        <sys_id>07ead65d99374b8f80c2d94eacbb1b29</sys_id>
+        <sys_metadata>9f49dbf347a45e10e0406f8a436d4389</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kore-css-include.</sys_name>
+        <sys_package display_value="IT Assist" source="x_831378_kore_ai_0">5db40dbc2f21111051c859a72799b60c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Assist">5db40dbc2f21111051c859a72799b60c</sys_scope>
+        <sys_scope_delete display_value="">6124435c668649b395e907e5884b4ac9</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_css_include_9f49dbf347a45e10e0406f8a436d4389</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_css_include_9f49dbf347a45e10e0406f8a436d4389">b6591bb347a45e10e0406f8a436d4347</sys_update_version>
+        <sys_updated_by>sbolleddu</sys_updated_by>
+        <sys_updated_on>2024-09-17 04:50:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
